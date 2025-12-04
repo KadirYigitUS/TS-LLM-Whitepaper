@@ -1,0 +1,12 @@
+Stage,Source,Citation,Concept,Analogy,Significance
+Pre-Neural,Secondary,"Jurafsky & Martin (2024)",N-grams,Phrasebook,Probabilistic foundation
+Pre-Neural,Secondary,"Mikolov et al. (2013)",Word Embeddings,Semantic Map,Geometric meaning
+Architecture,Primary,"Vaswani et al. (2017)",Transformer/Attention,Cognitive Focus,Parallelization
+Context,Primary,"Devlin et al. (2018)",BERT/Bidirectional,Reading Ahead,Deep Context
+Scale,Primary,"Brown et al. (2020)",GPT-3/Few-Shot,Polymath Student,Emergence
+Scale,Primary,"Kaplan et al. (2020)",Scaling Laws,Forecasting,Predictability
+Efficiency,Primary,"Touvron et al. (2023)",LLaMA/Optimal Data,Specialized Glossary,Democratization
+Reasoning,Primary,"Wei et al. (2022)",Chain-of-Thought,Think-Aloud Protocol,Logic unlocking
+Alignment,Primary,"Ouyang et al. (2022)",RLHF/InstructGPT,Skopos/Brief,Human preference
+Alignment,Primary,"Longpre et al. (2022)",Flan/Instruction Tuning,Training Curriculum,Generalization
+Agency,Primary,"Schick et al. (2023)",Toolformer,Resourceful Translator,External truth

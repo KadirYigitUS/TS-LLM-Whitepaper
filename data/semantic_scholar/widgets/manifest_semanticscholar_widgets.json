@@ -1,0 +1,162 @@
+[
+  {
+    "file_stub": "001_Bowker_2023",
+    "graph_json": "data/semantic_scholar/001_Bowker_2023_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/001_Bowker_2023_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/001_Bowker_2023_semanticscholar_widget.html",
+    "nodes": 9,
+    "edges": 8
+  },
+  {
+    "file_stub": "002_Brown_2020",
+    "graph_json": "data/semantic_scholar/002_Brown_2020_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/002_Brown_2020_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/002_Brown_2020_semanticscholar_widget.html",
+    "nodes": 1140,
+    "edges": 1139
+  },
+  {
+    "file_stub": "003_Devlin_2019",
+    "graph_json": "data/semantic_scholar/003_Devlin_2019_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/003_Devlin_2019_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/003_Devlin_2019_semanticscholar_widget.html",
+    "nodes": 1060,
+    "edges": 1059
+  },
+  {
+    "file_stub": "004_Halliday_1978",
+    "graph_json": "data/semantic_scholar/004_Halliday_1978_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/004_Halliday_1978_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/004_Halliday_1978_semanticscholar_widget.html",
+    "nodes": 1001,
+    "edges": 1000
+  },
+  {
+    "file_stub": "005_House_2015",
+    "graph_json": "data/semantic_scholar/005_House_2015_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/005_House_2015_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/005_House_2015_semanticscholar_widget.html",
+    "nodes": 73,
+    "edges": 72
+  },
+  {
+    "file_stub": "006_Jurafsky_2024",
+    "graph_json": "data/semantic_scholar/006_Jurafsky_2024_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/006_Jurafsky_2024_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/006_Jurafsky_2024_semanticscholar_widget.html",
+    "nodes": 1001,
+    "edges": 1000
+  },
+  {
+    "file_stub": "007_Kaplan_2020",
+    "graph_json": "data/semantic_scholar/007_Kaplan_2020_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/007_Kaplan_2020_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/007_Kaplan_2020_semanticscholar_widget.html",
+    "nodes": 1051,
+    "edges": 1050
+  },
+  {
+    "file_stub": "008_Kenny_2022",
+    "graph_json": "data/semantic_scholar/008_Kenny_2022_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/008_Kenny_2022_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/008_Kenny_2022_semanticscholar_widget.html",
+    "nodes": 2,
+    "edges": 1
+  },
+  {
+    "file_stub": "009_Koehn_2010",
+    "graph_json": "data/semantic_scholar/009_Koehn_2010_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/009_Koehn_2010_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/009_Koehn_2010_semanticscholar_widget.html",
+    "nodes": 1032,
+    "edges": 1031
+  },
+  {
+    "file_stub": "010_Koehn_2020",
+    "graph_json": "data/semantic_scholar/010_Koehn_2020_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/010_Koehn_2020_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/010_Koehn_2020_semanticscholar_widget.html",
+    "nodes": 656,
+    "edges": 655
+  },
+  {
+    "file_stub": "011_Longpre_2023",
+    "graph_json": "data/semantic_scholar/011_Longpre_2023_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/011_Longpre_2023_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/011_Longpre_2023_semanticscholar_widget.html",
+    "nodes": 913,
+    "edges": 912
+  },
+  {
+    "file_stub": "012_Mikolov_2013",
+    "graph_json": "data/semantic_scholar/012_Mikolov_2013_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/012_Mikolov_2013_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/012_Mikolov_2013_semanticscholar_widget.html",
+    "nodes": 1022,
+    "edges": 1021
+  },
+  {
+    "file_stub": "013_Nord_1997",
+    "graph_json": "data/semantic_scholar/013_Nord_1997_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/013_Nord_1997_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/013_Nord_1997_semanticscholar_widget.html",
+    "nodes": 1001,
+    "edges": 1000
+  },
+  {
+    "file_stub": "014_Ouyang_2022",
+    "graph_json": "data/semantic_scholar/014_Ouyang_2022_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/014_Ouyang_2022_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/014_Ouyang_2022_semanticscholar_widget.html",
+    "nodes": 1080,
+    "edges": 1079
+  },
+  {
+    "file_stub": "015_Reiss_2013",
+    "graph_json": "data/semantic_scholar/015_Reiss_2013_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/015_Reiss_2013_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/015_Reiss_2013_semanticscholar_widget.html",
+    "nodes": 770,
+    "edges": 769
+  },
+  {
+    "file_stub": "016_Schick_2023",
+    "graph_json": "data/semantic_scholar/016_Schick_2023_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/016_Schick_2023_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/016_Schick_2023_semanticscholar_widget.html",
+    "nodes": 1054,
+    "edges": 1053
+  },
+  {
+    "file_stub": "017_Touvron_2023",
+    "graph_json": "data/semantic_scholar/017_Touvron_2023_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/017_Touvron_2023_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/017_Touvron_2023_semanticscholar_widget.html",
+    "nodes": 1077,
+    "edges": 1076
+  },
+  {
+    "file_stub": "018_Vaswani_2017",
+    "graph_json": "data/semantic_scholar/018_Vaswani_2017_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/018_Vaswani_2017_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/018_Vaswani_2017_semanticscholar_widget.html",
+    "nodes": 1040,
+    "edges": 1039
+  },
+  {
+    "file_stub": "019_Wei_2022",
+    "graph_json": "data/semantic_scholar/019_Wei_2022_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/019_Wei_2022_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/019_Wei_2022_semanticscholar_widget.html",
+    "nodes": 1095,
+    "edges": 1094
+  },
+  {
+    "file_stub": "all_sources",
+    "graph_json": "data/semantic_scholar/all_sources_semanticscholar_graph.json",
+    "widget_json": "data/semantic_scholar/widgets/all_sources_semanticscholar_widget.json",
+    "widget_html": "data/semantic_scholar/widgets/all_sources_semanticscholar_widget.html",
+    "nodes": 14300,
+    "edges": 16058
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "key": "manual_1",
+    "paper_id": "9397e7acd062245d37350f5c05faf56e9cfae0d6",
+    "raw_graph": "data/connected_papers/manual_1_graph_raw.json",
+    "widget_graph": "data/connected_papers/manual_1_graph_widget.json",
+    "status": "FRESH_GRAPH"
+  }
+]

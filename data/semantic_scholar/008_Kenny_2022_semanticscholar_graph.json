@@ -1,0 +1,49 @@
+{
+  "generated_at": "2025-12-02T23:13:27Z",
+  "seed": {
+    "file_stub": "008_Kenny_2022",
+    "sha_id": "322589d9b59a32eef6026e8f37955dbd6276a8fe",
+    "title": "Dorothy Kenny (ed.) (2022). Machine translation for everyone: Empowering users in the age of artificial intelligence",
+    "doi": "10.26034/cm.jostrans.2023.537",
+    "year": 2023,
+    "category": "Tertiary Sources (Translation Theory & Critique)",
+    "stage": null,
+    "vector": "Critique",
+    "url": "https://www.semanticscholar.org/paper/322589d9b59a32eef6026e8f37955dbd6276a8fe"
+  },
+  "counts": {
+    "node_count": 2,
+    "edge_count": 1,
+    "citations": 1,
+    "references": 0
+  },
+  "nodes": [
+    {
+      "id": "322589d9b59a32eef6026e8f37955dbd6276a8fe",
+      "title": "Dorothy Kenny (ed.) (2022). Machine translation for everyone: Empowering users in the age of artificial intelligence",
+      "year": 2023,
+      "doi": "10.26034/cm.jostrans.2023.537",
+      "url": "https://www.semanticscholar.org/paper/322589d9b59a32eef6026e8f37955dbd6276a8fe",
+      "type": "seed",
+      "category": "Tertiary Sources (Translation Theory & Critique)",
+      "vector": "Critique",
+      "seed_file_stub": "008_Kenny_2022"
+    },
+    {
+      "id": "19bbc765ed888173ad7da0dccea6daf778b0f01b",
+      "title": "YouTube’s automatic subtitles in the ESL/ESP classroom",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/19bbc765ed888173ad7da0dccea6daf778b0f01b",
+      "type": "citation",
+      "seed_file_stub": "008_Kenny_2022"
+    }
+  ],
+  "edges": [
+    {
+      "source": "19bbc765ed888173ad7da0dccea6daf778b0f01b",
+      "target": "322589d9b59a32eef6026e8f37955dbd6276a8fe",
+      "relation": "cited_by",
+      "seed_file_stub": "008_Kenny_2022"
+    }
+  ]
+}

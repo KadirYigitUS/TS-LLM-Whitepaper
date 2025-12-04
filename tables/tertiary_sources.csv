@@ -1,0 +1,8 @@
+Vector,Source,Concept,AI_Counterpart,Application
+Skopos,Reiss & Vermeer (1984),Skopos Theory,System Instruction,Prompting as Briefing
+Skopos,Nord (1997),Loyalty,RLHF Alignment,Ethical Prompting
+Context,Halliday (1978),Register (Field/Tenor/Mode),Context Window,Parameterizing Context
+Context,House (2015),Overt/Covert,Style Transfer,Style Guides as Few-Shot
+Critique,Kenny (2022),MT Literacy,Explainability,Process Analysis
+Critique,Bowker (2023),Data Void,Hallucination/Bias,Risk Assessment
+Critique,Koehn (2010),BLEU Flaw,Loss Functions,Human-in-the-Loop

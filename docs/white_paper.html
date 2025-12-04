@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TS-LLM Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.4.0/github-markdown.min.css" />
+    <style>
+        body { margin: 2rem; }
+        .markdown-body { max-width: 960px; margin: auto; }
+        header.site-header { display: flex; justify-content: flex-end; gap: 1rem; margin-bottom: 1.5rem; }
+        header.site-header a { font-size: 0.9rem; color: #0366d6; text-decoration: none; }
+        header.site-header a:hover { text-decoration: underline; }
+        iframe.widget { width: 100%; height: 520px; border: none; }
+        figure.interactive-widget { margin: 2rem 0; }
+        figure.interactive-widget figcaption { font-size: 0.9rem; color: #555; }
+        .note-library ul { margin-left: 1.2rem; }
+        .note-library li { margin-bottom: 0.4rem; }
+        .page-intro { background: #f6f8fa; padding: 1rem 1.5rem; border-radius: 0.5rem; margin-bottom: 2rem; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' });</script>
+</head>
+<body class="markdown-body">
+    <header class="site-header">
+        
+        <a class="download-link" href="white_paper.md" download>Download Markdown</a>
+    </header>
+    <section id="interactive-assets">
+  <h2>Interactive Assets</h2>
+<figure class="interactive-widget">
+    <iframe class="widget" loading="lazy" src="data/network_manifests/combined_network_widget.html" title="Semantic Scholar + ConnectedPapers Network"></iframe>
+    <figcaption>Merged citation graph built via script/build_semantic_widgets.py</figcaption>
+</figure>
+<div class="widget-list"><h3>Widget Library</h3><ul><li><a href="data/semantic_scholar/widgets/001_Bowker_2023_semanticscholar_widget.html" target="_blank" rel="noopener">001 Bowker 2023</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/002_Brown_2020_semanticscholar_widget.html" target="_blank" rel="noopener">002 Brown 2020</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/003_Devlin_2019_semanticscholar_widget.html" target="_blank" rel="noopener">003 Devlin 2019</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/004_Halliday_1978_semanticscholar_widget.html" target="_blank" rel="noopener">004 Halliday 1978</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/005_House_2015_semanticscholar_widget.html" target="_blank" rel="noopener">005 House 2015</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/006_Jurafsky_2024_semanticscholar_widget.html" target="_blank" rel="noopener">006 Jurafsky 2024</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/007_Kaplan_2020_semanticscholar_widget.html" target="_blank" rel="noopener">007 Kaplan 2020</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/008_Kenny_2022_semanticscholar_widget.html" target="_blank" rel="noopener">008 Kenny 2022</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/009_Koehn_2010_semanticscholar_widget.html" target="_blank" rel="noopener">009 Koehn 2010</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/010_Koehn_2020_semanticscholar_widget.html" target="_blank" rel="noopener">010 Koehn 2020</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/011_Longpre_2023_semanticscholar_widget.html" target="_blank" rel="noopener">011 Longpre 2023</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/012_Mikolov_2013_semanticscholar_widget.html" target="_blank" rel="noopener">012 Mikolov 2013</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/013_Nord_1997_semanticscholar_widget.html" target="_blank" rel="noopener">013 Nord 1997</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/014_Ouyang_2022_semanticscholar_widget.html" target="_blank" rel="noopener">014 Ouyang 2022</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/015_Reiss_2013_semanticscholar_widget.html" target="_blank" rel="noopener">015 Reiss 2013</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/016_Schick_2023_semanticscholar_widget.html" target="_blank" rel="noopener">016 Schick 2023</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/017_Touvron_2023_semanticscholar_widget.html" target="_blank" rel="noopener">017 Touvron 2023</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/018_Vaswani_2017_semanticscholar_widget.html" target="_blank" rel="noopener">018 Vaswani 2017</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/019_Wei_2022_semanticscholar_widget.html" target="_blank" rel="noopener">019 Wei 2022</a> (semantic_scholar)</li>
+<li><a href="data/semantic_scholar/widgets/all_sources_semanticscholar_widget.html" target="_blank" rel="noopener">all sources</a> (semantic_scholar)</li></ul></div>
+</section>
+    
+        <section class="page-intro">
+            <h1 id="ts-llm-knowledge-base-gateway">TS-LLM Knowledge Base Gateway<a class="headerlink" href="#ts-llm-knowledge-base-gateway" title="Permanent link">#</a></h1>
+<p>This landing page now serves as the navigation hub for the modular notes that make up the
+Translation Studies × LLM corpus. Use the outline below to understand how the arguments are
+staged, then follow the per-section HTML links to read each module in isolation. Every file is
+still sourced from the Obsidian vault, ensuring that updates to the notes automatically refresh
+the public-facing pages.</p>
+<h2 id="how-to-use-this-page">How to Use This Page<a class="headerlink" href="#how-to-use-this-page" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>Start with the outline</strong> to see how the manuscript flows.</li>
+<li><strong>Jump into any section</strong> via the Per-Note HTML Library—each entry is a self-contained page
+    with Mermaid diagrams fully rendered.</li>
+<li><strong>Download</strong> the LaTeX-ready Markdown if you need an offline bundle or want to compile a PDF.</li>
+</ul>
+        </section>
+        <section class="outline-section">
+            <h2>Master Outline</h2>
+            <blockquote>
+<p>Tags: #Outline #LLM #TranslatorStudies #ResearchDesign</p>
+</blockquote>
+<h1 id="outline-extended-foundational-models-of-llms-for-translator-studies">Outline — Extended Foundational Models of LLMs for Translator Studies<a class="headerlink" href="#outline-extended-foundational-models-of-llms-for-translator-studies" title="Permanent link">#</a></h1>
+<h2 id="0-frontmatter-and-usage-notes">0. Frontmatter and Usage Notes<a class="headerlink" href="#0-frontmatter-and-usage-notes" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>Intended Audience</strong>: Translation Studies (TS) scholars with expertise in qualitative theory but novice status in Computational Linguistics/NLP.</li>
+<li><strong>Skopos of this Document</strong>: To serve as a rigorous, citation-backed bridge between the engineering history of Large Language Models (LLMs) and the theoretical frameworks of Translation Studies.</li>
+<li><strong>File Structure</strong>: This outline corresponds to a series of modular Markdown files designed for Obsidian knowledge management.</li>
+</ul>
+<h2 id="1-introduction">1. Introduction<a class="headerlink" href="#1-introduction" title="Permanent link">#</a></h2>
+<h3 id="11-motivation">1.1 Motivation<a class="headerlink" href="#11-motivation" title="Permanent link">#</a></h3>
+<ul>
+<li>The rapid integration of Generative AI into translation workflows.</li>
+<li>The "Black Box" problem: Translators use tools they do not conceptually understand.</li>
+<li>The necessity of demystification: Moving from "AI as Magic" to "AI as Probability and Statistics."</li>
+</ul>
+<h3 id="12-epistemic-gap-analysis-the-recipient-perspective">1.2 Epistemic Gap Analysis (The Recipient Perspective)<a class="headerlink" href="#12-epistemic-gap-analysis-the-recipient-perspective" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>The Gap</strong>: Lack of familiarity with Statistical Linguistics, Vector Space Models, and Neural Network topology.</li>
+<li><strong>The Bridge</strong>: Explaining these concepts using TS analogies (e.g., "Vector Space" as "Semantic Equivalence Fields").</li>
+</ul>
+<h2 id="2-theoretical-foundations-secondary-sources">2. Theoretical Foundations (Secondary Sources)<a class="headerlink" href="#2-theoretical-foundations-secondary-sources" title="Permanent link">#</a></h2>
+<p><em>Building the vocabulary required to understand the 9 Seminal Papers.</em></p>
+<h3 id="21-from-rules-to-statistics">2.1 From Rules to Statistics<a class="headerlink" href="#21-from-rules-to-statistics" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Statistical Linguistics</strong>: Markov Chains and n-grams (predicting the next word based on frequency).</li>
+<li><strong>Corpus Studies</strong>: The shift from prescriptive grammar to descriptive usage (parallels in TS Descriptive Translation Studies).</li>
+</ul>
+<h3 id="22-neural-foundations">2.2 Neural Foundations<a class="headerlink" href="#22-neural-foundations" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Perceptrons &amp; Neural Networks</strong>: The biological metaphor vs. the mathematical reality (matrix multiplication).</li>
+<li><strong>Backpropagation</strong>: How models "learn" (minimizing error/loss functions).</li>
+<li><strong>Embeddings</strong>: Representing words as numbers (Word2Vec, GloVe) — <em>Concept</em>: "Meaning is position in space."</li>
+</ul>
+<h2 id="3-the-evolutionary-arc-of-llms-the-9-seminal-papers">3. The Evolutionary Arc of LLMs (The 9 Seminal Papers)<a class="headerlink" href="#3-the-evolutionary-arc-of-llms-the-9-seminal-papers" title="Permanent link">#</a></h2>
+<p><em>Primary Source Review: Detailed analysis of the breakthrough papers.</em></p>
+<h3 id="31-stage-1-the-architecture-of-attention">3.1 Stage 1: The Architecture of Attention<a class="headerlink" href="#31-stage-1-the-architecture-of-attention" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Paper 1</strong>: <em>Attention Is All You Need</em> (Vaswani et al., 2017).<ul>
+<li><strong>Core Concept</strong>: Self-Attention mechanism.</li>
+<li><strong>Significance</strong>: Removing recurrence; parallel processing; the birth of the Transformer.</li>
+</ul>
+</li>
+</ul>
+<h3 id="32-stage-2-understanding-context">3.2 Stage 2: Understanding Context<a class="headerlink" href="#32-stage-2-understanding-context" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Paper 2</strong>: <em>BERT: Pre-training of Deep Bidirectional Transformers</em> (Devlin et al., 2018).<ul>
+<li><strong>Core Concept</strong>: Bidirectionality &amp; Masked Language Modeling.</li>
+<li><strong>Significance</strong>: Deep contextual understanding vs. simple prediction.</li>
+</ul>
+</li>
+</ul>
+<h3 id="33-stage-3-the-scaling-era">3.3 Stage 3: The Scaling Era<a class="headerlink" href="#33-stage-3-the-scaling-era" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Paper 3</strong>: <em>Language Models are Few-Shot Learners</em> (GPT-3) (Brown et al., 2020).<ul>
+<li><strong>Core Concept</strong>: In-context learning &amp; Emergence.</li>
+<li><strong>Significance</strong>: Scale alone creates capability; the end of task-specific fine-tuning?</li>
+</ul>
+</li>
+<li><strong>Paper 4</strong>: <em>Scaling Laws for Neural Language Models</em> (Kaplan et al., 2020).<ul>
+<li><strong>Core Concept</strong>: Power laws of compute, data, and size.</li>
+<li><strong>Significance</strong>: The scientific predictability of AI performance.</li>
+</ul>
+</li>
+</ul>
+<h3 id="34-stage-4-efficiency-and-democratization">3.4 Stage 4: Efficiency and Democratization<a class="headerlink" href="#34-stage-4-efficiency-and-democratization" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Paper 5</strong>: <em>LLaMA: Open and Efficient Foundation Language Models</em> (Touvron et al., 2023).<ul>
+<li><strong>Core Concept</strong>: Data-optimal training (Chinchilla laws applied).</li>
+<li><strong>Significance</strong>: High performance on consumer hardware; open research.</li>
+</ul>
+</li>
+</ul>
+<h3 id="35-stage-5-reasoning-and-logic">3.5 Stage 5: Reasoning and Logic<a class="headerlink" href="#35-stage-5-reasoning-and-logic" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Paper 6</strong>: <em>Chain-of-Thought Prompting Elicits Reasoning</em> (Wei et al., 2022).<ul>
+<li><strong>Core Concept</strong>: Intermediate reasoning steps.</li>
+<li><strong>Significance</strong>: Unlocking latent logic; prompting as a cognitive scaffolding.</li>
+</ul>
+</li>
+</ul>
+<h3 id="36-stage-6-alignment-and-instruction">3.6 Stage 6: Alignment and Instruction<a class="headerlink" href="#36-stage-6-alignment-and-instruction" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Paper 7</strong>: <em>Training Language Models to Follow Instructions</em> (InstructGPT) (Ouyang et al., 2022).<ul>
+<li><strong>Core Concept</strong>: RLHF (Reinforcement Learning from Human Feedback).</li>
+<li><strong>Significance</strong>: Aligning probability with human intent (Skopos alignment).</li>
+</ul>
+</li>
+<li><strong>Paper 8</strong>: <em>The Flan Collection</em> (Longpre et al., 2022).<ul>
+<li><strong>Core Concept</strong>: Mass-scale instruction tuning.</li>
+<li><strong>Significance</strong>: Generalization across unseen tasks via instruction exposure.</li>
+</ul>
+</li>
+</ul>
+<h3 id="37-stage-7-agency-and-tools">3.7 Stage 7: Agency and Tools<a class="headerlink" href="#37-stage-7-agency-and-tools" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Paper 9</strong>: <em>Toolformer</em> (Schick et al., 2023).<ul>
+<li><strong>Core Concept</strong>: API integration &amp; self-supervised tool use.</li>
+<li><strong>Significance</strong>: Breaking the "frozen weights" limitation; LLMs as agents.</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-critical-intersections-ai-translation-theory-tertiary-sources">4. Critical Intersections: AI &amp; Translation Theory (Tertiary Sources)<a class="headerlink" href="#4-critical-intersections-ai-translation-theory-tertiary-sources" title="Permanent link">#</a></h2>
+<h3 id="41-prompt-engineering-as-skopos-theory">4.1 Prompt Engineering as Skopos Theory<a class="headerlink" href="#41-prompt-engineering-as-skopos-theory" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Mapping</strong>: The "System Instruction" as the <em>Translation Brief</em>.</li>
+<li><strong>Concept</strong>: <em>Skopos</em> (Purpose) determines the <em>Translatum</em> (Output).</li>
+<li><strong>Deliverable</strong>: <code>Prompt requirements in PROMPT-ENGINEERING...md</code></li>
+</ul>
+<h3 id="42-context-engineering">4.2 Context Engineering<a class="headerlink" href="#42-context-engineering" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Problem</strong>: LLMs have no "world," only "context windows."</li>
+<li><strong>Concept</strong>: Operationalizing "Context" (Co-text, Situational, Cultural) into tokens.</li>
+<li><strong>Deliverable</strong>: <code>Beyond_prompt_engineering: What is Context...md</code></li>
+</ul>
+<h3 id="43-empiricism-critique">4.3 Empiricism &amp; Critique<a class="headerlink" href="#43-empiricism-critique" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Critique</strong>: The flaw of "average" translation in statistical models.</li>
+<li><strong>Methodology</strong>: Moving TS research from "error analysis" to "process analysis" and "prompt auditing."</li>
+<li><strong>Deliverable</strong>: <code>Criticize_Empiric_TranslationStudies...md</code></li>
+</ul>
+<h2 id="5-discussion">5. Discussion<a class="headerlink" href="#5-discussion" title="Permanent link">#</a></h2>
+<ul>
+<li>Synthesizing the engineering trajectory with the translator's reality.</li>
+<li>The shift from "Translator as Dictionary User" to "Translator as Probabilistic Auditor."</li>
+</ul>
+<h2 id="6-future-directions-for-ts-research">6. Future Directions for TS Research<a class="headerlink" href="#6-future-directions-for-ts-research" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>New Metrics</strong>: Beyond BLEU/METEOR; measuring "Prompt Sensitivity" and "Hallucination Rate."</li>
+<li><strong>Experimental Designs</strong>: Longitudinal studies of Translator+AI interaction.</li>
+</ul>
+<h2 id="7-appendices-references">7. Appendices &amp; References<a class="headerlink" href="#7-appendices-references" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>Glossary</strong>: <code>General_Terminology.md</code></li>
+<li><strong>References</strong>: <code>References.md</code> (APA Style)</li>
+</ul>
+<hr />
+<h2 id="linked-notes-directory">Linked Notes Directory<a class="headerlink" href="#linked-notes-directory" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th>Note</th>
+<th>Scope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="previews/notes/beyond-prompt-engineering-what-is-context-and-context-engineering.html">Beyond_prompt_engineering_-_What_is_Context_and_Context_Engineering</a></td>
+<td>Defines "context engineering" tactics for TS-aligned prompt design.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/combined-primary-and-secondary-source-review.html">Combined_Primary_and_Secondary_Source_review</a></td>
+<td>Narrative synthesis of the primary + secondary corpus.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/combined-primary-and-secondary-source-review-table.html">Combined_Primary_and_Secondary_Source_review_table</a></td>
+<td>Tabular snapshot of the combined source review (filters + status).</td>
+</tr>
+<tr>
+<td><a href="previews/notes/conclusion.html">Conclusion</a></td>
+<td>Summative arguments tying TS priorities to LLM research arcs.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/criticize-empiric-translationstudies-and-current-use-of-llms-in-translation-studies-literature.html">Criticize_Empiric_TranslationStudies_and_current_use_of_LLMs_in_Translation_Studies_Literature</a></td>
+<td>Critical reflection on empirical TS methods vs current LLM deployments.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/discussions.html">Discussions</a></td>
+<td>Extended discussion note used for panel summaries and peer feedback.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/future-studies.html">Future_studies</a></td>
+<td>Roadmap of experimental designs and funding-ready study ideas.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/general-terminology.html">General_Terminology</a></td>
+<td>Glossary of translator-centered terminology and LLM jargon.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/prompt-requirements-in-prompt-engineering-similarity-of-skopos-theorie-and-prompting-practice-md.html">Prompt_requirements_in_Prompt-Engineering_-_Similarity_of_Skopos_Theorie_and_Prompting_Practice.md</a></td>
+<td>Maps Skopos Theory constructs onto prompt-engineering briefs.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/references.html">References</a></td>
+<td>Master APA reference list aligned with the manuscript citation order.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/tertiary-sources-review.html">Tertiary_Sources_review</a></td>
+<td>Annotated tertiary literature review linking industry reports.</td>
+</tr>
+<tr>
+<td><a href="previews/notes/tertiary-sources-review-table.html">Tertiary_Sources_review_table</a></td>
+<td>Tertiary review tracking sheet (status, lens, geography).</td>
+</tr>
+<tr>
+<td><a href="previews/notes/visual-assets.html">Visual_Assets</a></td>
+<td>Instructions + embed inventory for the semantic network widgets.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="cross-references">Cross-References<a class="headerlink" href="#cross-references" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="previews/notes/references.html">References</a></li>
+<li><a href="previews/notes/general-terminology.html">General_Terminology</a></li>
+<li><a href="previews/notes/visual-assets.html">Visual_Assets</a></li>
+</ul>
+        </section>
+        <section class="note-library">
+            <h2>Per-Note HTML Library</h2>
+            <ul>
+                <li><a href="previews/notes/general-terminology.html">General Terminology: A Translator’s Guide to AI</a> — This translator-facing glossary explains every recurring AI term using Translation Studies analogies before diving into the granular definitions below.</li>
+<li><a href="previews/notes/references.html">References</a> — This APA-formatted bibliography groups the seminal engineering papers, supporting NLP textbooks, and Translation Studies monographs cited throughout the manuscript.</li>
+<li><a href="previews/notes/beyond-prompt-engineering-what-is-context-and-context-engineering.html">Beyond Prompt Engineering: What is Context and Context Engineering?</a> — This note translates Hallidayan context theory into concrete context-window engineering tactics so prompt designers can preserve TS nuance in LLM workflows.</li>
+<li><a href="previews/notes/combined-primary-and-secondary-source-review.html">Extended Literature Review: From Probability to Agency</a> — !Visual_Assets#1. The Evolutionary Arc of LLMs</li>
+<li><a href="previews/notes/combined-primary-and-secondary-source-review-table.html">Combined Primary and Secondary Source Review: The LLM Evolutionary Arc</a> — !Visual_Assets#1. The Evolutionary Arc of LLMs</li>
+<li><a href="previews/notes/conclusion.html">Conclusion: The Architect of Probability</a> — We began this inquiry with a "Black Box"—the Transformer architecture of Vaswani et al. (2017). For many in Translation Studies, this box was a magical, opaque object that consumed text and excrete...</li>
+<li><a href="previews/notes/criticize-empiric-translationstudies-and-current-use-of-llms-in-translation-studies-literature.html">Criticizing Empiric Translation Studies: The Trap of the "Average"</a> — Current research in Translation Studies (TS) often asks: *"Is GPT-4 better than a human translator?"*</li>
+<li><a href="previews/notes/discussions.html">Discussion: The Collision of Probability and Purpose</a> — !Visual_Assets#2. The Skopos Prompting Triangle</li>
+<li><a href="previews/notes/future-studies.html">Extrapolation: A Research Agenda for the AI Era</a> — !Visual_Assets#3. Context Engineering: The Hallidayan Injection</li>
+<li><a href="previews/notes/prompt-requirements-in-prompt-engineering-similarity-of-skopos-theorie-and-prompting-practice-md.html">Prompt Engineering as Functional Translation: The Skopos Connection</a> — !Visual_Assets#2. The Skopos Prompting Triangle</li>
+<li><a href="previews/notes/tertiary-sources-review.html">Extended Tertiary Sources Review: The Theoretical Backbone</a> — *The theoretical basis for Prompt Engineering and Instruction Tuning.*</li>
+<li><a href="previews/notes/tertiary-sources-review-table.html">Tertiary Sources Review: Mapping Theory to Computation</a> — This table identifies the **Tertiary Sources**—the theoretical lenses from Translation Studies and Critical AI Studies—required to analyze the engineering breakthroughs listed in the previous files...</li>
+<li><a href="previews/notes/visual-assets.html">Visual Assets (Mermaid Diagrams)</a> — ---</li>
+<li><a href="previews/notes/outline.html">Outline — Extended Foundational Models of LLMs for Translator Studies</a> — - **Intended Audience**: Translation Studies (TS) scholars with expertise in qualitative theory but novice status in Computational Linguistics/NLP.</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <hr />
+<h2 id="contact-credits">Contact &amp; Credits<a class="headerlink" href="#contact-credits" title="Permanent link">#</a></h2>
+<ul>
+<li>Kadir Yiğit US — kyigitus@gmail.com</li>
+<li>Prepared with GPT-5.1-Codex (Preview), Gemini 3.0 Pro, and GitHub Copilot inside VS Code.</li>
+<li>Download the latest HTML: <a href="white_paper.html">white_paper.html</a></li>
+</ul>
+        </section>
+
+</body>
+</html>

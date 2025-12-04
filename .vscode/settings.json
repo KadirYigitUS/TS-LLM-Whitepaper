@@ -1,0 +1,12 @@
+{
+    "python.defaultInterpreterPath": "/home/ben/miniconda3/envs/BA_Gensim/bin/python",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/script"
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.DS_Store": true
+    },
+    "editor.formatOnSave": true,
+    "chat.mcp.serverSampling": {}
+}

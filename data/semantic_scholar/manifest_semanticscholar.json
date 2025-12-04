@@ -1,0 +1,192 @@
+[
+  {
+    "file_stub": "001_Bowker_2023",
+    "sha_id": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+    "output": "data/semantic_scholar/001_Bowker_2023_semanticscholar_graph.json",
+    "nodes": 9,
+    "edges": 8,
+    "citations": 8,
+    "references": 0,
+    "status": "ok"
+  },
+  {
+    "file_stub": "002_Brown_2020",
+    "sha_id": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+    "output": "data/semantic_scholar/002_Brown_2020_semanticscholar_graph.json",
+    "nodes": 1140,
+    "edges": 1139,
+    "citations": 1000,
+    "references": 139,
+    "status": "ok"
+  },
+  {
+    "file_stub": "003_Devlin_2019",
+    "sha_id": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+    "output": "data/semantic_scholar/003_Devlin_2019_semanticscholar_graph.json",
+    "nodes": 1060,
+    "edges": 1059,
+    "citations": 1000,
+    "references": 59,
+    "status": "ok"
+  },
+  {
+    "file_stub": "004_Halliday_1978",
+    "sha_id": "7bd41786f7ef480b51e83941eb60a81501924e47",
+    "output": "data/semantic_scholar/004_Halliday_1978_semanticscholar_graph.json",
+    "nodes": 1001,
+    "edges": 1000,
+    "citations": 1000,
+    "references": 0,
+    "status": "ok"
+  },
+  {
+    "file_stub": "005_House_2015",
+    "sha_id": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+    "output": "data/semantic_scholar/005_House_2015_semanticscholar_graph.json",
+    "nodes": 73,
+    "edges": 72,
+    "citations": 37,
+    "references": 35,
+    "status": "ok"
+  },
+  {
+    "file_stub": "006_Jurafsky_2024",
+    "sha_id": "1254c99a381d1f9d6abb23c74be060e4e7876985",
+    "output": "data/semantic_scholar/006_Jurafsky_2024_semanticscholar_graph.json",
+    "nodes": 1001,
+    "edges": 1000,
+    "citations": 1000,
+    "references": 0,
+    "status": "ok"
+  },
+  {
+    "file_stub": "007_Kaplan_2020",
+    "sha_id": "e6c561d02500b2596a230b341a8eb8b921ca5bf2",
+    "output": "data/semantic_scholar/007_Kaplan_2020_semanticscholar_graph.json",
+    "nodes": 1051,
+    "edges": 1050,
+    "citations": 1000,
+    "references": 50,
+    "status": "ok"
+  },
+  {
+    "file_stub": "008_Kenny_2022",
+    "sha_id": "322589d9b59a32eef6026e8f37955dbd6276a8fe",
+    "output": "data/semantic_scholar/008_Kenny_2022_semanticscholar_graph.json",
+    "nodes": 2,
+    "edges": 1,
+    "citations": 1,
+    "references": 0,
+    "status": "ok"
+  },
+  {
+    "file_stub": "009_Koehn_2010",
+    "sha_id": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+    "output": "data/semantic_scholar/009_Koehn_2010_semanticscholar_graph.json",
+    "nodes": 1032,
+    "edges": 1031,
+    "citations": 1000,
+    "references": 31,
+    "status": "ok"
+  },
+  {
+    "file_stub": "010_Koehn_2020",
+    "sha_id": "eea463ed69db876cdc12371d2bec200849b608a7",
+    "output": "data/semantic_scholar/010_Koehn_2020_semanticscholar_graph.json",
+    "nodes": 656,
+    "edges": 655,
+    "citations": 655,
+    "references": 0,
+    "status": "ok"
+  },
+  {
+    "file_stub": "011_Longpre_2023",
+    "sha_id": "f2b0017ddd77fa38760a18145e63553105a1a236",
+    "output": "data/semantic_scholar/011_Longpre_2023_semanticscholar_graph.json",
+    "nodes": 913,
+    "edges": 912,
+    "citations": 820,
+    "references": 92,
+    "status": "ok"
+  },
+  {
+    "file_stub": "012_Mikolov_2013",
+    "sha_id": "87f40e6f3022adbc1f1905e3e506abad05a9964f",
+    "output": "data/semantic_scholar/012_Mikolov_2013_semanticscholar_graph.json",
+    "nodes": 1022,
+    "edges": 1021,
+    "citations": 1000,
+    "references": 21,
+    "status": "ok"
+  },
+  {
+    "file_stub": "013_Nord_1997",
+    "sha_id": "1694c62bf22b6e36b6ae44b0e52d5fb7b37c3dcb",
+    "output": "data/semantic_scholar/013_Nord_1997_semanticscholar_graph.json",
+    "nodes": 1001,
+    "edges": 1000,
+    "citations": 1000,
+    "references": 0,
+    "status": "ok"
+  },
+  {
+    "file_stub": "014_Ouyang_2022",
+    "sha_id": "d766bffc357127e0dc86dd69561d5aeb520d6f4c",
+    "output": "data/semantic_scholar/014_Ouyang_2022_semanticscholar_graph.json",
+    "nodes": 1080,
+    "edges": 1079,
+    "citations": 1000,
+    "references": 79,
+    "status": "ok"
+  },
+  {
+    "file_stub": "015_Reiss_2013",
+    "sha_id": "d1c3876127ccdcaa713b9f9f91b1dacf2df752fd",
+    "output": "data/semantic_scholar/015_Reiss_2013_semanticscholar_graph.json",
+    "nodes": 770,
+    "edges": 769,
+    "citations": 769,
+    "references": 0,
+    "status": "ok"
+  },
+  {
+    "file_stub": "016_Schick_2023",
+    "sha_id": "53d128ea815bcc0526856eb5a9c42cc977cb36a7",
+    "output": "data/semantic_scholar/016_Schick_2023_semanticscholar_graph.json",
+    "nodes": 1054,
+    "edges": 1053,
+    "citations": 1000,
+    "references": 53,
+    "status": "ok"
+  },
+  {
+    "file_stub": "017_Touvron_2023",
+    "sha_id": "57e849d0de13ed5f91d086936296721d4ff75a75",
+    "output": "data/semantic_scholar/017_Touvron_2023_semanticscholar_graph.json",
+    "nodes": 1077,
+    "edges": 1076,
+    "citations": 1000,
+    "references": 76,
+    "status": "ok"
+  },
+  {
+    "file_stub": "018_Vaswani_2017",
+    "sha_id": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+    "output": "data/semantic_scholar/018_Vaswani_2017_semanticscholar_graph.json",
+    "nodes": 1040,
+    "edges": 1039,
+    "citations": 1000,
+    "references": 39,
+    "status": "ok"
+  },
+  {
+    "file_stub": "019_Wei_2022",
+    "sha_id": "1b6e810ce0afd0dd093f789d2b2742d047e316d5",
+    "output": "data/semantic_scholar/019_Wei_2022_semanticscholar_graph.json",
+    "nodes": 1095,
+    "edges": 1094,
+    "citations": 1000,
+    "references": 94,
+    "status": "ok"
+  }
+]

@@ -1,35 +1,104 @@
 # Configuration file for the Sphinx documentation builder.
 
-# -- Project information
+from __future__ import annotations
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+import os
+import sys
+from datetime import datetime
 
-release = '0.1'
-version = '0.1.0'
 
-# -- General configuration
+PROJECT_ROOT = os.path.abspath(os.path.join(__file__, "..", ".."))
+sys.path.insert(0, os.path.abspath(os.path.join(PROJECT_ROOT, "..")))
+
+
+# -- Project information -----------------------------------------------------
+
+project = "TS-LLM Knowledge Stack"
+author = "Kadir Yiğit US & collaborators"
+copyright = f"{datetime.now():%Y}, Kadir Yiğit US"
+release = "2025.12"
+version = release
+
+
+# -- General configuration ---------------------------------------------------
 
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    "myst_parser",
+    "sphinx.ext.duration",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.viewcode",
+    "sphinx_copybutton",
+    "sphinx_autodoc_typehints",
+    "sphinx_design",
 ]
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+language = "en"
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
 }
-intersphinx_disabled_domains = ['std']
 
-templates_path = ['_templates']
+myst_enable_extensions = [
+    "colon_fence",
+    "deflist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "substitution",
+    "tasklist",
+]
+myst_heading_anchors = 3
 
-# -- Options for HTML output
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
-html_theme = 'sphinx_rtd_theme'
+intersphinx_mapping = {
+    "python": ("https://docs.python.org/3/", None),
+    "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
+}
+intersphinx_disabled_domains = ["std"]
 
-# -- Options for EPUB output
-epub_show_urls = 'footnote'
+autodoc_typehints = "description"
+autodoc_mock_imports = [
+    "connectedpapers",
+    "markdown",
+    "networkx",
+    "numpy",
+    "pandas",
+    "plotly",
+    "requests",
+    "scipy",
+]
+
+
+# -- Options for HTML output -------------------------------------------------
+
+html_theme = "sphinx_rtd_theme"
+html_logo = "_static/logo.png"
+html_static_path = ["_static"]
+html_extra_path = ["../data"]
+html_theme_options = {
+    "collapse_navigation": False,
+    "navigation_depth": 3,
+    "logo_only": True,
+}
+html_js_files = [
+    "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js",
+    "js/mermaid-init.js",
+]
+
+
+# -- Internationalization ----------------------------------------------------
+
+locale_dirs = ["../locales"]
+gettext_compact = False
+
+
+# -- Options for EPUB output -------------------------------------------------
+
+epub_show_urls = "footnote"

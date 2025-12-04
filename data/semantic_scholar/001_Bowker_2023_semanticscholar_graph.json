@@ -1,0 +1,147 @@
+{
+  "generated_at": "2025-12-02T23:13:15Z",
+  "seed": {
+    "file_stub": "001_Bowker_2023",
+    "sha_id": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+    "title": "De-mystifying Translation",
+    "doi": "10.4324/9781003217718",
+    "year": 2023,
+    "category": "Tertiary Sources (Translation Theory & Critique)",
+    "stage": null,
+    "vector": "Critique",
+    "url": "https://www.semanticscholar.org/paper/e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8"
+  },
+  "counts": {
+    "node_count": 9,
+    "edge_count": 8,
+    "citations": 8,
+    "references": 0
+  },
+  "nodes": [
+    {
+      "id": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "title": "De-mystifying Translation",
+      "year": 2023,
+      "doi": "10.4324/9781003217718",
+      "url": "https://www.semanticscholar.org/paper/e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "type": "seed",
+      "category": "Tertiary Sources (Translation Theory & Critique)",
+      "vector": "Critique",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "id": "4fa53a1d5a4a958ff336bfd7a8a87a7744dbc618",
+      "title": "What Drives University Students to Use ChatGPT for Translation? Disciplinary and Experiential Influences",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/4fa53a1d5a4a958ff336bfd7a8a87a7744dbc618",
+      "type": "citation",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "id": "666dac5b65b4ee2bd240e3de3cdd5e008afbf7c7",
+      "title": "Designing AI-powered translation education tools: a framework for parallel sentence generation using SauLTC and LLMs",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/666dac5b65b4ee2bd240e3de3cdd5e008afbf7c7",
+      "type": "citation",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "id": "38c8e70a25a7f4f1d750985833aed63b35bed59c",
+      "title": "La traducción automática de expresiones multiverbales en el turismo gastronómico",
+      "year": 2024,
+      "url": "http://www.semanticscholar.org/paper/38c8e70a25a7f4f1d750985833aed63b35bed59c",
+      "type": "citation",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "id": "c6136a4dab951632ed62aeae708f8bd6656d36a6",
+      "title": "BARRIOS, Nuria. La impostora: Cuadernos de traducción de una escritora. Páginas de espuma, 2022, 161 pp., ISBN 978-84-8393-332-9.",
+      "year": 2024,
+      "url": "http://www.semanticscholar.org/paper/c6136a4dab951632ed62aeae708f8bd6656d36a6",
+      "type": "citation",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "id": "9e2b6c8a610ec56763aa0cfa49e564e69054f74b",
+      "title": "Navigating Cultural Landscapes: Textual Insights into English–Arabic–English Translation",
+      "year": 2024,
+      "url": "http://www.semanticscholar.org/paper/9e2b6c8a610ec56763aa0cfa49e564e69054f74b",
+      "type": "citation",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "id": "325b2a2cbc884a23eb575104302725d9cce9cc88",
+      "title": "The effectiveness of translation technology training: a mixed methods study",
+      "year": 2023,
+      "url": "http://www.semanticscholar.org/paper/325b2a2cbc884a23eb575104302725d9cce9cc88",
+      "type": "citation",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "id": "f8db5708bc260354abda61f7d5990127ae4acaef",
+      "title": "Transnational audiovisual remakes: Suits in Arabic as a case study",
+      "year": 2023,
+      "url": "http://www.semanticscholar.org/paper/f8db5708bc260354abda61f7d5990127ae4acaef",
+      "type": "citation",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "id": "6c1d74848e575db51e627f1f5f59dc61a68e09d9",
+      "title": "La traducción comunitaria y el aprendizaje-servicio en Canadá y Estados Unidos como herramientas de justicia social para migrantes del Sur global",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/6c1d74848e575db51e627f1f5f59dc61a68e09d9",
+      "type": "citation",
+      "seed_file_stub": "001_Bowker_2023"
+    }
+  ],
+  "edges": [
+    {
+      "source": "4fa53a1d5a4a958ff336bfd7a8a87a7744dbc618",
+      "target": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "relation": "cited_by",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "source": "666dac5b65b4ee2bd240e3de3cdd5e008afbf7c7",
+      "target": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "relation": "cited_by",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "source": "38c8e70a25a7f4f1d750985833aed63b35bed59c",
+      "target": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "relation": "cited_by",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "source": "c6136a4dab951632ed62aeae708f8bd6656d36a6",
+      "target": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "relation": "cited_by",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "source": "9e2b6c8a610ec56763aa0cfa49e564e69054f74b",
+      "target": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "relation": "cited_by",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "source": "325b2a2cbc884a23eb575104302725d9cce9cc88",
+      "target": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "relation": "cited_by",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "source": "f8db5708bc260354abda61f7d5990127ae4acaef",
+      "target": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "relation": "cited_by",
+      "seed_file_stub": "001_Bowker_2023"
+    },
+    {
+      "source": "6c1d74848e575db51e627f1f5f59dc61a68e09d9",
+      "target": "e9a67de0cbf3cfb2cfcb74629c2a3762db6c66c8",
+      "relation": "cited_by",
+      "seed_file_stub": "001_Bowker_2023"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "version": "2025-12-04",
+    "project": "BILKENT_LLM",
+    "preferredLanguages": [
+        "python",
+        "r",
+        "markdown"
+    ],
+    "style": {
+        "translatorCentric": true,
+        "apaOrdering": true,
+        "obsidianReady": true
+    },
+    "guidelines": [
+        "Prioritize translator-centered terminology and cite sources in APA order.",
+        "Keep automation scripts inside /script and document side effects in README.",
+        "Respect GitHub Pages size limits for any generated asset."
+    ]
+}

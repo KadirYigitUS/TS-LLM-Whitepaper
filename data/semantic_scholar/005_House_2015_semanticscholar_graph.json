@@ -1,0 +1,1043 @@
+{
+  "generated_at": "2025-12-02T23:13:22Z",
+  "seed": {
+    "file_stub": "005_House_2015",
+    "sha_id": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+    "title": "Translation Quality Assessment: Past and Present",
+    "doi": "10.4324/9781315752839",
+    "year": 2014,
+    "category": "Tertiary Sources (Translation Theory & Critique)",
+    "stage": null,
+    "vector": "Context",
+    "url": "https://www.semanticscholar.org/paper/8c7cac6e35f422fadf522641184692b54fea1d6b"
+  },
+  "counts": {
+    "node_count": 73,
+    "edge_count": 72,
+    "citations": 37,
+    "references": 35
+  },
+  "nodes": [
+    {
+      "id": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "title": "Translation Quality Assessment: Past and Present",
+      "year": 2014,
+      "doi": "10.4324/9781315752839",
+      "url": "https://www.semanticscholar.org/paper/8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "type": "seed",
+      "category": "Tertiary Sources (Translation Theory & Critique)",
+      "vector": "Context",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "55a8003dc6858bffe293a330c8c0e789352d1a75",
+      "title": "Training The Modern Translator: Cognitive Flexibility, Sociolinguistic Sensitivity,and Technological Proficiency",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/55a8003dc6858bffe293a330c8c0e789352d1a75",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "a031ace647eb8d6175dffcc6a8f0f96f207eb7ad",
+      "title": "Examining translation errors and cultural misrepresentation in dream of the red chamber: a TQA-based literary assessment with insights into intercultural communication",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/a031ace647eb8d6175dffcc6a8f0f96f207eb7ad",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "87619d015ecc4a26ced92e621064f8b09314d285",
+      "title": "Translation adaptation of TCM (Traditional Chinese Medicine) terminology for speakers of other cultures: features of cultural connotation",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/87619d015ecc4a26ced92e621064f8b09314d285",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "9f66d611dd4d787d180d69b776e85af48639d252",
+      "title": "An Investigative Study into the Role Extralinguistic Information Plays in Producing Accurate Meaning in the Post-MT-Editing of Arabic Texts with Culturally Embedded Terms",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/9f66d611dd4d787d180d69b776e85af48639d252",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "0a8f60bf701b5feddfa22dfdc1645e8e59f833d7",
+      "title": "La Equivalencia en Traducción: Revisión Crítica de un Concepto en Disputa",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/0a8f60bf701b5feddfa22dfdc1645e8e59f833d7",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "4af81bd524bbaabc7c197f4fdf0b039a14480647",
+      "title": "التواصل في الترجمة: مقاربات بيتر نيومارك تحت المجهر",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/4af81bd524bbaabc7c197f4fdf0b039a14480647",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d37767c1b17223e451c7474a718cf4163c9dc14f",
+      "title": "Investigating the Decision-making Style of Translation Raters in Large-scale Language Tests",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/d37767c1b17223e451c7474a718cf4163c9dc14f",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f729866bc3502df54fc231b1029d6acb9a04dd96",
+      "title": "Çok Dillilerde Çeviribilinç: Farkındalık ve Stratejiler",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/f729866bc3502df54fc231b1029d6acb9a04dd96",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "1dfd57809361f4d7e0c9fd817dab4d519983add8",
+      "title": "Enhancing English–Arabic translator education through systemic functional linguistics: a study in a Saudi undergraduate classroom",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/1dfd57809361f4d7e0c9fd817dab4d519983add8",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f82c13e9089d0dd6f6bdc7df540bf9d8e3791a6e",
+      "title": "Addressing polysemy in translation pedagogy",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/f82c13e9089d0dd6f6bdc7df540bf9d8e3791a6e",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d0e260c8e75f61b2d3cbcbea89530233c5a749cb",
+      "title": "Evaluating Translation Quality: A Qualitative and Quantitative Assessment of Machine and LLM-Driven Arabic–English Translations",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/d0e260c8e75f61b2d3cbcbea89530233c5a749cb",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3a8285f1568471019d153c9e060476a9d75d01d6",
+      "title": "The evaluation and reception of the translation quality of three translation modalities in live-streaming contexts: computer-assisted simultaneous interpreting, machine translation (MT) with human revision and raw MT",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/3a8285f1568471019d153c9e060476a9d75d01d6",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "5a5109d102d21e64468dd98c555b4eeba5fe50b9",
+      "title": "Systemic Functional Linguistics Tools in Translation Training With Examples From French-Greek Translations",
+      "year": 2025,
+      "url": "http://www.semanticscholar.org/paper/5a5109d102d21e64468dd98c555b4eeba5fe50b9",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "827347543726984eaf4722c064644c6aeecbd0a5",
+      "title": "A Study on How Globalization Influences Translation Practices and the Demand for Translators in Various Industries",
+      "year": 2024,
+      "url": "http://www.semanticscholar.org/paper/827347543726984eaf4722c064644c6aeecbd0a5",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "20cd55e167bdd9c07fcf62e9b0c47866783f1e3c",
+      "title": "Systemic functional linguistics and translator education: A literature review",
+      "year": 2024,
+      "url": "http://www.semanticscholar.org/paper/20cd55e167bdd9c07fcf62e9b0c47866783f1e3c",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f0fe0008a22383b1053857014ed74c25bc50c8f4",
+      "title": "Recurrent grammatical errors in student Russian-to-English consecutive interpreting",
+      "year": 2024,
+      "url": "http://www.semanticscholar.org/paper/f0fe0008a22383b1053857014ed74c25bc50c8f4",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "4d59445a461171e5440abcc7c77b61e61e224549",
+      "title": "Utilizing Machine Learning Techniques for Classifying Translated and Non-Translated Corporate Annual Reports",
+      "year": 2024,
+      "url": "http://www.semanticscholar.org/paper/4d59445a461171e5440abcc7c77b61e61e224549",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "9ce76bc8f16ef9852ecbf63f4b8c55dfd2fb0cda",
+      "title": "Experimental Study on the Validity of AES System in College Translation Teaching",
+      "year": 2022,
+      "url": "http://www.semanticscholar.org/paper/9ce76bc8f16ef9852ecbf63f4b8c55dfd2fb0cda",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3543f56618f726ccf2463c78a9d3434dd0949223",
+      "title": "Culture and translation: the case of English and Persian languages",
+      "year": 2022,
+      "url": "http://www.semanticscholar.org/paper/3543f56618f726ccf2463c78a9d3434dd0949223",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "cd8c74f4017b43e0faa556a305d587b6d425af36",
+      "title": "A human evaluation of English-Slovak machine translation",
+      "year": 2022,
+      "url": "http://www.semanticscholar.org/paper/cd8c74f4017b43e0faa556a305d587b6d425af36",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "88e525396497838aca9bf0e88f1d1c6dcd13effc",
+      "title": "The analysis of Turkish translations of figurative language in Brave New World by Aldous Huxley in the light of Newmark, Popovic, Pym and Kocabıyık’s theories",
+      "year": 2022,
+      "url": "http://www.semanticscholar.org/paper/88e525396497838aca9bf0e88f1d1c6dcd13effc",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "bf113a3c18f5be987f625cc8ba7f5ef247a4a77c",
+      "title": "Norms of Substitution in Translation: A French–English Case Study",
+      "year": 2022,
+      "url": "http://www.semanticscholar.org/paper/bf113a3c18f5be987f625cc8ba7f5ef247a4a77c",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "a2c78e5c580ddc4f45304a304b7c56d64102054c",
+      "title": "L’érotisme en traduction et l’érotisme dans la traduction",
+      "year": 2022,
+      "url": "http://www.semanticscholar.org/paper/a2c78e5c580ddc4f45304a304b7c56d64102054c",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "93e94f0ab60481dbc8b8f551299538f63ccbfcf0",
+      "title": "Pragmatics of proverb translation: The case of English and Persian",
+      "year": 2022,
+      "url": "http://www.semanticscholar.org/paper/93e94f0ab60481dbc8b8f551299538f63ccbfcf0",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "54f9e619abb2ac29ea28291af729be25b20e8187",
+      "title": "Semantic Approach to Translating the Arabic Various Plurals of One Word into English",
+      "year": 2021,
+      "url": "http://www.semanticscholar.org/paper/54f9e619abb2ac29ea28291af729be25b20e8187",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "7ce8cc2b9feec55d5c3f4376e25f75e7c11ee579",
+      "title": "Machine translation systems and quality assessment: a systematic review",
+      "year": 2021,
+      "url": "http://www.semanticscholar.org/paper/7ce8cc2b9feec55d5c3f4376e25f75e7c11ee579",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "c72f2e4a272a73864a093f5f7e9e49cfba85e7c4",
+      "title": "Problems of Translating American Business Jargons into Arabic",
+      "year": 2020,
+      "url": "http://www.semanticscholar.org/paper/c72f2e4a272a73864a093f5f7e9e49cfba85e7c4",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d0e4fcd763ae057ac85209ba9c56b2e2b081063f",
+      "title": "Quality is in the eye of the stakeholders: what do professional subtitlers and viewers think about subtitling?",
+      "year": 2020,
+      "url": "http://www.semanticscholar.org/paper/d0e4fcd763ae057ac85209ba9c56b2e2b081063f",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "83959319eb3ab43db0ecd71185f9b3ae4ad5ec2b",
+      "title": "EXPLORING THE PROBLEMS FACED BY NON-ENGLISH LECTURERS OF UNIVERSITAS RIAU KEPULAUAN ON USING MACHINE TRANSLATION ON ACADEMIC PURPOSE",
+      "year": 2019,
+      "url": "http://www.semanticscholar.org/paper/83959319eb3ab43db0ecd71185f9b3ae4ad5ec2b",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "7c50274e3226cf00e780afe266dd07dace24761a",
+      "title": "How to evaluate machine translation: A review of automated and human metrics",
+      "year": 2019,
+      "url": "http://www.semanticscholar.org/paper/7c50274e3226cf00e780afe266dd07dace24761a",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d53020ae40927a84766f068efe1bc372a4320d54",
+      "title": "Linguistic Features of Genre and Method Variation in Translation: A Computational Perspective",
+      "year": 2017,
+      "url": "http://www.semanticscholar.org/paper/d53020ae40927a84766f068efe1bc372a4320d54",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "c0d1f19e7f97bb72d67c044908843ea79c59f9ad",
+      "title": "Discovery of Discourse-Related Language Contrasts through Alignment Discrepancies in English-German Translation",
+      "year": 2017,
+      "url": "http://www.semanticscholar.org/paper/c0d1f19e7f97bb72d67c044908843ea79c59f9ad",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3fd0d24c679b333764296fb062eea885f2d88571",
+      "title": "Using Functional Approach in Translating Arab Spring Topics: Aljazeera and BBC Arabic as Study Cases",
+      "year": 2015,
+      "url": "http://www.semanticscholar.org/paper/3fd0d24c679b333764296fb062eea885f2d88571",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "5d77d2d478eb2dc132715401d271ea941c64aa26",
+      "title": "Measuring ‘Registerness’ in Human and Machine Translation: A Text Classification Approach",
+      "year": 2015,
+      "url": "http://www.semanticscholar.org/paper/5d77d2d478eb2dc132715401d271ea941c64aa26",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "fdd0243f8f35f1a5fd5dbd63a926d00bf15933bf",
+      "title": "A Study on the English Translation \nof the Hospitality Rites in the Latest \nCo-Translation of Zuozhuan via \nHouse’s Translation Quality \nAssessment Model",
+      "year": 2024,
+      "url": "http://www.semanticscholar.org/paper/fdd0243f8f35f1a5fd5dbd63a926d00bf15933bf",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "7a808e9c11daffcdceb6eb21e41a0fb0c3712487",
+      "title": "Approaches to Human and Machine Translation Quality Assessment",
+      "year": 2018,
+      "url": "http://www.semanticscholar.org/paper/7a808e9c11daffcdceb6eb21e41a0fb0c3712487",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "5d2ac94c75e905d973ece241e4e9524537130e50",
+      "title": "Audiovisual Translation in a Global Context",
+      "year": 2015,
+      "url": "http://www.semanticscholar.org/paper/5d2ac94c75e905d973ece241e4e9524537130e50",
+      "type": "citation",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3cb43d44b29e3cffd3891d2fde03ab0f3435bb43",
+      "title": "Testing and assessment in Translation and Interpreting Studies",
+      "year": 2012,
+      "url": "http://www.semanticscholar.org/paper/3cb43d44b29e3cffd3891d2fde03ab0f3435bb43",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "8f61acc0afd8373e2dc07d44bab1b4a287e44ef8",
+      "title": "Explicitation and implicitation in translation. A corpus-based study of English-German and German-English translations of business texts",
+      "year": 2011,
+      "url": "http://www.semanticscholar.org/paper/8f61acc0afd8373e2dc07d44bab1b4a287e44ef8",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "498ed911aa5fb2fedd1985353f5eb41c6c99907d",
+      "title": "Translation and cognition",
+      "year": 2010,
+      "url": "http://www.semanticscholar.org/paper/498ed911aa5fb2fedd1985353f5eb41c6c99907d",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "5d1f4c9b013fbfc06a2c6d90ab1d1bd08888f308",
+      "title": "Testing and assessment in translation and interpreting studies : a call for dialogue between research and practice",
+      "year": 2009,
+      "url": "http://www.semanticscholar.org/paper/5d1f4c9b013fbfc06a2c6d90ab1d1bd08888f308",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "c09ac92d2606d0557cc4f6a59ecea9f8cc0bd3ac",
+      "title": "A personal, retrospective view of ecological validity",
+      "year": 2007,
+      "url": "http://www.semanticscholar.org/paper/c09ac92d2606d0557cc4f6a59ecea9f8cc0bd3ac",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "9b117dbad86fe46477079a88f24f5e3ab9b1e9a9",
+      "title": "Communicative styles in English and German",
+      "year": 2006,
+      "url": "http://www.semanticscholar.org/paper/9b117dbad86fe46477079a88f24f5e3ab9b1e9a9",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "a9e86022c1fe1430707a5896a1d97fadb7ab30de",
+      "title": "Text and context in translation",
+      "year": 2006,
+      "url": "http://www.semanticscholar.org/paper/a9e86022c1fe1430707a5896a1d97fadb7ab30de",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "359438aa3d4a0034adb5d415628ef78617cb0fd0",
+      "title": "Translation: An Advanced Resource Book",
+      "year": 2005,
+      "url": "http://www.semanticscholar.org/paper/359438aa3d4a0034adb5d415628ef78617cb0fd0",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "593fd03b00dc094b1b361da5cacca27aeb88a7d4",
+      "title": "A Neurolinguistic Theory of Bilingualism",
+      "year": 2004,
+      "url": "http://www.semanticscholar.org/paper/593fd03b00dc094b1b361da5cacca27aeb88a7d4",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "28e7cc11763c93e1ede97f9b95439e7a6756d585",
+      "title": "English as Lingua Franca in Covert Translation Processes",
+      "year": 2004,
+      "url": "http://www.semanticscholar.org/paper/28e7cc11763c93e1ede97f9b95439e7a6756d585",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "2c402243d6ac9efa0e71945ec4f88045ecdda2eb",
+      "title": "Translation and Political Engagement",
+      "year": 2000,
+      "url": "http://www.semanticscholar.org/paper/2c402243d6ac9efa0e71945ec4f88045ecdda2eb",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d07b58af7d86e727da6f9965e0f516d50bfe372f",
+      "title": "Spoken and Written Language",
+      "year": 1989,
+      "url": "http://www.semanticscholar.org/paper/d07b58af7d86e727da6f9965e0f516d50bfe372f",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "6f297a2fa9acbfc1216202fac004c120b7ff55db",
+      "title": "Critical and descriptive goals in discourse analysis",
+      "year": 1985,
+      "url": "http://www.semanticscholar.org/paper/6f297a2fa9acbfc1216202fac004c120b7ff55db",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "14ccde66d28fb8cc7ce5eb58f0926df85c02d230",
+      "title": "Spoken Discourse: A Model for Analysis",
+      "year": 1982,
+      "url": "http://www.semanticscholar.org/paper/14ccde66d28fb8cc7ce5eb58f0926df85c02d230",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "cb3f759e5e55f42a12081beb34585584833e9e16",
+      "title": "The Theory and Practice of Translation",
+      "year": 1982,
+      "url": "http://www.semanticscholar.org/paper/cb3f759e5e55f42a12081beb34585584833e9e16",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "8018fe465f72909f8d949b0f3e0850425435c641",
+      "title": "A Model For Translation Quality Assessment",
+      "year": 1977,
+      "url": "http://www.semanticscholar.org/paper/8018fe465f72909f8d949b0f3e0850425435c641",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3a35abf24b3e7d26a2305dc191bf9a0e80d25904",
+      "title": "Multilingual Communication",
+      "year": 1962,
+      "url": "http://www.semanticscholar.org/paper/3a35abf24b3e7d26a2305dc191bf9a0e80d25904",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "9b28e8025764dbee0645433c87ea6f6c54dce3c0",
+      "title": "Halliday's Introduction to Functional Grammar",
+      "year": 2014,
+      "url": "http://www.semanticscholar.org/paper/9b28e8025764dbee0645433c87ea6f6c54dce3c0",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "4873193ecaefd6e39e4d4a174695c1806db40ffa",
+      "title": "Towards a new linguistic-cognitive orientation in translation studies",
+      "year": 2013,
+      "url": "http://www.semanticscholar.org/paper/4873193ecaefd6e39e4d4a174695c1806db40ffa",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "0f9d4cfa169a39ea54bc8ae8a8e26db360eb16c6",
+      "title": "Cognitive explorations of translation",
+      "year": 2011,
+      "url": "http://www.semanticscholar.org/paper/0f9d4cfa169a39ea54bc8ae8a8e26db360eb16c6",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "1bf82e29e8d31762a982e346307f869c6822912b",
+      "title": "Critical Readings in Translation Studies",
+      "year": 2010,
+      "url": "http://www.semanticscholar.org/paper/1bf82e29e8d31762a982e346307f869c6822912b",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f368a8be300430096a7a4e4c7e87e81257193c98",
+      "title": "Cohesive explicitness and explicitation in an English-German translation corpus",
+      "year": 2007,
+      "url": "http://www.semanticscholar.org/paper/f368a8be300430096a7a4e4c7e87e81257193c98",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "582e64fd4869948383fd0e4d2fa9afd1cfc62c0e",
+      "title": "Elke Teich. Cross-Linguistic Variation in System and Text: A methodology for the Investigation of Translations and Comparable Texts",
+      "year": 2004,
+      "url": "http://www.semanticscholar.org/paper/582e64fd4869948383fd0e4d2fa9afd1cfc62c0e",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "ad1d78ab5bdbcbecb2435aff90a27bcbe6b68123",
+      "title": "A comparative analysis of Japanese and German complement constructions with matrix verbs of thinking and believing : \"to omou\" and \"ich glaub(e)\"",
+      "year": 2004,
+      "url": "http://www.semanticscholar.org/paper/ad1d78ab5bdbcbecb2435aff90a27bcbe6b68123",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "70dc2e967c4c9d9b168bf423d65e0775582714e4",
+      "title": "Language Processing in Discourse: A Key to Felicitous Translation",
+      "year": 2002,
+      "url": "http://www.semanticscholar.org/paper/70dc2e967c4c9d9b168bf423d65e0775582714e4",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "e6a75ed2b062e4d8712152d138ba15dc2ac6e685",
+      "title": "Translation quality assessment: A model revisited",
+      "year": 1997,
+      "url": "http://www.semanticscholar.org/paper/e6a75ed2b062e4d8712152d138ba15dc2ac6e685",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "85c2acc54e66399078d196f3af4e44579fa14f85",
+      "title": "The Concept of Equivalence and the Object of Translation Studies",
+      "year": 1995,
+      "url": "http://www.semanticscholar.org/paper/85c2acc54e66399078d196f3af4e44579fa14f85",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "30854fa6f7dd7e9069ca7d3a747fc7b6434126c0",
+      "title": "The Translator's Invisibility",
+      "year": 1995,
+      "url": "http://www.semanticscholar.org/paper/30854fa6f7dd7e9069ca7d3a747fc7b6434126c0",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "74bcfb3a33b24a627a8c392e378a2c25e0c98e8b",
+      "title": "Descriptive translation studies and beyond",
+      "year": 1995,
+      "url": "http://www.semanticscholar.org/paper/74bcfb3a33b24a627a8c392e378a2c25e0c98e8b",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "70dbad2db4656ecf65ce11f4541f7f1a1d28cd05",
+      "title": "Mona Baker: In Other Words. A course-book on translation",
+      "year": 1994,
+      "url": "http://www.semanticscholar.org/paper/70dbad2db4656ecf65ce11f4541f7f1a1d28cd05",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f829fbe07e951cb18922225a4d8527db59afe6b9",
+      "title": "Variation across speech and writing: Methodology",
+      "year": 1988,
+      "url": "http://www.semanticscholar.org/paper/f829fbe07e951cb18922225a4d8527db59afe6b9",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d1c3876127ccdcaa713b9f9f91b1dacf2df752fd",
+      "title": "Grundlegung einer allgemeinen Translationstheorie",
+      "year": 1984,
+      "url": "http://www.semanticscholar.org/paper/d1c3876127ccdcaa713b9f9f91b1dacf2df752fd",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "2c25c0ef8e420f056fa7a70b86061c9cd8d6293d",
+      "title": "Toward a Science of Translation",
+      "year": 1977,
+      "url": "http://www.semanticscholar.org/paper/2c25c0ef8e420f056fa7a70b86061c9cd8d6293d",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "40062609eb58f2e97b174d531b9f5c5b0f8bfb03",
+      "title": "Investigating English Style",
+      "year": 1969,
+      "url": "http://www.semanticscholar.org/paper/40062609eb58f2e97b174d531b9f5c5b0f8bfb03",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3e934253316db3c1e7799e0c373c14b9500452aa",
+      "title": "An experiment in evaluating the quality of translations",
+      "year": 1966,
+      "url": "http://www.semanticscholar.org/paper/3e934253316db3c1e7799e0c373c14b9500452aa",
+      "type": "reference",
+      "seed_file_stub": "005_House_2015"
+    }
+  ],
+  "edges": [
+    {
+      "source": "55a8003dc6858bffe293a330c8c0e789352d1a75",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "a031ace647eb8d6175dffcc6a8f0f96f207eb7ad",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "87619d015ecc4a26ced92e621064f8b09314d285",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "9f66d611dd4d787d180d69b776e85af48639d252",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "0a8f60bf701b5feddfa22dfdc1645e8e59f833d7",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "4af81bd524bbaabc7c197f4fdf0b039a14480647",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "d37767c1b17223e451c7474a718cf4163c9dc14f",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "f729866bc3502df54fc231b1029d6acb9a04dd96",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "1dfd57809361f4d7e0c9fd817dab4d519983add8",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "f82c13e9089d0dd6f6bdc7df540bf9d8e3791a6e",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "d0e260c8e75f61b2d3cbcbea89530233c5a749cb",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "3a8285f1568471019d153c9e060476a9d75d01d6",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "5a5109d102d21e64468dd98c555b4eeba5fe50b9",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "827347543726984eaf4722c064644c6aeecbd0a5",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "20cd55e167bdd9c07fcf62e9b0c47866783f1e3c",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "f0fe0008a22383b1053857014ed74c25bc50c8f4",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "4d59445a461171e5440abcc7c77b61e61e224549",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "9ce76bc8f16ef9852ecbf63f4b8c55dfd2fb0cda",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "3543f56618f726ccf2463c78a9d3434dd0949223",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "cd8c74f4017b43e0faa556a305d587b6d425af36",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "88e525396497838aca9bf0e88f1d1c6dcd13effc",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "bf113a3c18f5be987f625cc8ba7f5ef247a4a77c",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "a2c78e5c580ddc4f45304a304b7c56d64102054c",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "93e94f0ab60481dbc8b8f551299538f63ccbfcf0",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "54f9e619abb2ac29ea28291af729be25b20e8187",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "7ce8cc2b9feec55d5c3f4376e25f75e7c11ee579",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "c72f2e4a272a73864a093f5f7e9e49cfba85e7c4",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "d0e4fcd763ae057ac85209ba9c56b2e2b081063f",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "83959319eb3ab43db0ecd71185f9b3ae4ad5ec2b",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "7c50274e3226cf00e780afe266dd07dace24761a",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "d53020ae40927a84766f068efe1bc372a4320d54",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "c0d1f19e7f97bb72d67c044908843ea79c59f9ad",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "3fd0d24c679b333764296fb062eea885f2d88571",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "5d77d2d478eb2dc132715401d271ea941c64aa26",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "fdd0243f8f35f1a5fd5dbd63a926d00bf15933bf",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "7a808e9c11daffcdceb6eb21e41a0fb0c3712487",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "5d2ac94c75e905d973ece241e4e9524537130e50",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "relation": "cited_by",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "3cb43d44b29e3cffd3891d2fde03ab0f3435bb43",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "8f61acc0afd8373e2dc07d44bab1b4a287e44ef8",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "498ed911aa5fb2fedd1985353f5eb41c6c99907d",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "5d1f4c9b013fbfc06a2c6d90ab1d1bd08888f308",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "c09ac92d2606d0557cc4f6a59ecea9f8cc0bd3ac",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "9b117dbad86fe46477079a88f24f5e3ab9b1e9a9",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "a9e86022c1fe1430707a5896a1d97fadb7ab30de",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "359438aa3d4a0034adb5d415628ef78617cb0fd0",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "593fd03b00dc094b1b361da5cacca27aeb88a7d4",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "28e7cc11763c93e1ede97f9b95439e7a6756d585",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "2c402243d6ac9efa0e71945ec4f88045ecdda2eb",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "d07b58af7d86e727da6f9965e0f516d50bfe372f",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "6f297a2fa9acbfc1216202fac004c120b7ff55db",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "14ccde66d28fb8cc7ce5eb58f0926df85c02d230",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "cb3f759e5e55f42a12081beb34585584833e9e16",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "8018fe465f72909f8d949b0f3e0850425435c641",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "3a35abf24b3e7d26a2305dc191bf9a0e80d25904",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "9b28e8025764dbee0645433c87ea6f6c54dce3c0",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "4873193ecaefd6e39e4d4a174695c1806db40ffa",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "0f9d4cfa169a39ea54bc8ae8a8e26db360eb16c6",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "1bf82e29e8d31762a982e346307f869c6822912b",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "f368a8be300430096a7a4e4c7e87e81257193c98",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "582e64fd4869948383fd0e4d2fa9afd1cfc62c0e",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "ad1d78ab5bdbcbecb2435aff90a27bcbe6b68123",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "70dc2e967c4c9d9b168bf423d65e0775582714e4",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "e6a75ed2b062e4d8712152d138ba15dc2ac6e685",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "85c2acc54e66399078d196f3af4e44579fa14f85",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "30854fa6f7dd7e9069ca7d3a747fc7b6434126c0",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "74bcfb3a33b24a627a8c392e378a2c25e0c98e8b",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "70dbad2db4656ecf65ce11f4541f7f1a1d28cd05",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "f829fbe07e951cb18922225a4d8527db59afe6b9",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "d1c3876127ccdcaa713b9f9f91b1dacf2df752fd",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "2c25c0ef8e420f056fa7a70b86061c9cd8d6293d",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "40062609eb58f2e97b174d531b9f5c5b0f8bfb03",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "3e934253316db3c1e7799e0c373c14b9500452aa",
+      "relation": "references",
+      "seed_file_stub": "005_House_2015"
+    }
+  ]
+}

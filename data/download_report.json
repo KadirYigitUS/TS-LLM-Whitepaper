@@ -1,0 +1,97 @@
+{
+  "001_Bowker_2023": {
+    "status": "downloaded",
+    "path": "references/001_Bowker_2023.pdf",
+    "source": "https://doi.org/10.4324/9781003217718"
+  },
+  "002_Brown_2020": {
+    "status": "downloaded",
+    "path": "references/002_Brown_2020.pdf",
+    "source": "https://arxiv.org/pdf/2005.14165.pdf"
+  },
+  "003_Devlin_2019": {
+    "status": "downloaded",
+    "path": "references/003_Devlin_2019.pdf",
+    "source": "https://arxiv.org/pdf/1810.04805.pdf"
+  },
+  "004_Halliday_1978": {
+    "status": "downloaded",
+    "path": "references/004_Halliday_1978.pdf",
+    "source": "https://archive.org/details/languageassocial0000hall"
+  },
+  "005_House_2015": {
+    "status": "downloaded",
+    "path": "references/005_House_2015.pdf",
+    "source": "https://doi.org/10.4324/9781315752839"
+  },
+  "006_Jurafsky_2024": {
+    "status": "missing",
+    "reason": "No accessible PDF/HTML",
+    "source_attempts": []
+  },
+  "007_Kaplan_2020": {
+    "status": "downloaded",
+    "path": "references/007_Kaplan_2020.pdf",
+    "source": "https://arxiv.org/pdf/2001.08361.pdf"
+  },
+  "008_Kenny_2022": {
+    "status": "downloaded",
+    "path": "references/008_Kenny_2022.pdf",
+    "source": "https://langsci-press.org/catalog/book/385"
+  },
+  "009_Koehn_2010": {
+    "status": "downloaded",
+    "path": "references/009_Koehn_2010.pdf",
+    "source": "https://doi.org/10.1017/CBO9780511815820"
+  },
+  "010_Koehn_2020": {
+    "status": "downloaded",
+    "path": "references/010_Koehn_2020.pdf",
+    "source": "https://doi.org/10.1017/9781108608480"
+  },
+  "011_Longpre_2023": {
+    "status": "downloaded",
+    "path": "references/011_Longpre_2023.pdf",
+    "source": "https://arxiv.org/pdf/2301.13688.pdf"
+  },
+  "012_Mikolov_2013": {
+    "status": "downloaded",
+    "path": "references/012_Mikolov_2013.pdf",
+    "source": "https://arxiv.org/pdf/1310.4546.pdf"
+  },
+  "013_Nord_1997": {
+    "status": "missing",
+    "reason": "No accessible PDF/HTML",
+    "source_attempts": []
+  },
+  "014_Ouyang_2022": {
+    "status": "downloaded",
+    "path": "references/014_Ouyang_2022.pdf",
+    "source": "https://arxiv.org/pdf/2203.02155.pdf"
+  },
+  "015_Reiss_2013": {
+    "status": "downloaded",
+    "path": "references/015_Reiss_2013.pdf",
+    "source": "https://www.routledge.com/Towards-a-General-Theory-of-Translational-Action-Skopos-Theory-Explained/Reiss-Vermeer/p/book/9781905763187"
+  },
+  "016_Schick_2023": {
+    "status": "downloaded",
+    "path": "references/016_Schick_2023.pdf",
+    "source": "https://arxiv.org/pdf/2302.04761.pdf"
+  },
+  "017_Touvron_2023": {
+    "status": "downloaded",
+    "path": "references/017_Touvron_2023.pdf",
+    "source": "https://arxiv.org/pdf/2302.13971.pdf"
+  },
+  "018_Vaswani_2017": {
+    "status": "downloaded",
+    "path": "references/018_Vaswani_2017.pdf",
+    "source": "https://arxiv.org/pdf/1706.03762.pdf"
+  },
+  "019_Wei_2022": {
+    "status": "downloaded",
+    "path": "references/019_Wei_2022.pdf",
+    "source": "https://arxiv.org/pdf/2201.11903.pdf"
+  }
+}
