@@ -4,6 +4,15 @@ title: Extended Literature Review — From Probability to Agency
 
 # Build Pipeline — Extended Literature Review
 
+::::{tab-set}
+:::{tab-item} English
+Full English consolidation is shown here.
+:::
+:::{tab-item} Türkçe
+:doc:`Türkçe özetini aç <tr/build_pipeline>`
+:::
+::::
+
 This page consolidates the `Combined_Primary_and_Secondary_Source_review.md` and `Tertiary_Sources_review.md` notes so the entire TS-to-LLM argument can be read linearly.
 
 ## 1. Pre-History: Statistical Meaning

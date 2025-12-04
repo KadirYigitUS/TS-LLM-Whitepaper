@@ -4,6 +4,15 @@ baslik: Sorun Giderme
 
 # Sorun Giderme
 
+::::{tab-set}
+:::{tab-item} Türkçe
+Türkçe sorun giderme özeti.
+:::
+:::{tab-item} English
+:doc:`View the English troubleshooting guide <en/troubleshooting>`
+:::
+::::
+
 ## 1. Metinler sıradanlaşıyor
 - **Sebep**: Model ortalamaya çekiliyor.
 - **Çözüm**: Skopos’u ayrıntılandır, örnekler ekle, sıcaklığı ihtiyaca göre ayarla.

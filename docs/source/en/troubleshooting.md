@@ -4,6 +4,15 @@ title: Troubleshooting — Probability Meets Purpose
 
 # Troubleshooting
 
+::::{tab-set}
+:::{tab-item} English
+English triage guide below.
+:::
+:::{tab-item} Türkçe
+:doc:`Türkçe sorun giderme özeti <tr/troubleshooting>`
+:::
+::::
+
 This guide distills the pain points captured in `Discussions.md`, `Future_studies.md`, and `Conclusion.md`. Each scenario lists the probabilistic cause plus the translator-centered remedy.
 
 ## 1. Outputs Collapse to "Average" English

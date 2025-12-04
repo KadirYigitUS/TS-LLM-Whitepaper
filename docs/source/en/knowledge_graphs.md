@@ -4,6 +4,15 @@ title: Visual Assets and Knowledge Graphs
 
 # Knowledge Graphs & Visual Assets
 
+::::{tab-set}
+:::{tab-item} English
+English diagrams appear below.
+:::
+:::{tab-item} Türkçe
+:doc:`Türkçe kısa sürümü aç <tr/knowledge_graphs>`
+:::
+::::
+
 All diagrams originate from `Visual_Assets.md` and were adapted to MyST + Mermaid for Sphinx. Mermaid runs through the CDN configured in `conf.py`; complex widgets load via `<iframe>` elements that point to assets shipped in `docs/data` or GitHub Pages.
 
 ## 1. Evolutionary Arc of LLMs

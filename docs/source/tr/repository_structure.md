@@ -4,6 +4,15 @@ baslik: Depo Yapısı
 
 # Depo Yapısı
 
+::::{tab-set}
+:::{tab-item} Türkçe
+Bu bölüm depo yapısını Türkçe anlatır.
+:::
+:::{tab-item} English
+:doc:`See the English repository map <en/repository_structure>`
+:::
+::::
+
 ## Klasör Özeti
 ```text
 /docs           → Sphinx + RTD içerikleri

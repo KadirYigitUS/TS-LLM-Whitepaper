@@ -4,6 +4,15 @@ title: Prompt Engineering as Functional Translation — The Skopos Connection
 
 # Prompt Engineering as Functional Translation
 
+::::{tab-set}
+:::{tab-item} English
+You are reading the English version of this note.
+:::
+:::{tab-item} Türkçe
+:doc:`Türkçe özeti aç <tr/getting_started>`
+:::
+::::
+
 Prompt design is simply Skopos Theory encoded for neural networks. This page adapts the Obsidian note `Prompt_requirements_in_Prompt-Engineering_-_Similarity_of_Skopos_Theorie_and_Prompting_Practice.md` into MyST-compatible sections.
 
 ## 1. Relevance to Translation Studies

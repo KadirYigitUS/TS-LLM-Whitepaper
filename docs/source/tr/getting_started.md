@@ -4,6 +4,15 @@ baslik: Skopos ve Prompt Tasarımı
 
 # Skopos Yaklaşımıyla Prompt Tasarımı
 
+::::{tab-set}
+:::{tab-item} Türkçe
+Bu notun Türkçe özetini görüyorsunuz.
+:::
+:::{tab-item} English
+:doc:`View the detailed English note <en/getting_started>`
+:::
+::::
+
 ## Neden?
 LLM’ler amaç belirtilmediğinde internet ortalamasını üretir. Skopos kuramındaki “iş siparişi” (commission), burada sistem promptu olarak yeniden yazılır.
 

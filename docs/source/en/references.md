@@ -4,6 +4,15 @@ title: References — APA Ordering
 
 # References
 
+::::{tab-set}
+:::{tab-item} English
+APA-ordered references are listed here.
+:::
+:::{tab-item} Türkçe
+:doc:`Türkçe kaynakça özetine git <tr/references>`
+:::
+::::
+
 ## Primary Sources
 - Brown, T., et al. (2020). *Language models are few-shot learners*. Advances in Neural Information Processing Systems, 33, 1877–1901. https://doi.org/10.48550/arXiv.2005.14165
 - Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2019). *BERT: Pre-training of deep bidirectional transformers for language understanding*. NAACL, 1, 4171–4186. https://doi.org/10.48550/arXiv.1810.04805

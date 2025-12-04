@@ -4,6 +4,15 @@ baslik: Kaynak Zinciri ve İnşa Süreci
 
 # Kaynak Zinciri
 
+::::{tab-set}
+:::{tab-item} Türkçe
+Türkçe özet aşağıda.
+:::
+:::{tab-item} English
+:doc:`See the full English build pipeline <en/build_pipeline>`
+:::
+::::
+
 ## İstatistikten Ajansa
 - **N-gramlar** ve **vektör temsilleri**, anlamın matematiğe çevrildiği ilk katman.
 - Transformer devrimi, uzun cümlelerdeki bağımlılıkları eşzamanlı takip etmeyi sağladı.

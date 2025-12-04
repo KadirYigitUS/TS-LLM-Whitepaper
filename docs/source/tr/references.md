@@ -4,6 +4,15 @@ baslik: Kaynakça
 
 # Kaynakça (Türkçe Özet)
 
+::::{tab-set}
+:::{tab-item} Türkçe
+Türkçe özet aşağıdadır.
+:::
+:::{tab-item} English
+:doc:`Go to the English reference list <en/references>`
+:::
+::::
+
 ## Birincil Kaynaklar
 - Vaswani, A., vd. (2017). *Attention Is All You Need*.
 - Devlin, J., vd. (2019). *BERT*.
@@ -22,4 +31,4 @@ baslik: Kaynakça
 - Bowker, L. (2023). *Çeviriyi Gizemden Arındırmak*.
 - Kenny, D. (2022). *Herkes için Makine Çevirisi*.
 
-Detaylı APA biçimi için [English References](../en/references.md) sayfasını kullanın.
+Detaylı APA biçimi için :doc:`English References <en/references>` sayfasını kullanın.

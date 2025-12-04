@@ -4,6 +4,15 @@ baslik: TS-LLM Bilgi Yığını — Genel Bakış
 
 # TS-LLM Bilgi Yığını — Genel Bakış
 
+::::{tab-set}
+:::{tab-item} Türkçe
+Bu sayfanın Türkçe sürümünü okuyorsunuz.
+:::
+:::{tab-item} English
+:doc:`View the full English outline <en/index>`
+:::
+::::
+
 Bu bölüm, Obsidian taslağının Türkçe özetini sunar ve çeviribilimci ekiplerin hızlıca doğru nota ulaşmasını sağlar.
 
 ## Hedef ve Kapsam
@@ -31,6 +40,6 @@ Bu bölüm, Obsidian taslağının Türkçe özetini sunar ve çeviribilimci eki
 - Eleştirel ampirizm = Prompta duyarlılık ölçümleri ve süreç denetimi.
 
 ## İleri Okuma
-- [Terminoloji](general_terminology.md)
-- [Görsel Varlıklar](../en/knowledge_graphs.md)
-- [Araştırma Gündemi](../en/future_studies.md)
+- :doc:`Terminoloji (TR) <tr/general_terminology>`
+- :doc:`Görsel Varlıklar (EN) <en/knowledge_graphs>`
+- :doc:`Araştırma Gündemi (EN) <en/future_studies>`

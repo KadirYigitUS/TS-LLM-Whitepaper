@@ -12,7 +12,10 @@ The GitHub repository `KadirYigitUS/TS-LLM-Whitepaper` powers https://ts-llm-whi
 Pushes to `main` trigger Read the Docs builds that install `docs/requirements.txt`. GitHub Pages continues to host large interactive widgets referenced from `_static/` if they exceed RTD limits.
 ```
 
-## English
+## Language Navigator
+
+::::{tab-set}
+:::{tab-item} English
 ```{toctree}
 :maxdepth: 2
 :hidden:
@@ -32,8 +35,8 @@ en/criticisms
 en/references
 ```
 Visit the English tree when you need the full TS-to-LLM argument, complete vault exports, and end-to-end build notes.
-
-## Türkçe
+:::
+:::{tab-item} Türkçe
 ```{toctree}
 :maxdepth: 2
 :hidden:
@@ -49,6 +52,8 @@ tr/general_terminology
 tr/references
 ```
 Türkçe bölümü, araştırma argümanının özetlenmiş fakat işlevsel sürümünü ve saha ekipleri için pratik yönergeleri sunar.
+:::
+::::
 
 ```{toctree}
 :caption: Developer Resources

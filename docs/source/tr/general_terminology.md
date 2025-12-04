@@ -4,6 +4,15 @@ baslik: Terminoloji
 
 # Terminoloji
 
+::::{tab-set}
+:::{tab-item} Türkçe
+Bu tablo Türkçe özetleri içerir.
+:::
+:::{tab-item} English
+:doc:`See the full English glossary <en/general_terminology>`
+:::
+::::
+
 | Terim | Açıklama | Çeviribilim karşılığı |
 | --- | --- | --- |
 | Token | Modelin okuduğu en küçük birim | Kelime/altkelime |
@@ -14,4 +23,4 @@ baslik: Terminoloji
 | Halüsinasyon | Gerçek dışı ama akıcı çıktı | İnsan denetimi gerektiren risk |
 | Chain-of-Thought | Adım adım gerekçelendirme | Think-aloud protokolleri |
 
-Ayrıntılı İngilizce açıklamalar için [General Terminology](../en/general_terminology.md) sayfasına bakın.
+Ayrıntılı İngilizce açıklamalar için :doc:`General Terminology (EN) <en/general_terminology>` sayfasına bakın.

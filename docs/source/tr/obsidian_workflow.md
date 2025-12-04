@@ -4,6 +4,15 @@ baslik: Obsidian İş Akışı
 
 # Obsidian İş Akışı
 
+::::{tab-set}
+:::{tab-item} Türkçe
+Türkçe kısa sürümü görüyorsunuz.
+:::
+:::{tab-item} English
+:doc:`Read the full English workflow <en/obsidian_workflow>`
+:::
+::::
+
 ## Bağlamın Çift Anlamı
 - **Halliday bağlamı**: Field/Tenor/Mode.
 - **Model bağlamı**: Token penceresi.

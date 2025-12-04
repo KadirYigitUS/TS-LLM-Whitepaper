@@ -4,6 +4,15 @@ title: General Terminology — A Translator’s Guide to AI
 
 # General Terminology — Translator-Facing Glossary
 
+::::{tab-set}
+:::{tab-item} English
+This page contains the full English glossary.
+:::
+:::{tab-item} Türkçe
+:doc:`Türkçe terminoloji tablosu <tr/general_terminology>`
+:::
+::::
+
 This glossary prioritizes conceptual intuition, echoing the `General_Terminology.md` vault note. Each entry couples maths with translator analogies.
 
 ## 1. Usage Notes

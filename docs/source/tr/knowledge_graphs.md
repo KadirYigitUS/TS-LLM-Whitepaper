@@ -4,6 +4,15 @@ baslik: Görsel Varlıklar ve Ağlar
 
 # Görsel Varlıklar
 
+::::{tab-set}
+:::{tab-item} Türkçe
+Bu sayfa Türkçe özetleri içerir.
+:::
+:::{tab-item} English
+:doc:`Access the English visuals <en/knowledge_graphs>`
+:::
+::::
+
 ## Zaman Çizelgesi
 ```{raw} html
 <div class="mermaid">

@@ -4,6 +4,15 @@ title: Obsidian Workflow — Context Engineering & Methodology
 
 # Obsidian Workflow
 
+::::{tab-set}
+:::{tab-item} English
+English methodology walkthrough below.
+:::
+:::{tab-item} Türkçe
+:doc:`Türkçe özetini aç <tr/obsidian_workflow>`
+:::
+::::
+
 This page merges two core vault notes—`Beyond_prompt_engineering_-_What_is_Context_and_Context_Engineering.md` and `Criticize_Empiric_TranslationStudies_and_current_use_of_LLMs_in_Translation_Studies_Literature.md`—plus highlights from `Discussions.md`.
 
 ## 1. Context Means Two Different Things

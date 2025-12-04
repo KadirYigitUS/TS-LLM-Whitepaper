@@ -4,6 +4,15 @@ title: Repository Structure & Build Pipeline
 
 # Repository Structure
 
+::::{tab-set}
+:::{tab-item} English
+English repo map shown.
+:::
+:::{tab-item} Türkçe
+:doc:`Türkçe depo özetini aç <tr/repository_structure>`
+:::
+::::
+
 The TS-LLM Knowledge Stack keeps research data, automation scripts, and publication assets in a single Git repository. This page documents the directories relevant to both GitHub Pages and Read the Docs.
 
 ## 1. Top-Level Layout
