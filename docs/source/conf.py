@@ -5,6 +5,7 @@ from __future__ import annotations
 import os
 import sys
 from datetime import datetime
+from docutils import languages as docutils_languages
 
 
 PROJECT_ROOT = os.path.abspath(os.path.join(__file__, "..", ".."))
@@ -103,6 +104,22 @@ gettext_compact = False
 # -- Options for EPUB output -------------------------------------------------
 
 epub_show_urls = "footnote"
+
+
+def _ensure_tr_bibliographic_fields() -> None:
+    """Docutils' Turkish locale lacks bibliographic metadata fields by default."""
+    try:
+        tr_lang = docutils_languages.get_language("tr")
+    except Exception:
+        return
+    en_lang = docutils_languages.get_language("en")
+    if not hasattr(tr_lang, "bibliographic_fields"):
+        tr_lang.bibliographic_fields = en_lang.bibliographic_fields
+    if not hasattr(tr_lang, "labels"):
+        tr_lang.labels = en_lang.labels
+
+
+_ensure_tr_bibliographic_fields()
 
 
 def _infer_page_lang(pagename: str) -> str:
