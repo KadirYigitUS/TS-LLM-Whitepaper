@@ -1,0 +1,950 @@
+{
+  "nodes": [
+    {
+      "id": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "title": "Translation Quality Assessment: Past and Present",
+      "citations": 72,
+      "category": "Tertiary Sources (Translation Theory & Critique)",
+      "doi": "10.4324/9781315752839",
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "55a8003dc6858bffe293a330c8c0e789352d1a75",
+      "title": "Training The Modern Translator: Cognitive Flexibility, Sociolinguistic Sensitivity,and Technological Proficiency",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "a031ace647eb8d6175dffcc6a8f0f96f207eb7ad",
+      "title": "Examining translation errors and cultural misrepresentation in dream of the red chamber: a TQA-based literary assessment with insights into intercultural communication",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "87619d015ecc4a26ced92e621064f8b09314d285",
+      "title": "Translation adaptation of TCM (Traditional Chinese Medicine) terminology for speakers of other cultures: features of cultural connotation",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "9f66d611dd4d787d180d69b776e85af48639d252",
+      "title": "An Investigative Study into the Role Extralinguistic Information Plays in Producing Accurate Meaning in the Post-MT-Editing of Arabic Texts with Culturally Embedded Terms",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "0a8f60bf701b5feddfa22dfdc1645e8e59f833d7",
+      "title": "La Equivalencia en Traducci\u00f3n: Revisi\u00f3n Cr\u00edtica de un Concepto en Disputa",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "4af81bd524bbaabc7c197f4fdf0b039a14480647",
+      "title": "\u0627\u0644\u062a\u0648\u0627\u0635\u0644 \u0641\u064a \u0627\u0644\u062a\u0631\u062c\u0645\u0629: \u0645\u0642\u0627\u0631\u0628\u0627\u062a \u0628\u064a\u062a\u0631 \u0646\u064a\u0648\u0645\u0627\u0631\u0643 \u062a\u062d\u062a \u0627\u0644\u0645\u062c\u0647\u0631",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d37767c1b17223e451c7474a718cf4163c9dc14f",
+      "title": "Investigating the Decision-making Style of Translation Raters in Large-scale Language Tests",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f729866bc3502df54fc231b1029d6acb9a04dd96",
+      "title": "\u00c7ok Dillilerde \u00c7eviribilin\u00e7: Fark\u0131ndal\u0131k ve Stratejiler",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "1dfd57809361f4d7e0c9fd817dab4d519983add8",
+      "title": "Enhancing English\u2013Arabic translator education through systemic functional linguistics: a study in a Saudi undergraduate classroom",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f82c13e9089d0dd6f6bdc7df540bf9d8e3791a6e",
+      "title": "Addressing polysemy in translation pedagogy",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d0e260c8e75f61b2d3cbcbea89530233c5a749cb",
+      "title": "Evaluating Translation Quality: A Qualitative and Quantitative Assessment of Machine and LLM-Driven Arabic\u2013English Translations",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3a8285f1568471019d153c9e060476a9d75d01d6",
+      "title": "The evaluation and reception of the translation quality of three translation modalities in live-streaming contexts: computer-assisted simultaneous interpreting, machine translation (MT) with human revision and raw MT",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "5a5109d102d21e64468dd98c555b4eeba5fe50b9",
+      "title": "Systemic Functional Linguistics Tools in Translation Training With Examples From French-Greek Translations",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "827347543726984eaf4722c064644c6aeecbd0a5",
+      "title": "A Study on How Globalization Influences Translation Practices and the Demand for Translators in Various Industries",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "20cd55e167bdd9c07fcf62e9b0c47866783f1e3c",
+      "title": "Systemic functional linguistics and translator education: A literature review",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f0fe0008a22383b1053857014ed74c25bc50c8f4",
+      "title": "Recurrent grammatical errors in student Russian-to-English consecutive interpreting",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "4d59445a461171e5440abcc7c77b61e61e224549",
+      "title": "Utilizing Machine Learning Techniques for Classifying Translated and Non-Translated Corporate Annual Reports",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "9ce76bc8f16ef9852ecbf63f4b8c55dfd2fb0cda",
+      "title": "Experimental Study on the Validity of AES System in College Translation Teaching",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3543f56618f726ccf2463c78a9d3434dd0949223",
+      "title": "Culture and translation: the case of English and Persian languages",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "cd8c74f4017b43e0faa556a305d587b6d425af36",
+      "title": "A human evaluation of English-Slovak machine translation",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "88e525396497838aca9bf0e88f1d1c6dcd13effc",
+      "title": "The analysis of Turkish translations of figurative language in Brave New World by Aldous Huxley in the light of Newmark, Popovic, Pym and Kocab\u0131y\u0131k\u2019s theories",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "bf113a3c18f5be987f625cc8ba7f5ef247a4a77c",
+      "title": "Norms of Substitution in Translation: A French\u2013English Case Study",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "a2c78e5c580ddc4f45304a304b7c56d64102054c",
+      "title": "L\u2019\u00e9rotisme en traduction et l\u2019\u00e9rotisme dans la traduction",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "93e94f0ab60481dbc8b8f551299538f63ccbfcf0",
+      "title": "Pragmatics of proverb translation: The case of English and Persian",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "54f9e619abb2ac29ea28291af729be25b20e8187",
+      "title": "Semantic Approach to Translating the Arabic Various Plurals of One Word into English",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "7ce8cc2b9feec55d5c3f4376e25f75e7c11ee579",
+      "title": "Machine translation systems and quality assessment: a systematic review",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "c72f2e4a272a73864a093f5f7e9e49cfba85e7c4",
+      "title": "Problems of Translating American Business Jargons into Arabic",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d0e4fcd763ae057ac85209ba9c56b2e2b081063f",
+      "title": "Quality is in the eye of the stakeholders: what do professional subtitlers and viewers think about subtitling?",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "83959319eb3ab43db0ecd71185f9b3ae4ad5ec2b",
+      "title": "EXPLORING THE PROBLEMS FACED BY NON-ENGLISH LECTURERS OF UNIVERSITAS RIAU KEPULAUAN ON USING MACHINE TRANSLATION ON ACADEMIC PURPOSE",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "7c50274e3226cf00e780afe266dd07dace24761a",
+      "title": "How to evaluate machine translation: A review of automated and human metrics",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d53020ae40927a84766f068efe1bc372a4320d54",
+      "title": "Linguistic Features of Genre and Method Variation in Translation: A Computational Perspective",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "c0d1f19e7f97bb72d67c044908843ea79c59f9ad",
+      "title": "Discovery of Discourse-Related Language Contrasts through Alignment Discrepancies in English-German Translation",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3fd0d24c679b333764296fb062eea885f2d88571",
+      "title": "Using Functional Approach in Translating Arab Spring Topics: Aljazeera and BBC Arabic as Study Cases",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "5d77d2d478eb2dc132715401d271ea941c64aa26",
+      "title": "Measuring \u2018Registerness\u2019 in Human and Machine Translation: A Text Classification Approach",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "fdd0243f8f35f1a5fd5dbd63a926d00bf15933bf",
+      "title": "A Study on the English Translation \nof the Hospitality Rites in the Latest \nCo-Translation of Zuozhuan via \nHouse\u2019s Translation Quality \nAssessment Model",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "7a808e9c11daffcdceb6eb21e41a0fb0c3712487",
+      "title": "Approaches to Human and Machine Translation Quality Assessment",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "5d2ac94c75e905d973ece241e4e9524537130e50",
+      "title": "Audiovisual Translation in a Global Context",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3cb43d44b29e3cffd3891d2fde03ab0f3435bb43",
+      "title": "Testing and assessment in Translation and Interpreting Studies",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "8f61acc0afd8373e2dc07d44bab1b4a287e44ef8",
+      "title": "Explicitation and implicitation in translation. A corpus-based study of English-German and German-English translations of business texts",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "498ed911aa5fb2fedd1985353f5eb41c6c99907d",
+      "title": "Translation and cognition",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "5d1f4c9b013fbfc06a2c6d90ab1d1bd08888f308",
+      "title": "Testing and assessment in translation and interpreting studies : a call for dialogue between research and practice",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "c09ac92d2606d0557cc4f6a59ecea9f8cc0bd3ac",
+      "title": "A personal, retrospective view of ecological validity",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "9b117dbad86fe46477079a88f24f5e3ab9b1e9a9",
+      "title": "Communicative styles in English and German",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "a9e86022c1fe1430707a5896a1d97fadb7ab30de",
+      "title": "Text and context in translation",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "359438aa3d4a0034adb5d415628ef78617cb0fd0",
+      "title": "Translation: An Advanced Resource Book",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "593fd03b00dc094b1b361da5cacca27aeb88a7d4",
+      "title": "A Neurolinguistic Theory of Bilingualism",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "28e7cc11763c93e1ede97f9b95439e7a6756d585",
+      "title": "English as Lingua Franca in Covert Translation Processes",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "2c402243d6ac9efa0e71945ec4f88045ecdda2eb",
+      "title": "Translation and Political Engagement",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d07b58af7d86e727da6f9965e0f516d50bfe372f",
+      "title": "Spoken and Written Language",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "6f297a2fa9acbfc1216202fac004c120b7ff55db",
+      "title": "Critical and descriptive goals in discourse analysis",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "14ccde66d28fb8cc7ce5eb58f0926df85c02d230",
+      "title": "Spoken Discourse: A Model for Analysis",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "cb3f759e5e55f42a12081beb34585584833e9e16",
+      "title": "The Theory and Practice of Translation",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "8018fe465f72909f8d949b0f3e0850425435c641",
+      "title": "A Model For Translation Quality Assessment",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3a35abf24b3e7d26a2305dc191bf9a0e80d25904",
+      "title": "Multilingual Communication",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "9b28e8025764dbee0645433c87ea6f6c54dce3c0",
+      "title": "Halliday's Introduction to Functional Grammar",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "4873193ecaefd6e39e4d4a174695c1806db40ffa",
+      "title": "Towards a new linguistic-cognitive orientation in translation studies",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "0f9d4cfa169a39ea54bc8ae8a8e26db360eb16c6",
+      "title": "Cognitive explorations of translation",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "1bf82e29e8d31762a982e346307f869c6822912b",
+      "title": "Critical Readings in Translation Studies",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f368a8be300430096a7a4e4c7e87e81257193c98",
+      "title": "Cohesive explicitness and explicitation in an English-German translation corpus",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "582e64fd4869948383fd0e4d2fa9afd1cfc62c0e",
+      "title": "Elke Teich. Cross-Linguistic Variation in System and Text: A methodology for the Investigation of Translations and Comparable Texts",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "ad1d78ab5bdbcbecb2435aff90a27bcbe6b68123",
+      "title": "A comparative analysis of Japanese and German complement constructions with matrix verbs of thinking and believing : \"to omou\" and \"ich glaub(e)\"",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "70dc2e967c4c9d9b168bf423d65e0775582714e4",
+      "title": "Language Processing in Discourse: A Key to Felicitous Translation",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "e6a75ed2b062e4d8712152d138ba15dc2ac6e685",
+      "title": "Translation quality assessment: A model revisited",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "85c2acc54e66399078d196f3af4e44579fa14f85",
+      "title": "The Concept of Equivalence and the Object of Translation Studies",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "30854fa6f7dd7e9069ca7d3a747fc7b6434126c0",
+      "title": "The Translator's Invisibility",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "74bcfb3a33b24a627a8c392e378a2c25e0c98e8b",
+      "title": "Descriptive translation studies and beyond",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "70dbad2db4656ecf65ce11f4541f7f1a1d28cd05",
+      "title": "Mona Baker: In Other Words. A course-book on translation",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "f829fbe07e951cb18922225a4d8527db59afe6b9",
+      "title": "Variation across speech and writing: Methodology",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "d1c3876127ccdcaa713b9f9f91b1dacf2df752fd",
+      "title": "Grundlegung einer allgemeinen Translationstheorie",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "2c25c0ef8e420f056fa7a70b86061c9cd8d6293d",
+      "title": "Toward a Science of Translation",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "40062609eb58f2e97b174d531b9f5c5b0f8bfb03",
+      "title": "Investigating English Style",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    },
+    {
+      "id": "3e934253316db3c1e7799e0c373c14b9500452aa",
+      "title": "An experiment in evaluating the quality of translations",
+      "citations": 1,
+      "category": "reference",
+      "doi": null,
+      "seed_file_stub": "005_House_2015"
+    }
+  ],
+  "links": [
+    {
+      "source": "55a8003dc6858bffe293a330c8c0e789352d1a75",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "a031ace647eb8d6175dffcc6a8f0f96f207eb7ad",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "87619d015ecc4a26ced92e621064f8b09314d285",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "9f66d611dd4d787d180d69b776e85af48639d252",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "0a8f60bf701b5feddfa22dfdc1645e8e59f833d7",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "4af81bd524bbaabc7c197f4fdf0b039a14480647",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "d37767c1b17223e451c7474a718cf4163c9dc14f",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "f729866bc3502df54fc231b1029d6acb9a04dd96",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "1dfd57809361f4d7e0c9fd817dab4d519983add8",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "f82c13e9089d0dd6f6bdc7df540bf9d8e3791a6e",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "d0e260c8e75f61b2d3cbcbea89530233c5a749cb",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "3a8285f1568471019d153c9e060476a9d75d01d6",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "5a5109d102d21e64468dd98c555b4eeba5fe50b9",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "827347543726984eaf4722c064644c6aeecbd0a5",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "20cd55e167bdd9c07fcf62e9b0c47866783f1e3c",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "f0fe0008a22383b1053857014ed74c25bc50c8f4",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "4d59445a461171e5440abcc7c77b61e61e224549",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "9ce76bc8f16ef9852ecbf63f4b8c55dfd2fb0cda",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "3543f56618f726ccf2463c78a9d3434dd0949223",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "cd8c74f4017b43e0faa556a305d587b6d425af36",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "88e525396497838aca9bf0e88f1d1c6dcd13effc",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "bf113a3c18f5be987f625cc8ba7f5ef247a4a77c",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "a2c78e5c580ddc4f45304a304b7c56d64102054c",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "93e94f0ab60481dbc8b8f551299538f63ccbfcf0",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "54f9e619abb2ac29ea28291af729be25b20e8187",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "7ce8cc2b9feec55d5c3f4376e25f75e7c11ee579",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "c72f2e4a272a73864a093f5f7e9e49cfba85e7c4",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "d0e4fcd763ae057ac85209ba9c56b2e2b081063f",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "83959319eb3ab43db0ecd71185f9b3ae4ad5ec2b",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "7c50274e3226cf00e780afe266dd07dace24761a",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "d53020ae40927a84766f068efe1bc372a4320d54",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "c0d1f19e7f97bb72d67c044908843ea79c59f9ad",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "3fd0d24c679b333764296fb062eea885f2d88571",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "5d77d2d478eb2dc132715401d271ea941c64aa26",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "fdd0243f8f35f1a5fd5dbd63a926d00bf15933bf",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "7a808e9c11daffcdceb6eb21e41a0fb0c3712487",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "5d2ac94c75e905d973ece241e4e9524537130e50",
+      "target": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "weight": 1.0
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "3cb43d44b29e3cffd3891d2fde03ab0f3435bb43",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "8f61acc0afd8373e2dc07d44bab1b4a287e44ef8",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "498ed911aa5fb2fedd1985353f5eb41c6c99907d",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "5d1f4c9b013fbfc06a2c6d90ab1d1bd08888f308",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "c09ac92d2606d0557cc4f6a59ecea9f8cc0bd3ac",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "9b117dbad86fe46477079a88f24f5e3ab9b1e9a9",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "a9e86022c1fe1430707a5896a1d97fadb7ab30de",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "359438aa3d4a0034adb5d415628ef78617cb0fd0",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "593fd03b00dc094b1b361da5cacca27aeb88a7d4",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "28e7cc11763c93e1ede97f9b95439e7a6756d585",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "2c402243d6ac9efa0e71945ec4f88045ecdda2eb",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "d07b58af7d86e727da6f9965e0f516d50bfe372f",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "6f297a2fa9acbfc1216202fac004c120b7ff55db",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "14ccde66d28fb8cc7ce5eb58f0926df85c02d230",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "cb3f759e5e55f42a12081beb34585584833e9e16",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "8018fe465f72909f8d949b0f3e0850425435c641",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "3a35abf24b3e7d26a2305dc191bf9a0e80d25904",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "9b28e8025764dbee0645433c87ea6f6c54dce3c0",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "4873193ecaefd6e39e4d4a174695c1806db40ffa",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "0f9d4cfa169a39ea54bc8ae8a8e26db360eb16c6",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "1bf82e29e8d31762a982e346307f869c6822912b",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "f368a8be300430096a7a4e4c7e87e81257193c98",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "582e64fd4869948383fd0e4d2fa9afd1cfc62c0e",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "ad1d78ab5bdbcbecb2435aff90a27bcbe6b68123",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "70dc2e967c4c9d9b168bf423d65e0775582714e4",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "e6a75ed2b062e4d8712152d138ba15dc2ac6e685",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "85c2acc54e66399078d196f3af4e44579fa14f85",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "30854fa6f7dd7e9069ca7d3a747fc7b6434126c0",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "74bcfb3a33b24a627a8c392e378a2c25e0c98e8b",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "70dbad2db4656ecf65ce11f4541f7f1a1d28cd05",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "f829fbe07e951cb18922225a4d8527db59afe6b9",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "d1c3876127ccdcaa713b9f9f91b1dacf2df752fd",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "2c25c0ef8e420f056fa7a70b86061c9cd8d6293d",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "40062609eb58f2e97b174d531b9f5c5b0f8bfb03",
+      "weight": 0.5
+    },
+    {
+      "source": "8c7cac6e35f422fadf522641184692b54fea1d6b",
+      "target": "3e934253316db3c1e7799e0c373c14b9500452aa",
+      "weight": 0.5
+    }
+  ]
+}

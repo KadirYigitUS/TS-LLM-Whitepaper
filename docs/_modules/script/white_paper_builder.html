@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>script.white_paper_builder &mdash; TS-LLM Knowledge Stack 2025.12 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=50a9be24"></script>
+        <script src="../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../../_static/copybutton.js?v=f281be69"></script>
+        <script src="../../_static/design-tabs.js?v=36754332"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+        <script src="../../_static/js/mermaid-init.js?v=7e6e129c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html">
+            
+              <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                2025.12
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../en/index.html">Outline — Extended Foundational Models of LLMs for Translator Studies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/index.html#frontmatter-and-usage-notes">0. Frontmatter and Usage Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/index.html#introduction">1. Introduction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../en/index.html#motivation">1.1 Motivation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/index.html#epistemic-gap-analysis">1.2 Epistemic Gap Analysis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/index.html#theoretical-foundations-secondary-sources">2. Theoretical Foundations (Secondary Sources)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../en/index.html#from-rules-to-statistics">2.1 From Rules to Statistics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/index.html#neural-foundations">2.2 Neural Foundations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/index.html#evolutionary-arc-of-llms-the-9-seminal-papers">3. Evolutionary Arc of LLMs — The 9 Seminal Papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/index.html#critical-intersections-ai-translation-theory">4. Critical Intersections: AI &amp; Translation Theory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/index.html#discussion">5. Discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/index.html#future-directions">6. Future Directions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/index.html#appendices-references">7. Appendices &amp; References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/getting_started.html">Prompt Engineering as Functional Translation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/getting_started.html#relevance-to-translation-studies">1. Relevance to Translation Studies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/getting_started.html#vermeers-skopos-rule-ai-conditioning">2. Vermeer’s Skopos Rule → AI Conditioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/getting_started.html#prompt-templates-as-translation-briefs">3. Prompt Templates as Translation Briefs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/getting_started.html#nords-loyalty-ai-alignment">4. Nord’s Loyalty ↔ AI Alignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/getting_started.html#the-skopos-prompting-triangle">5. The Skopos Prompting Triangle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/getting_started.html#checklist-for-translator-prompt-designers">6. Checklist for Translator-Prompt Designers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/build_pipeline.html">Build Pipeline — Extended Literature Review</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/build_pipeline.html#pre-history-statistical-meaning">1. Pre-History: Statistical Meaning</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../en/build_pipeline.html#from-rules-to-statistics-jurafsky-martin-2024">1.1 From Rules to Statistics (Jurafsky &amp; Martin, 2024)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/build_pipeline.html#word-embeddings-mikolov-et-al-2013">1.2 Word Embeddings (Mikolov et al., 2013)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/build_pipeline.html#the-nine-seminal-papers-primary-sources">2. The Nine Seminal Papers (Primary Sources)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/build_pipeline.html#functionalist-contextual-tertiary-sources">3. Functionalist &amp; Contextual Tertiary Sources</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../en/build_pipeline.html#skopos-theory-reiss-vermeer-2013-nord-1997">3.1 Skopos Theory (Reiss &amp; Vermeer, 2013; Nord, 1997)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/build_pipeline.html#hallidayan-context-halliday-1978">3.2 Hallidayan Context (Halliday, 1978)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/build_pipeline.html#critical-empiricism-kenny-2022-bowker-2023-house-2015">3.3 Critical Empiricism (Kenny, 2022; Bowker, 2023; House, 2015)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/build_pipeline.html#synthesis-tables">4. Synthesis Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/build_pipeline.html#research-implications-for-ts-scholars">5. Research Implications for TS Scholars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/build_pipeline.html#quick-cross-references">6. Quick Cross-References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/knowledge_graphs.html">Knowledge Graphs &amp; Visual Assets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/knowledge_graphs.html#evolutionary-arc-of-llms">1. Evolutionary Arc of LLMs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/knowledge_graphs.html#skopos-prompting-triangle">2. Skopos Prompting Triangle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/knowledge_graphs.html#context-engineering-flow">3. Context Engineering Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/knowledge_graphs.html#llm-processing-pipeline-simplified">4. LLM Processing Pipeline (Simplified)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/knowledge_graphs.html#semantic-scholar-connected-papers-network">5. Semantic Scholar + Connected Papers Network</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/knowledge_graphs.html#build-notes">6. Build Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/obsidian_workflow.html">Obsidian Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/obsidian_workflow.html#context-means-two-different-things">1. Context Means Two Different Things</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../en/obsidian_workflow.html#hallidayan-context-of-situation">1.1 Hallidayan Context of Situation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/obsidian_workflow.html#model-context-windows">1.2 Model Context Windows</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/obsidian_workflow.html#context-engineering-playbook">2. Context Engineering Playbook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/obsidian_workflow.html#critiquing-empiric-ts-methodology">3. Critiquing Empiric TS Methodology</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../en/obsidian_workflow.html#data-voids-cultural-erasure">3.1 Data Voids &amp; Cultural Erasure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/obsidian_workflow.html#prompt-audits">3.2 Prompt Audits</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/obsidian_workflow.html#translator-agency-in-the-cyborg-loop">4. Translator Agency in the Cyborg Loop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/obsidian_workflow.html#implementation-notes-for-the-obsidian-vault">5. Implementation Notes for the Obsidian Vault</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/repository_structure.html">Repository Structure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/repository_structure.html#top-level-layout">1. Top-Level Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/repository_structure.html#sphinx-source-tree">2. Sphinx Source Tree</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/repository_structure.html#automation-scripts-script">3. Automation Scripts (<code class="docutils literal notranslate"><span class="pre">/script/</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/repository_structure.html#build-deployment-flow">4. Build + Deployment Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/repository_structure.html#asset-sizing-hosting">5. Asset Sizing &amp; Hosting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/troubleshooting.html">Troubleshooting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/troubleshooting.html#outputs-collapse-to-average-english">1. Outputs Collapse to “Average” English</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/troubleshooting.html#model-refuses-sensitive-translations">2. Model Refuses Sensitive Translations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/troubleshooting.html#context-window-forgetfulness">3. Context Window Forgetfulness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/troubleshooting.html#widget-or-mermaid-failures-on-read-the-docs">4. Widget or Mermaid Failures on Read the Docs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/troubleshooting.html#api-docs-break-the-build">5. API Docs Break the Build</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/troubleshooting.html#research-reproducibility-gaps">6. Research Reproducibility Gaps</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/general_terminology.html">General Terminology — Translator-Facing Glossary</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/general_terminology.html#usage-notes">1. Usage Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/general_terminology.html#basic-units-the-atoms">2. Basic Units (The Atoms)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#token">Token</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#vector-embedding">Vector (Embedding)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#context-window">Context Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/general_terminology.html#training-concepts-the-education">3. Training Concepts (The Education)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#pre-training">Pre-training</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#fine-tuning">Fine-tuning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#alignment-rlhf">Alignment (RLHF)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/general_terminology.html#operational-concepts-the-usage">4. Operational Concepts (The Usage)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#prompt-engineering">Prompt Engineering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#temperature">Temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#hallucination">Hallucination</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../en/general_terminology.html#chain-of-thought-cot">Chain-of-Thought (CoT)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/general_terminology.html#visual-summary">5. Visual Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/general_terminology.html#cross-references">6. Cross-References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/discussions.html">Discussion — Probability vs. Purpose</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/discussions.html#two-epistemologies">1. Two Epistemologies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/discussions.html#dialogue-1-average-vs-skopos">2. Dialogue 1 — Average vs. Skopos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/discussions.html#dialogue-2-alignment-vs-loyalty">3. Dialogue 2 — Alignment vs. Loyalty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/discussions.html#dialogue-3-context-window-vs-context-of-situation">4. Dialogue 3 — Context Window vs. Context of Situation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/discussions.html#role-shift-table">5. Role Shift Table</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/discussions.html#cyborg-conclusion">6. Cyborg Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/future_studies.html">Future Studies — Research Agenda</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/future_studies.html#prompt-sensitivity-study-quantitative">1. Prompt Sensitivity Study (Quantitative)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/future_studies.html#cyborg-process-study-qualitative">2. Cyborg Process Study (Qualitative)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/future_studies.html#alignment-ethics-study-critical">3. Alignment Ethics Study (Critical)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/future_studies.html#new-metrics-cheat-sheet">4. New Metrics Cheat Sheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/future_studies.html#summary">5. Summary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/conclusion.html">Conclusion — The Architect of Probability</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/conclusion.html#opening-the-black-box">1. Opening the Black Box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/conclusion.html#collision-with-translation-theory">2. Collision with Translation Theory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/conclusion.html#probabilistic-translator">3. Probabilistic Translator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/conclusion.html#technology-as-mirror">4. Technology as Mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/conclusion.html#references-snapshot">5. References Snapshot</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/criticisms.html">Critiquing Empiric TS &amp; Current LLM Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/criticisms.html#regression-to-the-mean">1. Regression to the Mean</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/criticisms.html#flawed-research-designs">2. Flawed Research Designs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/criticisms.html#automated-metrics-vs-purpose">3. Automated Metrics vs. Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/criticisms.html#data-voids-cultural-erasure">4. Data Voids &amp; Cultural Erasure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/criticisms.html#process-oriented-research-agenda">5. Process-Oriented Research Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/criticisms.html#key-sources">6. Key Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../en/references.html">References</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../en/references.html#primary-sources">Primary Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/references.html#secondary-sources">Secondary Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../en/references.html#tertiary-sources">Tertiary Sources</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tr/index.html">TS-LLM Bilgi Yığını — Genel Bakış</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/index.html#hedef-ve-kapsam">Hedef ve Kapsam</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/index.html#giris">Giriş</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/index.html#dokuz-esik-makale">Dokuz Eşik Makale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/index.html#kuramsal-kopruler">Kuramsal Köprüler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/index.html#ileri-okuma">İleri Okuma</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tr/getting_started.html">Skopos Yaklaşımıyla Prompt Tasarımı</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/getting_started.html#neden">Neden?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/getting_started.html#eslestirme-tablosu">Eşleştirme Tablosu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/getting_started.html#iyi-prompt-ornegi">İyi Prompt Örneği</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/getting_started.html#baglilik-loyalty-ve-hizalama">Bağlılık (Loyalty) ve Hizalama</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/getting_started.html#kontrol-listesi">Kontrol Listesi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tr/build_pipeline.html">Kaynak Zinciri</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/build_pipeline.html#istatistikten-ajansa">İstatistikten Ajansa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/build_pipeline.html#dokuz-makalenin-kisa-ozeti">Dokuz Makalenin Kısa Özeti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/build_pipeline.html#ucuncul-kaynaklarin-katkisi">Üçüncül Kaynakların Katkısı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/build_pipeline.html#arastirma-donusumleri">Araştırma Dönüşümleri</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tr/knowledge_graphs.html">Görsel Varlıklar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/knowledge_graphs.html#zaman-cizelgesi">Zaman Çizelgesi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/knowledge_graphs.html#skopos-ucgeni">Skopos Üçgeni</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/knowledge_graphs.html#baglam-enjeksiyonu">Bağlam Enjeksiyonu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/knowledge_graphs.html#ag-bilesimi">Ağ Bileşimi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tr/obsidian_workflow.html">Obsidian İş Akışı</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/obsidian_workflow.html#baglamin-cift-anlami">Bağlamın Çift Anlamı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/obsidian_workflow.html#baglam-muhendisligi-adimlari">Bağlam Mühendisliği Adımları</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/obsidian_workflow.html#ampirik-ts-elestirisi">Ampirik TS Eleştirisi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/obsidian_workflow.html#vaulttan-rtdye">Vault’tan RTD’ye</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tr/repository_structure.html">Depo Yapısı</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/repository_structure.html#klasor-ozeti">Klasör Özeti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/repository_structure.html#sphinx-kaynaklari">Sphinx Kaynakları</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/repository_structure.html#is-akisi">İş Akışı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/repository_structure.html#rtd-dil-ayari">RTD Dil Ayarı</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tr/troubleshooting.html">Sorun Giderme</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/troubleshooting.html#metinler-siradanlasiyor">1. Metinler sıradanlaşıyor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/troubleshooting.html#hassas-metinler-reddediliyor">2. Hassas metinler reddediliyor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/troubleshooting.html#uzun-metinde-baglam-kaybi">3. Uzun metinde bağlam kaybı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/troubleshooting.html#mermaid-iframe-calismiyor">4. Mermaid/iframe çalışmıyor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/troubleshooting.html#api-dokumantasyonu-derlenmiyor">5. API dokümantasyonu derlenmiyor</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tr/general_terminology.html">Terminoloji</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tr/references.html">Kaynakça (Türkçe Özet)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/references.html#birincil-kaynaklar">Birincil Kaynaklar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tr/references.html#ucuncul-kaynaklar">Üçüncül Kaynaklar</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developer Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../mermaid_demo.html">Mermaid Regression Test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api_reference/index.html">Automation API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../api_reference/collect_references.html"><code class="docutils literal notranslate"><span class="pre">script.collect_references</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/collect_references.html#script.collect_references.ReferenceEntry"><code class="docutils literal notranslate"><span class="pre">ReferenceEntry</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/collect_references.html#script.collect_references.enrich_from_tables"><code class="docutils literal notranslate"><span class="pre">enrich_from_tables()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/collect_references.html#script.collect_references.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/collect_references.html#script.collect_references.parse_references"><code class="docutils literal notranslate"><span class="pre">parse_references()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/collect_references.html#script.collect_references.table_key"><code class="docutils literal notranslate"><span class="pre">table_key()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/collect_references.html#script.collect_references.write_outputs"><code class="docutils literal notranslate"><span class="pre">write_outputs()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../api_reference/connected_papers.html"><code class="docutils literal notranslate"><span class="pre">script.connected_papers</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.Reference"><code class="docutils literal notranslate"><span class="pre">Reference</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.bucketize"><code class="docutils literal notranslate"><span class="pre">bucketize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.export_graph"><code class="docutils literal notranslate"><span class="pre">export_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.fetch_manual_ids"><code class="docutils literal notranslate"><span class="pre">fetch_manual_ids()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.load_metadata"><code class="docutils literal notranslate"><span class="pre">load_metadata()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.parse_args"><code class="docutils literal notranslate"><span class="pre">parse_args()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.run_connectedpapers"><code class="docutils literal notranslate"><span class="pre">run_connectedpapers()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.simplify_graph"><code class="docutils literal notranslate"><span class="pre">simplify_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/connected_papers.html#script.connected_papers.write_seed_files"><code class="docutils literal notranslate"><span class="pre">write_seed_files()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../api_reference/download_references.html"><code class="docutils literal notranslate"><span class="pre">script.download_references</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/download_references.html#script.download_references.Reference"><code class="docutils literal notranslate"><span class="pre">Reference</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/download_references.html#script.download_references.arxiv_pdf"><code class="docutils literal notranslate"><span class="pre">arxiv_pdf()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/download_references.html#script.download_references.attempt_download"><code class="docutils literal notranslate"><span class="pre">attempt_download()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/download_references.html#script.download_references.candidate_urls"><code class="docutils literal notranslate"><span class="pre">candidate_urls()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/download_references.html#script.download_references.download_all"><code class="docutils literal notranslate"><span class="pre">download_all()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/download_references.html#script.download_references.load_metadata"><code class="docutils literal notranslate"><span class="pre">load_metadata()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/download_references.html#script.download_references.save_binary"><code class="docutils literal notranslate"><span class="pre">save_binary()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html"><code class="docutils literal notranslate"><span class="pre">script.obsidian_cleanup</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html#script.obsidian_cleanup.cross_reference_block"><code class="docutils literal notranslate"><span class="pre">cross_reference_block()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html#script.obsidian_cleanup.format_tags"><code class="docutils literal notranslate"><span class="pre">format_tags()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html#script.obsidian_cleanup.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html#script.obsidian_cleanup.normalize_stem"><code class="docutils literal notranslate"><span class="pre">normalize_stem()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html#script.obsidian_cleanup.process_file"><code class="docutils literal notranslate"><span class="pre">process_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html#script.obsidian_cleanup.remove_comment_lines"><code class="docutils literal notranslate"><span class="pre">remove_comment_lines()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html#script.obsidian_cleanup.remove_tip"><code class="docutils literal notranslate"><span class="pre">remove_tip()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html#script.obsidian_cleanup.strip_front_matter"><code class="docutils literal notranslate"><span class="pre">strip_front_matter()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/obsidian_cleanup.html#script.obsidian_cleanup.visual_embed"><code class="docutils literal notranslate"><span class="pre">visual_embed()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html"><code class="docutils literal notranslate"><span class="pre">script.build_semantic_widgets</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.SemanticSummary"><code class="docutils literal notranslate"><span class="pre">SemanticSummary</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.append_graph"><code class="docutils literal notranslate"><span class="pre">append_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.build_combined_manifest"><code class="docutils literal notranslate"><span class="pre">build_combined_manifest()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.build_combined_network"><code class="docutils literal notranslate"><span class="pre">build_combined_network()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.build_semantic_widgets"><code class="docutils literal notranslate"><span class="pre">build_semantic_widgets()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.convert_semantic_graph"><code class="docutils literal notranslate"><span class="pre">convert_semantic_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.load_connected_manifest"><code class="docutils literal notranslate"><span class="pre">load_connected_manifest()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.load_widget_graph"><code class="docutils literal notranslate"><span class="pre">load_widget_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.map_category"><code class="docutils literal notranslate"><span class="pre">map_category()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.parse_args"><code class="docutils literal notranslate"><span class="pre">parse_args()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.run_r_widget"><code class="docutils literal notranslate"><span class="pre">run_r_widget()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/build_semantic_widgets.html#script.build_semantic_widgets.write_semantic_manifest"><code class="docutils literal notranslate"><span class="pre">write_semantic_manifest()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../api_reference/white_paper_builder.html"><code class="docutils literal notranslate"><span class="pre">script.white_paper_builder</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.assemble_markdown"><code class="docutils literal notranslate"><span class="pre">assemble_markdown()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.build_slug_map"><code class="docutils literal notranslate"><span class="pre">build_slug_map()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.build_widget_block"><code class="docutils literal notranslate"><span class="pre">build_widget_block()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.convert_mermaid_blocks"><code class="docutils literal notranslate"><span class="pre">convert_mermaid_blocks()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.derive_display_title"><code class="docutils literal notranslate"><span class="pre">derive_display_title()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.extract_order_from_outline"><code class="docutils literal notranslate"><span class="pre">extract_order_from_outline()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.extract_summary"><code class="docutils literal notranslate"><span class="pre">extract_summary()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.fuzzy_match_note"><code class="docutils literal notranslate"><span class="pre">fuzzy_match_note()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.list_vault_notes"><code class="docutils literal notranslate"><span class="pre">list_vault_notes()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.load_widget_manifest"><code class="docutils literal notranslate"><span class="pre">load_widget_manifest()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.normalize_candidate"><code class="docutils literal notranslate"><span class="pre">normalize_candidate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.read_note"><code class="docutils literal notranslate"><span class="pre">read_note()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.refresh_connected_graphs"><code class="docutils literal notranslate"><span class="pre">refresh_connected_graphs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.refresh_widget_assets"><code class="docutils literal notranslate"><span class="pre">refresh_widget_assets()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.render_markdown_html"><code class="docutils literal notranslate"><span class="pre">render_markdown_html()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.render_page_html"><code class="docutils literal notranslate"><span class="pre">render_page_html()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.replace_wiki_links"><code class="docutils literal notranslate"><span class="pre">replace_wiki_links()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.run_helper"><code class="docutils literal notranslate"><span class="pre">run_helper()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.slugify"><code class="docutils literal notranslate"><span class="pre">slugify()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.write_html"><code class="docutils literal notranslate"><span class="pre">write_html()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.write_markdown"><code class="docutils literal notranslate"><span class="pre">write_markdown()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">TS-LLM Knowledge Stack</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">script.white_paper_builder</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for script.white_paper_builder</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python3</span>
+<span class="sd">&quot;&quot;&quot;Assemble the cleaned Obsidian notes into LaTeX-ready and HTML outputs.&quot;&quot;&quot;</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">argparse</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">dt</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">re</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">subprocess</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">textwrap</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">html</span><span class="w"> </span><span class="kn">import</span> <span class="n">unescape</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Tuple</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">markdown</span>  <span class="c1"># type: ignore</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>  <span class="c1"># pragma: no cover</span>
+    <span class="n">markdown</span> <span class="o">=</span> <span class="kc">None</span>  <span class="c1"># noqa: N816</span>
+
+<span class="n">ROOT</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">VAULT</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">&quot;Obsidian_Project&quot;</span>
+<span class="n">OUTLINE</span> <span class="o">=</span> <span class="n">VAULT</span> <span class="o">/</span> <span class="s2">&quot;outline.md&quot;</span>
+<span class="n">WHITE_PAPER_MD</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">&quot;white_paper.md&quot;</span>
+<span class="n">WHITE_PAPER_HTML</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">&quot;white_paper.html&quot;</span>
+<span class="n">MANIFEST_COMBINED</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">&quot;data&quot;</span> <span class="o">/</span> <span class="s2">&quot;network_manifests&quot;</span> <span class="o">/</span> <span class="s2">&quot;graph_manifest_combined.json&quot;</span>
+<span class="n">NOTE_HTML_DIR</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">&quot;previews&quot;</span> <span class="o">/</span> <span class="s2">&quot;notes&quot;</span>
+<span class="n">DEFAULT_ORDER</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;outline&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Combined_Primary_and_Secondary_Source_review_table&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Combined_Primary_and_Secondary_Source_review&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Beyond_prompt_engineering_-_What_is_Context_and_Context_Engineering&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Prompt_requirements_in_Prompt-Engineering_-_Similarity_of_Skopos_Theorie_and_Prompting_Practice.md.md&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Criticize_Empiric_TranslationStudies_and_current_use_of_LLMs_in_Translation_Studies_Literature&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Discussions&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Future_studies&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;General_Terminology&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Visual_Assets&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Tertiary_Sources_review_table&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Tertiary_Sources_review&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Conclusion&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;References&quot;</span><span class="p">,</span>
+<span class="p">]</span>
+<span class="n">WIDGET_EMBEDS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Semantic Scholar + ConnectedPapers Network&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Merged citation graph built via script/build_semantic_widgets.py&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;src&quot;</span><span class="p">:</span> <span class="s2">&quot;data/network_manifests/combined_network_widget.html&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+<span class="n">CONTACT_BLOCK</span> <span class="o">=</span> <span class="n">textwrap</span><span class="o">.</span><span class="n">dedent</span><span class="p">(</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    ---</span>
+<span class="sd">    ## Contact &amp; Credits</span>
+<span class="sd">    - Kadir Yiğit US — kyigitus@gmail.com</span>
+<span class="sd">    - Prepared with GPT-5.1-Codex (Preview), Gemini 3.0 Pro, and GitHub Copilot inside VS Code.</span>
+<span class="sd">    - Download the latest HTML: [white_paper.html](white_paper.html)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<span class="p">)</span>
+
+<span class="n">INDEX_INTRO</span> <span class="o">=</span> <span class="n">textwrap</span><span class="o">.</span><span class="n">dedent</span><span class="p">(</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        # TS-LLM Knowledge Base Gateway</span>
+
+<span class="sd">        This landing page now serves as the navigation hub for the modular notes that make up the</span>
+<span class="sd">        Translation Studies × LLM corpus. Use the outline below to understand how the arguments are</span>
+<span class="sd">        staged, then follow the per-section HTML links to read each module in isolation. Every file is</span>
+<span class="sd">        still sourced from the Obsidian vault, ensuring that updates to the notes automatically refresh</span>
+<span class="sd">        the public-facing pages.</span>
+
+<span class="sd">        ## How to Use This Page</span>
+<span class="sd">        - **Start with the outline** to see how the manuscript flows.</span>
+<span class="sd">        - **Jump into any section** via the Per-Note HTML Library—each entry is a self-contained page</span>
+<span class="sd">            with Mermaid diagrams fully rendered.</span>
+<span class="sd">        - **Download** the LaTeX-ready Markdown if you need an offline bundle or want to compile a PDF.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+<span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+
+<span class="n">WIKI_LINK_PATTERN</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&quot;</span><span class="p">)</span>
+
+<span class="n">HTML_TEMPLATE</span> <span class="o">=</span> <span class="n">textwrap</span><span class="o">.</span><span class="n">dedent</span><span class="p">(</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &lt;!DOCTYPE html&gt;</span>
+<span class="sd">    &lt;html lang=&quot;en&quot;&gt;</span>
+<span class="sd">    &lt;head&gt;</span>
+<span class="sd">        &lt;meta charset=&quot;utf-8&quot; /&gt;</span>
+<span class="sd">        &lt;title&gt;{title}&lt;/title&gt;</span>
+<span class="sd">        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/github-markdown-css@5.4.0/github-markdown.min.css&quot; /&gt;</span>
+<span class="sd">        &lt;style&gt;</span>
+<span class="sd">            body {{ margin: 2rem; }}</span>
+<span class="sd">            .markdown-body {{ max-width: 960px; margin: auto; }}</span>
+<span class="sd">            header.site-header {{ display: flex; justify-content: flex-end; gap: 1rem; margin-bottom: 1.5rem; }}</span>
+<span class="sd">            header.site-header a {{ font-size: 0.9rem; color: #0366d6; text-decoration: none; }}</span>
+<span class="sd">            header.site-header a:hover {{ text-decoration: underline; }}</span>
+<span class="sd">            iframe.widget {{ width: 100%; height: 520px; border: none; }}</span>
+<span class="sd">            figure.interactive-widget {{ margin: 2rem 0; }}</span>
+<span class="sd">            figure.interactive-widget figcaption {{ font-size: 0.9rem; color: #555; }}</span>
+<span class="sd">            .note-library ul {{ margin-left: 1.2rem; }}</span>
+<span class="sd">            .note-library li {{ margin-bottom: 0.4rem; }}</span>
+<span class="sd">            .page-intro {{ background: #f6f8fa; padding: 1rem 1.5rem; border-radius: 0.5rem; margin-bottom: 2rem; }}</span>
+<span class="sd">        &lt;/style&gt;</span>
+<span class="sd">        &lt;script src=&quot;https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js&quot;&gt;&lt;/script&gt;</span>
+<span class="sd">        &lt;script&gt;mermaid.initialize({{ startOnLoad: true, securityLevel: &#39;loose&#39; }});&lt;/script&gt;</span>
+<span class="sd">    &lt;/head&gt;</span>
+<span class="sd">    &lt;body class=&quot;markdown-body&quot;&gt;</span>
+<span class="sd">        &lt;header class=&quot;site-header&quot;&gt;</span>
+<span class="sd">            {home_link}</span>
+<span class="sd">            &lt;a class=&quot;download-link&quot; href=&quot;{download_href}&quot; download&gt;Download Markdown&lt;/a&gt;</span>
+<span class="sd">        &lt;/header&gt;</span>
+<span class="sd">        {widgets}</span>
+<span class="sd">        {body}</span>
+<span class="sd">    &lt;/body&gt;</span>
+<span class="sd">    &lt;/html&gt;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<span class="p">)</span>
+
+
+<div class="viewcode-block" id="list_vault_notes">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.list_vault_notes">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">list_vault_notes</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Path</span><span class="p">]:</span>
+    <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">VAULT</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.md&quot;</span><span class="p">))</span></div>
+
+
+
+<div class="viewcode-block" id="normalize_candidate">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.normalize_candidate">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">normalize_candidate</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">candidate</span> <span class="o">=</span> <span class="n">raw</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;`&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="s2">&quot;#&quot;</span> <span class="ow">in</span> <span class="n">candidate</span><span class="p">:</span>
+        <span class="n">candidate</span> <span class="o">=</span> <span class="n">candidate</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;#&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">candidate</span> <span class="o">=</span> <span class="n">candidate</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">candidate</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">candidate</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.md&quot;</span><span class="p">):</span>
+        <span class="n">candidate</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">candidate</span><span class="si">}</span><span class="s2">.md&quot;</span>
+    <span class="k">return</span> <span class="n">candidate</span></div>
+
+
+
+<div class="viewcode-block" id="fuzzy_match_note">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.fuzzy_match_note">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">fuzzy_match_note</span><span class="p">(</span><span class="n">candidate</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">candidate_norm</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[^a-z0-9]&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">candidate</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">candidate_norm</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">candidate</span>
+    <span class="k">for</span> <span class="n">note</span> <span class="ow">in</span> <span class="n">list_vault_notes</span><span class="p">():</span>
+        <span class="n">note_norm</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[^a-z0-9]&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">note</span><span class="o">.</span><span class="n">stem</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+        <span class="k">if</span> <span class="n">note_norm</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">candidate_norm</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">note</span><span class="o">.</span><span class="n">name</span>
+    <span class="k">return</span> <span class="n">candidate</span></div>
+
+
+
+<div class="viewcode-block" id="extract_order_from_outline">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.extract_order_from_outline">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">extract_order_from_outline</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">OUTLINE</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+        <span class="k">return</span> <span class="p">[]</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">OUTLINE</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+    <span class="n">candidates</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">code_refs</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;`([^`]+)`&quot;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    <span class="n">wiki_refs</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\[\[([^\]]+)\]\]&quot;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">raw</span> <span class="ow">in</span> <span class="p">(</span><span class="o">*</span><span class="n">code_refs</span><span class="p">,</span> <span class="o">*</span><span class="n">wiki_refs</span><span class="p">):</span>
+        <span class="n">normalized</span> <span class="o">=</span> <span class="n">normalize_candidate</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">normalized</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">resolved</span> <span class="o">=</span> <span class="n">fuzzy_match_note</span><span class="p">(</span><span class="n">normalized</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">resolved</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">candidates</span><span class="p">:</span>
+            <span class="n">candidates</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">resolved</span><span class="p">)</span>
+    <span class="n">ordered</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">note</span> <span class="ow">in</span> <span class="n">candidates</span><span class="p">:</span>
+        <span class="n">filename</span> <span class="o">=</span> <span class="n">note</span> <span class="k">if</span> <span class="n">note</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.md&quot;</span><span class="p">)</span> <span class="k">else</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">note</span><span class="si">}</span><span class="s2">.md&quot;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">VAULT</span> <span class="o">/</span> <span class="n">filename</span><span class="p">)</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span> <span class="ow">and</span> <span class="n">filename</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ordered</span><span class="p">:</span>
+            <span class="n">ordered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">fallback</span> <span class="ow">in</span> <span class="n">DEFAULT_ORDER</span><span class="p">:</span>
+        <span class="n">filename</span> <span class="o">=</span> <span class="n">fallback</span> <span class="k">if</span> <span class="n">fallback</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.md&quot;</span><span class="p">)</span> <span class="k">else</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">fallback</span><span class="si">}</span><span class="s2">.md&quot;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">VAULT</span> <span class="o">/</span> <span class="n">filename</span><span class="p">)</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span> <span class="ow">and</span> <span class="n">filename</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ordered</span><span class="p">:</span>
+            <span class="n">ordered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">ordered</span></div>
+
+
+
+<div class="viewcode-block" id="read_note">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.read_note">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">read_note</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">filename</span> <span class="o">=</span> <span class="n">name</span> <span class="k">if</span> <span class="n">name</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.md&quot;</span><span class="p">)</span> <span class="k">else</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">.md&quot;</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="n">VAULT</span> <span class="o">/</span> <span class="n">filename</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+        <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Missing note: </span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">path</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span></div>
+
+
+
+<div class="viewcode-block" id="assemble_markdown">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.assemble_markdown">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">assemble_markdown</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]]:</span>
+    <span class="n">note_order</span> <span class="o">=</span> <span class="n">extract_order_from_outline</span><span class="p">()</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">note_order</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Unable to determine note order from outline.md&quot;</span><span class="p">)</span>
+    <span class="n">note_entries</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">note_order</span><span class="p">:</span>
+        <span class="n">note_entries</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">name</span><span class="p">,</span> <span class="n">read_note</span><span class="p">(</span><span class="n">name</span><span class="p">)))</span>
+    <span class="n">pieces</span> <span class="o">=</span> <span class="p">[</span><span class="n">content</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">content</span> <span class="ow">in</span> <span class="n">note_entries</span><span class="p">]</span>
+    <span class="n">pieces</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">CONTACT_BLOCK</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pieces</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="n">today</span> <span class="o">=</span> <span class="n">dt</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&quot;%B </span><span class="si">%d</span><span class="s2">, %Y&quot;</span><span class="p">)</span>
+    <span class="n">header</span> <span class="o">=</span> <span class="n">textwrap</span><span class="o">.</span><span class="n">dedent</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">        % Auto-generated white paper</span>
+<span class="s2">        % Digital Humanities Systems Architect</span>
+<span class="s2">        % </span><span class="si">{</span><span class="n">today</span><span class="si">}</span>
+<span class="s2">        &quot;&quot;&quot;</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">header</span><span class="si">}</span><span class="se">\n\n</span><span class="si">{</span><span class="n">body</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">note_entries</span></div>
+
+
+
+<div class="viewcode-block" id="write_markdown">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.write_markdown">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">write_markdown</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]]:</span>
+    <span class="n">content</span><span class="p">,</span> <span class="n">note_entries</span> <span class="o">=</span> <span class="n">assemble_markdown</span><span class="p">()</span>
+    <span class="n">WHITE_PAPER_MD</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">content</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">content</span><span class="p">,</span> <span class="n">note_entries</span></div>
+
+
+
+<div class="viewcode-block" id="convert_mermaid_blocks">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.convert_mermaid_blocks">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">convert_mermaid_blocks</span><span class="p">(</span><span class="n">html_body</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span>
+        <span class="sa">r</span><span class="s1">&#39;&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;(.*?)&lt;/code&gt;&lt;/pre&gt;&#39;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">DOTALL</span>
+    <span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_replace</span><span class="p">(</span><span class="n">match</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Match</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">code</span> <span class="o">=</span> <span class="n">unescape</span><span class="p">(</span><span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;&lt;div class=&quot;mermaid&quot;&gt;</span><span class="se">\n</span><span class="si">{</span><span class="n">code</span><span class="si">}</span><span class="se">\n</span><span class="s1">&lt;/div&gt;&#39;</span>
+
+    <span class="k">return</span> <span class="n">pattern</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">_replace</span><span class="p">,</span> <span class="n">html_body</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="load_widget_manifest">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.load_widget_manifest">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">load_widget_manifest</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">MANIFEST_COMBINED</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+        <span class="k">return</span> <span class="p">[]</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">MANIFEST_COMBINED</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">))</span>
+    <span class="k">except</span> <span class="n">json</span><span class="o">.</span><span class="n">JSONDecodeError</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[]</span></div>
+
+
+
+<div class="viewcode-block" id="build_widget_block">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.build_widget_block">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">build_widget_block</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">snippets</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">widget</span> <span class="ow">in</span> <span class="n">WIDGET_EMBEDS</span><span class="p">:</span>
+        <span class="n">src</span> <span class="o">=</span> <span class="n">widget</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;src&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">src</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="n">src</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+            <span class="k">continue</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="n">widget</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;title&quot;</span><span class="p">,</span> <span class="s2">&quot;Interactive Widget&quot;</span><span class="p">)</span>
+        <span class="n">caption</span> <span class="o">=</span> <span class="n">widget</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;description&quot;</span><span class="p">,</span> <span class="s2">&quot;Interactive asset&quot;</span><span class="p">)</span>
+        <span class="n">snippets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+            <span class="n">textwrap</span><span class="o">.</span><span class="n">dedent</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">                &lt;figure class=</span><span class="se">\&quot;</span><span class="s2">interactive-widget</span><span class="se">\&quot;</span><span class="s2">&gt;</span>
+<span class="s2">                    &lt;iframe class=</span><span class="se">\&quot;</span><span class="s2">widget</span><span class="se">\&quot;</span><span class="s2"> loading=</span><span class="se">\&quot;</span><span class="s2">lazy</span><span class="se">\&quot;</span><span class="s2"> src=</span><span class="se">\&quot;</span><span class="si">{</span><span class="n">src</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2"> title=</span><span class="se">\&quot;</span><span class="si">{</span><span class="n">title</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&gt;&lt;/iframe&gt;</span>
+<span class="s2">                    &lt;figcaption&gt;</span><span class="si">{</span><span class="n">caption</span><span class="si">}</span><span class="s2">&lt;/figcaption&gt;</span>
+<span class="s2">                &lt;/figure&gt;</span>
+<span class="s2">                &quot;&quot;&quot;</span>
+            <span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="p">)</span>
+    <span class="n">manifest_entries</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">load_widget_manifest</span><span class="p">():</span>
+        <span class="n">widget_html</span> <span class="o">=</span> <span class="n">record</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;widget_html&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">widget_html</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">widget_path</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="n">widget_html</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">widget_path</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+            <span class="k">continue</span>
+        <span class="n">label</span> <span class="o">=</span> <span class="n">record</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;file_stub&quot;</span><span class="p">,</span> <span class="s2">&quot;widget&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="n">manifest_entries</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s1">&#39;&lt;li&gt;&lt;a href=&quot;</span><span class="si">{</span><span class="n">widget_html</span><span class="si">}</span><span class="s1">&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;</span><span class="si">{</span><span class="n">label</span><span class="si">}</span><span class="s1">&lt;/a&gt; &#39;</span>
+            <span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="n">record</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;source&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;graph&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">)&lt;/li&gt;&quot;</span>
+        <span class="p">)</span>
+    <span class="k">if</span> <span class="n">manifest_entries</span><span class="p">:</span>
+        <span class="n">snippets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+            <span class="s1">&#39;&lt;div class=&quot;widget-list&quot;&gt;&lt;h3&gt;Widget Library&lt;/h3&gt;&lt;ul&gt;&#39;</span>
+            <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">manifest_entries</span><span class="p">)</span>
+            <span class="o">+</span> <span class="s2">&quot;&lt;/ul&gt;&lt;/div&gt;&quot;</span>
+        <span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">snippets</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">(</span>
+        <span class="s1">&#39;&lt;section id=&quot;interactive-assets&quot;&gt;</span><span class="se">\n</span><span class="s1">&#39;</span>
+        <span class="s2">&quot;  &lt;h2&gt;Interactive Assets&lt;/h2&gt;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">snippets</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&lt;/section&gt;&quot;</span>
+    <span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="slugify">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.slugify">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">slugify</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">slug</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[^a-z0-9]+&quot;</span><span class="p">,</span> <span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">slug</span> <span class="ow">or</span> <span class="s2">&quot;section&quot;</span></div>
+
+
+
+<div class="viewcode-block" id="build_slug_map">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.build_slug_map">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">build_slug_map</span><span class="p">(</span><span class="n">note_entries</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+    <span class="n">slug_map</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">used</span><span class="p">:</span> <span class="nb">set</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">filename</span><span class="p">,</span> <span class="n">_content</span> <span class="ow">in</span> <span class="n">note_entries</span><span class="p">:</span>
+        <span class="n">base</span> <span class="o">=</span> <span class="n">slugify</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span><span class="o">.</span><span class="n">stem</span><span class="p">)</span>
+        <span class="n">candidate</span> <span class="o">=</span> <span class="n">base</span>
+        <span class="n">counter</span> <span class="o">=</span> <span class="mi">2</span>
+        <span class="k">while</span> <span class="n">candidate</span> <span class="ow">in</span> <span class="n">used</span><span class="p">:</span>
+            <span class="n">candidate</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">base</span><span class="si">}</span><span class="s2">-</span><span class="si">{</span><span class="n">counter</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">slug_map</span><span class="p">[</span><span class="n">filename</span><span class="p">]</span> <span class="o">=</span> <span class="n">candidate</span>
+        <span class="n">used</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">candidate</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">slug_map</span></div>
+
+
+
+<div class="viewcode-block" id="replace_wiki_links">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.replace_wiki_links">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">replace_wiki_links</span><span class="p">(</span>
+    <span class="n">md_text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">slug_map</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span> <span class="n">base_href</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">_replace</span><span class="p">(</span><span class="n">match</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Match</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">target</span> <span class="o">=</span> <span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">label</span> <span class="o">=</span> <span class="p">(</span><span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="ow">or</span> <span class="n">target</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">normalized</span> <span class="o">=</span> <span class="n">normalize_candidate</span><span class="p">(</span><span class="n">target</span><span class="p">)</span>
+        <span class="n">resolved</span> <span class="o">=</span> <span class="n">fuzzy_match_note</span><span class="p">(</span><span class="n">normalized</span><span class="p">)</span>
+        <span class="n">filename</span> <span class="o">=</span> <span class="n">resolved</span> <span class="k">if</span> <span class="n">resolved</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.md&quot;</span><span class="p">)</span> <span class="k">else</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">resolved</span><span class="si">}</span><span class="s2">.md&quot;</span>
+        <span class="n">slug</span> <span class="o">=</span> <span class="n">slug_map</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">slug</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">label</span>
+        <span class="n">href</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">base_href</span><span class="si">}</span><span class="s2">previews/notes/</span><span class="si">{</span><span class="n">slug</span><span class="si">}</span><span class="s2">.html&quot;</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;[</span><span class="si">{</span><span class="n">label</span><span class="si">}</span><span class="s2">](</span><span class="si">{</span><span class="n">href</span><span class="si">}</span><span class="s2">)&quot;</span>
+
+    <span class="k">return</span> <span class="n">WIKI_LINK_PATTERN</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">_replace</span><span class="p">,</span> <span class="n">md_text</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="derive_display_title">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.derive_display_title">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">derive_display_title</span><span class="p">(</span><span class="n">content</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">filename</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">content</span><span class="o">.</span><span class="n">splitlines</span><span class="p">():</span>
+        <span class="n">stripped</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">stripped</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;#&quot;</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">stripped</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="s2">&quot;#&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="n">fallback</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span><span class="o">.</span><span class="n">stem</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">fallback</span> <span class="k">if</span> <span class="n">fallback</span> <span class="k">else</span> <span class="s2">&quot;Section&quot;</span></div>
+
+
+
+<div class="viewcode-block" id="extract_summary">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.extract_summary">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">extract_summary</span><span class="p">(</span><span class="n">content</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">max_length</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">200</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">content</span><span class="o">.</span><span class="n">splitlines</span><span class="p">():</span>
+        <span class="n">stripped</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">stripped</span> <span class="ow">or</span> <span class="n">stripped</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;#&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">stripped</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;&gt; Tags&quot;</span><span class="p">):</span>
+            <span class="k">continue</span>
+        <span class="n">summary</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;`([^`]+)`&quot;</span><span class="p">,</span> <span class="sa">r</span><span class="s2">&quot;\1&quot;</span><span class="p">,</span> <span class="n">stripped</span><span class="p">)</span>
+        <span class="n">summary</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\[\[(.*?)\]\]&quot;</span><span class="p">,</span> <span class="sa">r</span><span class="s2">&quot;\1&quot;</span><span class="p">,</span> <span class="n">summary</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">summary</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">max_length</span><span class="p">:</span>
+            <span class="n">summary</span> <span class="o">=</span> <span class="n">summary</span><span class="p">[:</span> <span class="n">max_length</span> <span class="o">-</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;...&quot;</span>
+        <span class="k">return</span> <span class="n">summary</span>
+    <span class="k">return</span> <span class="s2">&quot;&quot;</span></div>
+
+
+
+<div class="viewcode-block" id="render_markdown_html">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.render_markdown_html">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">render_markdown_html</span><span class="p">(</span><span class="n">md_text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">markdown</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>  <span class="c1"># pragma: no cover</span>
+        <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Markdown library is unavailable; cannot render HTML.&quot;</span><span class="p">)</span>
+    <span class="n">html_body</span> <span class="o">=</span> <span class="n">markdown</span><span class="o">.</span><span class="n">markdown</span><span class="p">(</span>  <span class="c1"># type: ignore[attr-defined]</span>
+        <span class="n">md_text</span><span class="p">,</span>
+        <span class="n">extensions</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;toc&quot;</span><span class="p">,</span> <span class="s2">&quot;tables&quot;</span><span class="p">,</span> <span class="s2">&quot;fenced_code&quot;</span><span class="p">,</span> <span class="s2">&quot;attr_list&quot;</span><span class="p">],</span>
+        <span class="n">extension_configs</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;toc&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;permalink&quot;</span><span class="p">:</span> <span class="s2">&quot;#&quot;</span><span class="p">}},</span>
+    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">convert_mermaid_blocks</span><span class="p">(</span><span class="n">html_body</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="render_page_html">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.render_page_html">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">render_page_html</span><span class="p">(</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">page_title</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">body_html</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">widgets_block</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">home_href</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">download_href</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;white_paper.md&quot;</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">home_link</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="sa">f</span><span class="s1">&#39;&lt;a class=&quot;home-link&quot; href=&quot;</span><span class="si">{</span><span class="n">home_href</span><span class="si">}</span><span class="s1">&quot;&gt;&amp;larr; Back to Outline&lt;/a&gt;&#39;</span>
+        <span class="k">if</span> <span class="n">home_href</span>
+        <span class="k">else</span> <span class="s2">&quot;&quot;</span>
+    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">HTML_TEMPLATE</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+        <span class="n">title</span><span class="o">=</span><span class="n">page_title</span><span class="p">,</span>
+        <span class="n">widgets</span><span class="o">=</span><span class="n">widgets_block</span><span class="p">,</span>
+        <span class="n">body</span><span class="o">=</span><span class="n">body_html</span><span class="p">,</span>
+        <span class="n">home_link</span><span class="o">=</span><span class="n">home_link</span><span class="p">,</span>
+        <span class="n">download_href</span><span class="o">=</span><span class="n">download_href</span><span class="p">,</span>
+    <span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="run_helper">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.run_helper">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">run_helper</span><span class="p">(</span><span class="n">description</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">command</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;[task] </span><span class="si">{</span><span class="n">description</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">command</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">command</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="refresh_connected_graphs">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.refresh_connected_graphs">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">refresh_connected_graphs</span><span class="p">(</span><span class="n">allow_test_token</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span> <span class="n">skip</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">skip</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Skipping ConnectedPapers refresh (flagged).&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">env_token</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;CONNECTEDPAPERS_TOKEN&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span>
+        <span class="s2">&quot;CONNECTED_PAPERS_API_KEY&quot;</span>
+    <span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">env_token</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">allow_test_token</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span>
+            <span class="s2">&quot;ConnectedPapers token missing. Skipping API refresh. Set CONNECTEDPAPERS_TOKEN&quot;</span>
+            <span class="s2">&quot; or use --allow-test-token to fetch demo graphs.&quot;</span>
+        <span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">script_path</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">&quot;script&quot;</span> <span class="o">/</span> <span class="s2">&quot;connected_papers.py&quot;</span>
+    <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="n">sys</span><span class="o">.</span><span class="n">executable</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">script_path</span><span class="p">)]</span>
+    <span class="k">if</span> <span class="n">allow_test_token</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">env_token</span><span class="p">:</span>
+        <span class="n">cmd</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;--allow-test&quot;</span><span class="p">)</span>
+    <span class="n">run_helper</span><span class="p">(</span><span class="s2">&quot;ConnectedPapers graph refresh&quot;</span><span class="p">,</span> <span class="n">cmd</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="refresh_widget_assets">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.refresh_widget_assets">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">refresh_widget_assets</span><span class="p">(</span><span class="n">skip</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span> <span class="n">force</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">skip</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Skipping Semantic Scholar widget build (flagged).&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">script_path</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">&quot;script&quot;</span> <span class="o">/</span> <span class="s2">&quot;build_semantic_widgets.py&quot;</span>
+    <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="n">sys</span><span class="o">.</span><span class="n">executable</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">script_path</span><span class="p">)]</span>
+    <span class="k">if</span> <span class="n">force</span><span class="p">:</span>
+        <span class="n">cmd</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;--force&quot;</span><span class="p">)</span>
+    <span class="n">run_helper</span><span class="p">(</span><span class="s2">&quot;Semantic Scholar + widget manifest rebuild&quot;</span><span class="p">,</span> <span class="n">cmd</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="write_html">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.write_html">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">write_html</span><span class="p">(</span><span class="n">note_entries</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">markdown</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">stub</span> <span class="o">=</span> <span class="n">textwrap</span><span class="o">.</span><span class="n">dedent</span><span class="p">(</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">            &lt;html&gt;&lt;body&gt;</span>
+<span class="sd">            &lt;p&gt;&lt;strong&gt;Markdown to HTML conversion requires the &#39;markdown&#39; package.&lt;/strong&gt;&lt;/p&gt;</span>
+<span class="sd">            &lt;/body&gt;&lt;/html&gt;</span>
+<span class="sd">            &quot;&quot;&quot;</span>
+        <span class="p">)</span>
+        <span class="n">WHITE_PAPER_HTML</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">stub</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">NOTE_HTML_DIR</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">stale</span> <span class="ow">in</span> <span class="n">NOTE_HTML_DIR</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.html&quot;</span><span class="p">):</span>
+        <span class="n">stale</span><span class="o">.</span><span class="n">unlink</span><span class="p">()</span>
+    <span class="n">slug_map</span> <span class="o">=</span> <span class="n">build_slug_map</span><span class="p">(</span><span class="n">note_entries</span><span class="p">)</span>
+    <span class="n">note_cards</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">filename</span><span class="p">,</span> <span class="n">content</span> <span class="ow">in</span> <span class="n">note_entries</span><span class="p">:</span>
+        <span class="n">slug</span> <span class="o">=</span> <span class="n">slug_map</span><span class="p">[</span><span class="n">filename</span><span class="p">]</span>
+        <span class="n">processed_md</span> <span class="o">=</span> <span class="n">replace_wiki_links</span><span class="p">(</span><span class="n">content</span><span class="p">,</span> <span class="n">slug_map</span><span class="p">,</span> <span class="n">base_href</span><span class="o">=</span><span class="s2">&quot;../../&quot;</span><span class="p">)</span>
+        <span class="n">html_body</span> <span class="o">=</span> <span class="n">render_markdown_html</span><span class="p">(</span><span class="n">processed_md</span><span class="p">)</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="n">derive_display_title</span><span class="p">(</span><span class="n">content</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+        <span class="n">summary</span> <span class="o">=</span> <span class="n">extract_summary</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
+        <span class="n">note_body</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;&lt;section class=&quot;note-content&quot;&gt;</span><span class="si">{</span><span class="n">html_body</span><span class="si">}</span><span class="s1">&lt;/section&gt;&#39;</span>
+        <span class="n">page_html</span> <span class="o">=</span> <span class="n">render_page_html</span><span class="p">(</span>
+            <span class="n">page_title</span><span class="o">=</span><span class="n">title</span><span class="p">,</span>
+            <span class="n">body_html</span><span class="o">=</span><span class="n">note_body</span><span class="p">,</span>
+            <span class="n">widgets_block</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+            <span class="n">home_href</span><span class="o">=</span><span class="s2">&quot;../../white_paper.html&quot;</span><span class="p">,</span>
+            <span class="n">download_href</span><span class="o">=</span><span class="s2">&quot;../../white_paper.md&quot;</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="p">(</span><span class="n">NOTE_HTML_DIR</span> <span class="o">/</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">slug</span><span class="si">}</span><span class="s2">.html&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">page_html</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+        <span class="n">note_cards</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="n">title</span><span class="p">,</span> <span class="s2">&quot;slug&quot;</span><span class="p">:</span> <span class="n">slug</span><span class="p">,</span> <span class="s2">&quot;summary&quot;</span><span class="p">:</span> <span class="n">summary</span><span class="p">})</span>
+    <span class="n">outline_content</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span>
+        <span class="p">(</span><span class="n">content</span> <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">content</span> <span class="ow">in</span> <span class="n">note_entries</span> <span class="k">if</span> <span class="n">Path</span><span class="p">(</span><span class="n">name</span><span class="p">)</span><span class="o">.</span><span class="n">stem</span> <span class="o">==</span> <span class="s2">&quot;outline&quot;</span><span class="p">),</span>
+        <span class="n">OUTLINE</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">OUTLINE</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span> <span class="k">else</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">outline_html</span> <span class="o">=</span> <span class="n">render_markdown_html</span><span class="p">(</span><span class="n">replace_wiki_links</span><span class="p">(</span><span class="n">outline_content</span><span class="p">,</span> <span class="n">slug_map</span><span class="p">))</span>
+    <span class="n">intro_html</span> <span class="o">=</span> <span class="n">render_markdown_html</span><span class="p">(</span><span class="n">INDEX_INTRO</span><span class="p">)</span>
+    <span class="n">contact_html</span> <span class="o">=</span> <span class="n">render_markdown_html</span><span class="p">(</span><span class="n">CONTACT_BLOCK</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+    <span class="n">note_list_items</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+        <span class="p">(</span>
+            <span class="sa">f</span><span class="s1">&#39;&lt;li&gt;&lt;a href=&quot;previews/notes/</span><span class="si">{</span><span class="n">card</span><span class="p">[</span><span class="s2">&quot;slug&quot;</span><span class="p">]</span><span class="si">}</span><span class="s1">.html&quot;&gt;</span><span class="si">{</span><span class="n">card</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span><span class="si">}</span><span class="s1">&lt;/a&gt;&#39;</span>
+            <span class="o">+</span> <span class="p">(</span><span class="sa">f</span><span class="s2">&quot; — </span><span class="si">{</span><span class="n">card</span><span class="p">[</span><span class="s1">&#39;summary&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">if</span> <span class="n">card</span><span class="p">[</span><span class="s2">&quot;summary&quot;</span><span class="p">]</span> <span class="k">else</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+            <span class="o">+</span> <span class="s2">&quot;&lt;/li&gt;&quot;</span>
+        <span class="p">)</span>
+        <span class="k">for</span> <span class="n">card</span> <span class="ow">in</span> <span class="n">note_cards</span>
+    <span class="p">)</span>
+    <span class="n">body_html</span> <span class="o">=</span> <span class="n">textwrap</span><span class="o">.</span><span class="n">dedent</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">        &lt;section class=</span><span class="se">\&quot;</span><span class="s2">page-intro</span><span class="se">\&quot;</span><span class="s2">&gt;</span>
+<span class="s2">            </span><span class="si">{</span><span class="n">intro_html</span><span class="si">}</span>
+<span class="s2">        &lt;/section&gt;</span>
+<span class="s2">        &lt;section class=</span><span class="se">\&quot;</span><span class="s2">outline-section</span><span class="se">\&quot;</span><span class="s2">&gt;</span>
+<span class="s2">            &lt;h2&gt;Master Outline&lt;/h2&gt;</span>
+<span class="s2">            </span><span class="si">{</span><span class="n">outline_html</span><span class="si">}</span>
+<span class="s2">        &lt;/section&gt;</span>
+<span class="s2">        &lt;section class=</span><span class="se">\&quot;</span><span class="s2">note-library</span><span class="se">\&quot;</span><span class="s2">&gt;</span>
+<span class="s2">            &lt;h2&gt;Per-Note HTML Library&lt;/h2&gt;</span>
+<span class="s2">            &lt;ul&gt;</span>
+<span class="s2">                </span><span class="si">{</span><span class="n">note_list_items</span><span class="si">}</span>
+<span class="s2">            &lt;/ul&gt;</span>
+<span class="s2">        &lt;/section&gt;</span>
+<span class="s2">        &lt;section class=</span><span class="se">\&quot;</span><span class="s2">contact</span><span class="se">\&quot;</span><span class="s2">&gt;</span>
+<span class="s2">            </span><span class="si">{</span><span class="n">contact_html</span><span class="si">}</span>
+<span class="s2">        &lt;/section&gt;</span>
+<span class="s2">        &quot;&quot;&quot;</span>
+    <span class="p">)</span>
+    <span class="n">WHITE_PAPER_HTML</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span>
+        <span class="n">render_page_html</span><span class="p">(</span>
+            <span class="n">page_title</span><span class="o">=</span><span class="s2">&quot;TS-LLM Knowledge Base&quot;</span><span class="p">,</span>
+            <span class="n">body_html</span><span class="o">=</span><span class="n">body_html</span><span class="p">,</span>
+            <span class="n">widgets_block</span><span class="o">=</span><span class="n">build_widget_block</span><span class="p">(),</span>
+            <span class="n">home_href</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+            <span class="n">download_href</span><span class="o">=</span><span class="s2">&quot;white_paper.md&quot;</span><span class="p">,</span>
+        <span class="p">),</span>
+        <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">,</span>
+    <span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="main">
+<a class="viewcode-back" href="../../api_reference/white_paper_builder.html#script.white_paper_builder.main">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
+        <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Build the TS-LLM white paper outputs.&quot;</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s2">&quot;--skip-html&quot;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Only emit white_paper.md&quot;</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s2">&quot;--skip-widget-refresh&quot;</span><span class="p">,</span>
+        <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Do not rebuild Semantic Scholar/ConnectedPapers widget manifests.&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s2">&quot;--force-widget-refresh&quot;</span><span class="p">,</span>
+        <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Regenerate widget payloads even if cached files exist.&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s2">&quot;--skip-connected-refresh&quot;</span><span class="p">,</span>
+        <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Do not call script/connected_papers.py automatically.&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s2">&quot;--allow-test-token&quot;</span><span class="p">,</span>
+        <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Pass --allow-test to the ConnectedPapers refresh when an API key is absent.&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+    <span class="n">refresh_connected_graphs</span><span class="p">(</span>
+        <span class="n">allow_test_token</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">allow_test_token</span><span class="p">,</span>
+        <span class="n">skip</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">skip_connected_refresh</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">refresh_widget_assets</span><span class="p">(</span>
+        <span class="n">skip</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">skip_widget_refresh</span><span class="p">,</span>
+        <span class="n">force</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">force_widget_refresh</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">_markdown_text</span><span class="p">,</span> <span class="n">note_entries</span> <span class="o">=</span> <span class="n">write_markdown</span><span class="p">()</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">skip_html</span><span class="p">:</span>
+        <span class="n">write_html</span><span class="p">(</span><span class="n">note_entries</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span>
+        <span class="s2">&quot;white_paper.md created.&quot;</span>
+        <span class="o">+</span> <span class="p">(</span><span class="s2">&quot; HTML skipped.&quot;</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">skip_html</span> <span class="k">else</span> <span class="s2">&quot; HTML site rendered.&quot;</span><span class="p">)</span>
+    <span class="p">)</span></div>
+
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Kadir Yiğit US.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

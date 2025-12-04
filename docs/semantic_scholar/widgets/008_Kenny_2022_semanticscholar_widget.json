@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "322589d9b59a32eef6026e8f37955dbd6276a8fe",
+      "title": "Dorothy Kenny (ed.) (2022). Machine translation for everyone: Empowering users in the age of artificial intelligence",
+      "citations": 25,
+      "category": "Tertiary Sources (Translation Theory & Critique)",
+      "doi": "10.26034/cm.jostrans.2023.537",
+      "seed_file_stub": "008_Kenny_2022"
+    },
+    {
+      "id": "19bbc765ed888173ad7da0dccea6daf778b0f01b",
+      "title": "YouTube\u2019s automatic subtitles in the ESL/ESP classroom",
+      "citations": 1,
+      "category": "citation",
+      "doi": null,
+      "seed_file_stub": "008_Kenny_2022"
+    }
+  ],
+  "links": [
+    {
+      "source": "19bbc765ed888173ad7da0dccea6daf778b0f01b",
+      "target": "322589d9b59a32eef6026e8f37955dbd6276a8fe",
+      "weight": 1.0
+    }
+  ]
+}

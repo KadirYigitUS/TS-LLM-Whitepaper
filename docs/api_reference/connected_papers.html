@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>script.connected_papers &mdash; TS-LLM Knowledge Stack 2025.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=50a9be24"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+        <script src="../_static/js/mermaid-init.js?v=7e6e129c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="script.download_references" href="download_references.html" />
+    <link rel="prev" title="script.collect_references" href="collect_references.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                2025.12
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../en/index.html">Outline — Extended Foundational Models of LLMs for Translator Studies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/index.html#frontmatter-and-usage-notes">0. Frontmatter and Usage Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/index.html#introduction">1. Introduction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../en/index.html#motivation">1.1 Motivation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/index.html#epistemic-gap-analysis">1.2 Epistemic Gap Analysis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../en/index.html#theoretical-foundations-secondary-sources">2. Theoretical Foundations (Secondary Sources)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../en/index.html#from-rules-to-statistics">2.1 From Rules to Statistics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/index.html#neural-foundations">2.2 Neural Foundations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../en/index.html#evolutionary-arc-of-llms-the-9-seminal-papers">3. Evolutionary Arc of LLMs — The 9 Seminal Papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/index.html#critical-intersections-ai-translation-theory">4. Critical Intersections: AI &amp; Translation Theory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/index.html#discussion">5. Discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/index.html#future-directions">6. Future Directions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/index.html#appendices-references">7. Appendices &amp; References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/getting_started.html">Prompt Engineering as Functional Translation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/getting_started.html#relevance-to-translation-studies">1. Relevance to Translation Studies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/getting_started.html#vermeers-skopos-rule-ai-conditioning">2. Vermeer’s Skopos Rule → AI Conditioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/getting_started.html#prompt-templates-as-translation-briefs">3. Prompt Templates as Translation Briefs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/getting_started.html#nords-loyalty-ai-alignment">4. Nord’s Loyalty ↔ AI Alignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/getting_started.html#the-skopos-prompting-triangle">5. The Skopos Prompting Triangle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/getting_started.html#checklist-for-translator-prompt-designers">6. Checklist for Translator-Prompt Designers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/build_pipeline.html">Build Pipeline — Extended Literature Review</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/build_pipeline.html#pre-history-statistical-meaning">1. Pre-History: Statistical Meaning</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../en/build_pipeline.html#from-rules-to-statistics-jurafsky-martin-2024">1.1 From Rules to Statistics (Jurafsky &amp; Martin, 2024)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/build_pipeline.html#word-embeddings-mikolov-et-al-2013">1.2 Word Embeddings (Mikolov et al., 2013)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../en/build_pipeline.html#the-nine-seminal-papers-primary-sources">2. The Nine Seminal Papers (Primary Sources)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/build_pipeline.html#functionalist-contextual-tertiary-sources">3. Functionalist &amp; Contextual Tertiary Sources</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../en/build_pipeline.html#skopos-theory-reiss-vermeer-2013-nord-1997">3.1 Skopos Theory (Reiss &amp; Vermeer, 2013; Nord, 1997)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/build_pipeline.html#hallidayan-context-halliday-1978">3.2 Hallidayan Context (Halliday, 1978)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/build_pipeline.html#critical-empiricism-kenny-2022-bowker-2023-house-2015">3.3 Critical Empiricism (Kenny, 2022; Bowker, 2023; House, 2015)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../en/build_pipeline.html#synthesis-tables">4. Synthesis Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/build_pipeline.html#research-implications-for-ts-scholars">5. Research Implications for TS Scholars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/build_pipeline.html#quick-cross-references">6. Quick Cross-References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/knowledge_graphs.html">Knowledge Graphs &amp; Visual Assets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/knowledge_graphs.html#evolutionary-arc-of-llms">1. Evolutionary Arc of LLMs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/knowledge_graphs.html#skopos-prompting-triangle">2. Skopos Prompting Triangle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/knowledge_graphs.html#context-engineering-flow">3. Context Engineering Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/knowledge_graphs.html#llm-processing-pipeline-simplified">4. LLM Processing Pipeline (Simplified)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/knowledge_graphs.html#semantic-scholar-connected-papers-network">5. Semantic Scholar + Connected Papers Network</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/knowledge_graphs.html#build-notes">6. Build Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/obsidian_workflow.html">Obsidian Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/obsidian_workflow.html#context-means-two-different-things">1. Context Means Two Different Things</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../en/obsidian_workflow.html#hallidayan-context-of-situation">1.1 Hallidayan Context of Situation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/obsidian_workflow.html#model-context-windows">1.2 Model Context Windows</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../en/obsidian_workflow.html#context-engineering-playbook">2. Context Engineering Playbook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/obsidian_workflow.html#critiquing-empiric-ts-methodology">3. Critiquing Empiric TS Methodology</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../en/obsidian_workflow.html#data-voids-cultural-erasure">3.1 Data Voids &amp; Cultural Erasure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/obsidian_workflow.html#prompt-audits">3.2 Prompt Audits</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../en/obsidian_workflow.html#translator-agency-in-the-cyborg-loop">4. Translator Agency in the Cyborg Loop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/obsidian_workflow.html#implementation-notes-for-the-obsidian-vault">5. Implementation Notes for the Obsidian Vault</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/repository_structure.html">Repository Structure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/repository_structure.html#top-level-layout">1. Top-Level Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/repository_structure.html#sphinx-source-tree">2. Sphinx Source Tree</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/repository_structure.html#automation-scripts-script">3. Automation Scripts (<code class="docutils literal notranslate"><span class="pre">/script/</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/repository_structure.html#build-deployment-flow">4. Build + Deployment Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/repository_structure.html#asset-sizing-hosting">5. Asset Sizing &amp; Hosting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/troubleshooting.html">Troubleshooting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/troubleshooting.html#outputs-collapse-to-average-english">1. Outputs Collapse to “Average” English</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/troubleshooting.html#model-refuses-sensitive-translations">2. Model Refuses Sensitive Translations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/troubleshooting.html#context-window-forgetfulness">3. Context Window Forgetfulness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/troubleshooting.html#widget-or-mermaid-failures-on-read-the-docs">4. Widget or Mermaid Failures on Read the Docs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/troubleshooting.html#api-docs-break-the-build">5. API Docs Break the Build</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/troubleshooting.html#research-reproducibility-gaps">6. Research Reproducibility Gaps</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/general_terminology.html">General Terminology — Translator-Facing Glossary</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/general_terminology.html#usage-notes">1. Usage Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/general_terminology.html#basic-units-the-atoms">2. Basic Units (The Atoms)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#token">Token</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#vector-embedding">Vector (Embedding)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#context-window">Context Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../en/general_terminology.html#training-concepts-the-education">3. Training Concepts (The Education)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#pre-training">Pre-training</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#fine-tuning">Fine-tuning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#alignment-rlhf">Alignment (RLHF)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../en/general_terminology.html#operational-concepts-the-usage">4. Operational Concepts (The Usage)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#prompt-engineering">Prompt Engineering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#temperature">Temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#hallucination">Hallucination</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../en/general_terminology.html#chain-of-thought-cot">Chain-of-Thought (CoT)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../en/general_terminology.html#visual-summary">5. Visual Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/general_terminology.html#cross-references">6. Cross-References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/discussions.html">Discussion — Probability vs. Purpose</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/discussions.html#two-epistemologies">1. Two Epistemologies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/discussions.html#dialogue-1-average-vs-skopos">2. Dialogue 1 — Average vs. Skopos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/discussions.html#dialogue-2-alignment-vs-loyalty">3. Dialogue 2 — Alignment vs. Loyalty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/discussions.html#dialogue-3-context-window-vs-context-of-situation">4. Dialogue 3 — Context Window vs. Context of Situation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/discussions.html#role-shift-table">5. Role Shift Table</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/discussions.html#cyborg-conclusion">6. Cyborg Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/future_studies.html">Future Studies — Research Agenda</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/future_studies.html#prompt-sensitivity-study-quantitative">1. Prompt Sensitivity Study (Quantitative)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/future_studies.html#cyborg-process-study-qualitative">2. Cyborg Process Study (Qualitative)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/future_studies.html#alignment-ethics-study-critical">3. Alignment Ethics Study (Critical)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/future_studies.html#new-metrics-cheat-sheet">4. New Metrics Cheat Sheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/future_studies.html#summary">5. Summary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/conclusion.html">Conclusion — The Architect of Probability</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/conclusion.html#opening-the-black-box">1. Opening the Black Box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/conclusion.html#collision-with-translation-theory">2. Collision with Translation Theory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/conclusion.html#probabilistic-translator">3. Probabilistic Translator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/conclusion.html#technology-as-mirror">4. Technology as Mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/conclusion.html#references-snapshot">5. References Snapshot</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/criticisms.html">Critiquing Empiric TS &amp; Current LLM Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/criticisms.html#regression-to-the-mean">1. Regression to the Mean</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/criticisms.html#flawed-research-designs">2. Flawed Research Designs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/criticisms.html#automated-metrics-vs-purpose">3. Automated Metrics vs. Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/criticisms.html#data-voids-cultural-erasure">4. Data Voids &amp; Cultural Erasure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/criticisms.html#process-oriented-research-agenda">5. Process-Oriented Research Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/criticisms.html#key-sources">6. Key Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../en/references.html">References</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../en/references.html#primary-sources">Primary Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/references.html#secondary-sources">Secondary Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../en/references.html#tertiary-sources">Tertiary Sources</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tr/index.html">TS-LLM Bilgi Yığını — Genel Bakış</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tr/index.html#hedef-ve-kapsam">Hedef ve Kapsam</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/index.html#giris">Giriş</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/index.html#dokuz-esik-makale">Dokuz Eşik Makale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/index.html#kuramsal-kopruler">Kuramsal Köprüler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/index.html#ileri-okuma">İleri Okuma</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tr/getting_started.html">Skopos Yaklaşımıyla Prompt Tasarımı</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tr/getting_started.html#neden">Neden?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/getting_started.html#eslestirme-tablosu">Eşleştirme Tablosu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/getting_started.html#iyi-prompt-ornegi">İyi Prompt Örneği</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/getting_started.html#baglilik-loyalty-ve-hizalama">Bağlılık (Loyalty) ve Hizalama</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/getting_started.html#kontrol-listesi">Kontrol Listesi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tr/build_pipeline.html">Kaynak Zinciri</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tr/build_pipeline.html#istatistikten-ajansa">İstatistikten Ajansa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/build_pipeline.html#dokuz-makalenin-kisa-ozeti">Dokuz Makalenin Kısa Özeti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/build_pipeline.html#ucuncul-kaynaklarin-katkisi">Üçüncül Kaynakların Katkısı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/build_pipeline.html#arastirma-donusumleri">Araştırma Dönüşümleri</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tr/knowledge_graphs.html">Görsel Varlıklar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tr/knowledge_graphs.html#zaman-cizelgesi">Zaman Çizelgesi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/knowledge_graphs.html#skopos-ucgeni">Skopos Üçgeni</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/knowledge_graphs.html#baglam-enjeksiyonu">Bağlam Enjeksiyonu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/knowledge_graphs.html#ag-bilesimi">Ağ Bileşimi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tr/obsidian_workflow.html">Obsidian İş Akışı</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tr/obsidian_workflow.html#baglamin-cift-anlami">Bağlamın Çift Anlamı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/obsidian_workflow.html#baglam-muhendisligi-adimlari">Bağlam Mühendisliği Adımları</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/obsidian_workflow.html#ampirik-ts-elestirisi">Ampirik TS Eleştirisi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/obsidian_workflow.html#vaulttan-rtdye">Vault’tan RTD’ye</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tr/repository_structure.html">Depo Yapısı</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tr/repository_structure.html#klasor-ozeti">Klasör Özeti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/repository_structure.html#sphinx-kaynaklari">Sphinx Kaynakları</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/repository_structure.html#is-akisi">İş Akışı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/repository_structure.html#rtd-dil-ayari">RTD Dil Ayarı</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tr/troubleshooting.html">Sorun Giderme</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tr/troubleshooting.html#metinler-siradanlasiyor">1. Metinler sıradanlaşıyor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/troubleshooting.html#hassas-metinler-reddediliyor">2. Hassas metinler reddediliyor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/troubleshooting.html#uzun-metinde-baglam-kaybi">3. Uzun metinde bağlam kaybı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/troubleshooting.html#mermaid-iframe-calismiyor">4. Mermaid/iframe çalışmıyor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/troubleshooting.html#api-dokumantasyonu-derlenmiyor">5. API dokümantasyonu derlenmiyor</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tr/general_terminology.html">Terminoloji</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tr/references.html">Kaynakça (Türkçe Özet)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tr/references.html#birincil-kaynaklar">Birincil Kaynaklar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tr/references.html#ucuncul-kaynaklar">Üçüncül Kaynaklar</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developer Resources</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../mermaid_demo.html">Mermaid Regression Test</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Automation API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="collect_references.html"><code class="docutils literal notranslate"><span class="pre">script.collect_references</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="collect_references.html#script.collect_references.ReferenceEntry"><code class="docutils literal notranslate"><span class="pre">ReferenceEntry</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="collect_references.html#script.collect_references.enrich_from_tables"><code class="docutils literal notranslate"><span class="pre">enrich_from_tables()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="collect_references.html#script.collect_references.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="collect_references.html#script.collect_references.parse_references"><code class="docutils literal notranslate"><span class="pre">parse_references()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="collect_references.html#script.collect_references.table_key"><code class="docutils literal notranslate"><span class="pre">table_key()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="collect_references.html#script.collect_references.write_outputs"><code class="docutils literal notranslate"><span class="pre">write_outputs()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">script.connected_papers</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.Reference"><code class="docutils literal notranslate"><span class="pre">Reference</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.bucketize"><code class="docutils literal notranslate"><span class="pre">bucketize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.export_graph"><code class="docutils literal notranslate"><span class="pre">export_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.fetch_manual_ids"><code class="docutils literal notranslate"><span class="pre">fetch_manual_ids()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.load_metadata"><code class="docutils literal notranslate"><span class="pre">load_metadata()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.parse_args"><code class="docutils literal notranslate"><span class="pre">parse_args()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.run_connectedpapers"><code class="docutils literal notranslate"><span class="pre">run_connectedpapers()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.simplify_graph"><code class="docutils literal notranslate"><span class="pre">simplify_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script.connected_papers.write_seed_files"><code class="docutils literal notranslate"><span class="pre">write_seed_files()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="download_references.html"><code class="docutils literal notranslate"><span class="pre">script.download_references</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="download_references.html#script.download_references.Reference"><code class="docutils literal notranslate"><span class="pre">Reference</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="download_references.html#script.download_references.arxiv_pdf"><code class="docutils literal notranslate"><span class="pre">arxiv_pdf()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="download_references.html#script.download_references.attempt_download"><code class="docutils literal notranslate"><span class="pre">attempt_download()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="download_references.html#script.download_references.candidate_urls"><code class="docutils literal notranslate"><span class="pre">candidate_urls()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="download_references.html#script.download_references.download_all"><code class="docutils literal notranslate"><span class="pre">download_all()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="download_references.html#script.download_references.load_metadata"><code class="docutils literal notranslate"><span class="pre">load_metadata()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="download_references.html#script.download_references.save_binary"><code class="docutils literal notranslate"><span class="pre">save_binary()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="obsidian_cleanup.html"><code class="docutils literal notranslate"><span class="pre">script.obsidian_cleanup</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="obsidian_cleanup.html#script.obsidian_cleanup.cross_reference_block"><code class="docutils literal notranslate"><span class="pre">cross_reference_block()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="obsidian_cleanup.html#script.obsidian_cleanup.format_tags"><code class="docutils literal notranslate"><span class="pre">format_tags()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="obsidian_cleanup.html#script.obsidian_cleanup.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="obsidian_cleanup.html#script.obsidian_cleanup.normalize_stem"><code class="docutils literal notranslate"><span class="pre">normalize_stem()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="obsidian_cleanup.html#script.obsidian_cleanup.process_file"><code class="docutils literal notranslate"><span class="pre">process_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="obsidian_cleanup.html#script.obsidian_cleanup.remove_comment_lines"><code class="docutils literal notranslate"><span class="pre">remove_comment_lines()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="obsidian_cleanup.html#script.obsidian_cleanup.remove_tip"><code class="docutils literal notranslate"><span class="pre">remove_tip()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="obsidian_cleanup.html#script.obsidian_cleanup.strip_front_matter"><code class="docutils literal notranslate"><span class="pre">strip_front_matter()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="obsidian_cleanup.html#script.obsidian_cleanup.visual_embed"><code class="docutils literal notranslate"><span class="pre">visual_embed()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="build_semantic_widgets.html"><code class="docutils literal notranslate"><span class="pre">script.build_semantic_widgets</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.SemanticSummary"><code class="docutils literal notranslate"><span class="pre">SemanticSummary</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.append_graph"><code class="docutils literal notranslate"><span class="pre">append_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.build_combined_manifest"><code class="docutils literal notranslate"><span class="pre">build_combined_manifest()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.build_combined_network"><code class="docutils literal notranslate"><span class="pre">build_combined_network()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.build_semantic_widgets"><code class="docutils literal notranslate"><span class="pre">build_semantic_widgets()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.convert_semantic_graph"><code class="docutils literal notranslate"><span class="pre">convert_semantic_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.load_connected_manifest"><code class="docutils literal notranslate"><span class="pre">load_connected_manifest()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.load_widget_graph"><code class="docutils literal notranslate"><span class="pre">load_widget_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.map_category"><code class="docutils literal notranslate"><span class="pre">map_category()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.parse_args"><code class="docutils literal notranslate"><span class="pre">parse_args()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.run_r_widget"><code class="docutils literal notranslate"><span class="pre">run_r_widget()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="build_semantic_widgets.html#script.build_semantic_widgets.write_semantic_manifest"><code class="docutils literal notranslate"><span class="pre">write_semantic_manifest()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="white_paper_builder.html"><code class="docutils literal notranslate"><span class="pre">script.white_paper_builder</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.assemble_markdown"><code class="docutils literal notranslate"><span class="pre">assemble_markdown()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.build_slug_map"><code class="docutils literal notranslate"><span class="pre">build_slug_map()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.build_widget_block"><code class="docutils literal notranslate"><span class="pre">build_widget_block()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.convert_mermaid_blocks"><code class="docutils literal notranslate"><span class="pre">convert_mermaid_blocks()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.derive_display_title"><code class="docutils literal notranslate"><span class="pre">derive_display_title()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.extract_order_from_outline"><code class="docutils literal notranslate"><span class="pre">extract_order_from_outline()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.extract_summary"><code class="docutils literal notranslate"><span class="pre">extract_summary()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.fuzzy_match_note"><code class="docutils literal notranslate"><span class="pre">fuzzy_match_note()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.list_vault_notes"><code class="docutils literal notranslate"><span class="pre">list_vault_notes()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.load_widget_manifest"><code class="docutils literal notranslate"><span class="pre">load_widget_manifest()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.normalize_candidate"><code class="docutils literal notranslate"><span class="pre">normalize_candidate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.read_note"><code class="docutils literal notranslate"><span class="pre">read_note()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.refresh_connected_graphs"><code class="docutils literal notranslate"><span class="pre">refresh_connected_graphs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.refresh_widget_assets"><code class="docutils literal notranslate"><span class="pre">refresh_widget_assets()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.render_markdown_html"><code class="docutils literal notranslate"><span class="pre">render_markdown_html()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.render_page_html"><code class="docutils literal notranslate"><span class="pre">render_page_html()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.replace_wiki_links"><code class="docutils literal notranslate"><span class="pre">replace_wiki_links()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.run_helper"><code class="docutils literal notranslate"><span class="pre">run_helper()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.slugify"><code class="docutils literal notranslate"><span class="pre">slugify()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.write_html"><code class="docutils literal notranslate"><span class="pre">write_html()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="white_paper_builder.html#script.white_paper_builder.write_markdown"><code class="docutils literal notranslate"><span class="pre">write_markdown()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">TS-LLM Knowledge Stack</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Automation API Reference</a></li>
+      <li class="breadcrumb-item active"><code class="docutils literal notranslate"><span class="pre">script.connected_papers</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api_reference/connected_papers.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-script.connected_papers">
+<span id="script-connected-papers"></span><h1><code class="docutils literal notranslate"><span class="pre">script.connected_papers</span></code><a class="headerlink" href="#module-script.connected_papers" title="Link to this heading"></a></h1>
+<p>ConnectedPapers workflow: seed JSONs + graph exports per reference cohort.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="script.connected_papers.Reference">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">Reference</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">category</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">doi</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sha_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stage</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#Reference"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.Reference" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>)</p></li>
+<li><p><strong>category</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>)</p></li>
+<li><p><strong>doi</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em> | </em><em>None</em>)</p></li>
+<li><p><strong>sha_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em> | </em><em>None</em>)</p></li>
+<li><p><strong>stage</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em> | </em><em>None</em>)</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="script.connected_papers.Reference.category">
+<span class="sig-name descname"><span class="pre">category</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></em><a class="headerlink" href="#script.connected_papers.Reference.category" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="script.connected_papers.Reference.doi">
+<span class="sig-name descname"><span class="pre">doi</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.14)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a><span class="pre">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a><span class="pre">]</span></em><a class="headerlink" href="#script.connected_papers.Reference.doi" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="script.connected_papers.Reference.key">
+<span class="sig-name descname"><span class="pre">key</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></em><a class="headerlink" href="#script.connected_papers.Reference.key" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="script.connected_papers.Reference.paper_id">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">paper_id</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.14)"><span class="pre">None</span></a></em><a class="headerlink" href="#script.connected_papers.Reference.paper_id" title="Link to this definition"></a></dt>
+<dd><p>Return the Semantic Scholar SHA identifier required by ConnectedPapers.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="script.connected_papers.Reference.sha_id">
+<span class="sig-name descname"><span class="pre">sha_id</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.14)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a><span class="pre">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a><span class="pre">]</span></em><a class="headerlink" href="#script.connected_papers.Reference.sha_id" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="script.connected_papers.Reference.stage">
+<span class="sig-name descname"><span class="pre">stage</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.14)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a><span class="pre">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a><span class="pre">]</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#script.connected_papers.Reference.stage" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="script.connected_papers.bucketize">
+<span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">bucketize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">refs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#bucketize"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.bucketize" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]]</span></p>
+</dd>
+<dt class="field-even">Parameters<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>refs</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.14)"><em>List</em></a><em>[</em><a class="reference internal" href="#script.connected_papers.Reference" title="script.connected_papers.Reference"><em>Reference</em></a><em>]</em>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="script.connected_papers.export_graph">
+<span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">export_graph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">client</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#export_graph"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.export_graph" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.14)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></a>]</span></p>
+</dd>
+<dt class="field-even">Parameters<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>client</strong> (<em>connectedpapers.ConnectedPapersClient</em>)</p></li>
+<li><p><strong>ref</strong> (<a class="reference internal" href="#script.connected_papers.Reference" title="script.connected_papers.Reference"><em>Reference</em></a>)</p></li>
+<li><p><strong>args</strong> (<a class="reference external" href="https://docs.python.org/3/library/argparse.html#argparse.Namespace" title="(in Python v3.14)"><em>Namespace</em></a>)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="script.connected_papers.fetch_manual_ids">
+<span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">fetch_manual_ids</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">client</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">manual_ids</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#fetch_manual_ids"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.fetch_manual_ids" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></a>]</span></p>
+</dd>
+<dt class="field-even">Parameters<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>client</strong> (<em>connectedpapers.ConnectedPapersClient</em>)</p></li>
+<li><p><strong>manual_ids</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Iterable" title="(in Python v3.14)"><em>Iterable</em></a><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em>)</p></li>
+<li><p><strong>args</strong> (<a class="reference external" href="https://docs.python.org/3/library/argparse.html#argparse.Namespace" title="(in Python v3.14)"><em>Namespace</em></a>)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="script.connected_papers.load_metadata">
+<span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">load_metadata</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#load_metadata"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.load_metadata" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#script.connected_papers.Reference" title="script.connected_papers.Reference"><code class="xref py py-class docutils literal notranslate"><span class="pre">Reference</span></code></a>]</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="script.connected_papers.main">
+<span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#main"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.main" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.14)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="script.connected_papers.parse_args">
+<span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">parse_args</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#parse_args"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.parse_args" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference external" href="https://docs.python.org/3/library/argparse.html#argparse.Namespace" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Namespace</span></code></a></span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="script.connected_papers.run_connectedpapers">
+<span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">run_connectedpapers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">refs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#run_connectedpapers"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.run_connectedpapers" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.14)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></span></p>
+</dd>
+<dt class="field-even">Parameters<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>refs</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.14)"><em>List</em></a><em>[</em><a class="reference internal" href="#script.connected_papers.Reference" title="script.connected_papers.Reference"><em>Reference</em></a><em>]</em>)</p></li>
+<li><p><strong>args</strong> (<a class="reference external" href="https://docs.python.org/3/library/argparse.html#argparse.Namespace" title="(in Python v3.14)"><em>Namespace</em></a>)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="script.connected_papers.simplify_graph">
+<span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">simplify_graph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph_dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">category</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#simplify_graph"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.simplify_graph" title="Link to this definition"></a></dt>
+<dd><p>Convert ConnectedPapers graph payload to the widget-ready schema.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.14)"><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></a></span></p>
+</dd>
+<dt class="field-even">Parameters<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>graph_dict</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.14)"><em>dict</em></a>)</p></li>
+<li><p><strong>category</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="script.connected_papers.write_seed_files">
+<span class="sig-prename descclassname"><span class="pre">script.connected_papers.</span></span><span class="sig-name descname"><span class="pre">write_seed_files</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">buckets</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/script/connected_papers.html#write_seed_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#script.connected_papers.write_seed_files" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.14)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></span></p>
+</dd>
+<dt class="field-even">Parameters<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>buckets</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.14)"><em>Dict</em></a><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>, </em><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.14)"><em>List</em></a><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em><em>]</em>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="collect_references.html" class="btn btn-neutral float-left" title="script.collect_references" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="download_references.html" class="btn btn-neutral float-right" title="script.download_references" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Kadir Yiğit US.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
