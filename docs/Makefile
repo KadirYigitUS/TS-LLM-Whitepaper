@@ -17,8 +17,7 @@ help:
 # Clean build artifacts
 clean:
 	rm -rf $(BUILDDIR)/*
-	rm -rf $(SOURCEDIR)/api_reference/modules.rst
-	find $(SOURCEDIR)/api_reference -name "*.rst" ! -name "index.md" -type f -delete
+	rm -rf $(SOURCEDIR)/api_reference/*.rst
 
 # Build HTML documentation
 html:
