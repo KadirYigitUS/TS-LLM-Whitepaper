@@ -4,14 +4,25 @@ baslik: Kaynakça
 
 # Kaynakça (Türkçe Özet)
 
-::::{tab-set}
-:::{tab-item} Türkçe
+````{tab-set}
+
+```{tab-item} Türkçe
+
 Türkçe özet aşağıdadır.
-:::
-:::{tab-item} English
+
+```
+
+```{tab-item} English
+
 :doc:`Go to the English reference list <en/references>`
-:::
-::::
+
+```
+
+````
+
+```{note}
+Kaynakça APA kurallarına göre İngilizce başlıklarla listelenir; Türkçe sayfa yalnızca özet sunar. DOI bulunmayan kitaplar için ISBN ve yayınevi bağlantıları verilir ve "DOI yok" ibaresi eklenir.
+```
 
 ## Birincil Kaynaklar
 - Vaswani, A., vd. (2017). *Attention Is All You Need*.

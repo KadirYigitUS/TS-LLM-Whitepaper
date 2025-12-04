@@ -4,14 +4,21 @@ title: Visual Assets and Knowledge Graphs
 
 # Knowledge Graphs & Visual Assets
 
-::::{tab-set}
-:::{tab-item} English
+````{tab-set}
+
+```{tab-item} English
+
 English diagrams appear below.
-:::
-:::{tab-item} Türkçe
+
+```
+
+```{tab-item} Türkçe
+
 :doc:`Türkçe kısa sürümü aç <tr/knowledge_graphs>`
-:::
-::::
+
+```
+
+````
 
 All diagrams originate from `Visual_Assets.md` and were adapted to MyST + Mermaid for Sphinx. Mermaid runs through the CDN configured in `conf.py`; complex widgets load via `<iframe>` elements that point to assets shipped in `docs/data` or GitHub Pages.
 
@@ -105,10 +112,14 @@ sequenceDiagram
 ```
 
 ## 5. Semantic Scholar + Connected Papers Network
-<iframe class="widget" src="../data/network_manifests/combined_network_widget.html" title="TS-LLM knowledge graph" loading="lazy"></iframe>
+<iframe class="widget" src="https://kadiryigitus.github.io/TS-LLM-Whitepaper/data/network_manifests/combined_network_widget.html" title="TS-LLM knowledge graph" loading="lazy"></iframe>
 
 ```{note}
 If the iframe fails on Read the Docs because of CSP limits, host the widget via GitHub Pages and update the `src` attribute to `https://kadiryigitus.github.io/TS-LLM-Whitepaper/data/network_manifests/combined_network_widget.html`.
+```
+
+```{note}
+Last widget refresh: 5 Dec 2025 (Connected Papers + Semantic Scholar). After running `python script/build_semantic_widgets.py`, update this timestamp in both EN and TR pages so readers know which snapshot they are viewing.
 ```
 
 ## 6. Build Notes

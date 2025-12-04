@@ -90,6 +90,7 @@ html_theme_options = {
 html_js_files = [
     "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js",
     "js/mermaid-init.js",
+    "js/tab-a11y.js",
 ]
 
 
@@ -102,3 +103,15 @@ gettext_compact = False
 # -- Options for EPUB output -------------------------------------------------
 
 epub_show_urls = "footnote"
+
+
+def _infer_page_lang(pagename: str) -> str:
+    return "tr" if pagename.startswith("tr/") else "en"
+
+
+def _set_html_lang(app, pagename, templatename, context, doctree):
+    context["html_lang"] = _infer_page_lang(pagename)
+
+
+def setup(app):
+    app.connect("html-page-context", _set_html_lang)

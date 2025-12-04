@@ -4,14 +4,21 @@ baslik: Görsel Varlıklar ve Ağlar
 
 # Görsel Varlıklar
 
-::::{tab-set}
-:::{tab-item} Türkçe
+````{tab-set}
+
+```{tab-item} Türkçe
+
 Bu sayfa Türkçe özetleri içerir.
-:::
-:::{tab-item} English
+
+```
+
+```{tab-item} English
+
 :doc:`Access the English visuals <en/knowledge_graphs>`
-:::
-::::
+
+```
+
+````
 
 ## Zaman Çizelgesi
 ```{raw} html
@@ -52,4 +59,8 @@ flowchart LR
 ```
 
 ## Ağ Bileşimi
-<iframe src="../data/network_manifests/combined_network_widget.html" title="Ağ" loading="lazy"></iframe>
+<iframe src="https://kadiryigitus.github.io/TS-LLM-Whitepaper/data/network_manifests/combined_network_widget.html" title="Ağ" loading="lazy"></iframe>
+
+```{note}
+Bu iframe 5 Aralık 2025 tarihli Connected Papers + Semantic Scholar dışa aktarımından üretilir. `python script/build_semantic_widgets.py` komutunu çalıştırdığınızda hem Türkçe hem İngilizce sayfalardaki tarih ibaresini güncelleyin.
+```
