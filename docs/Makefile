@@ -4,7 +4,7 @@
 # You can set these variables from the command line, and also
 # from the environment for the first two.
 SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
+SPHINXBUILD   ?= python3 -m sphinx
 SOURCEDIR     = source
 BUILDDIR      = build
 
@@ -26,7 +26,7 @@ html:
 
 # Generate API documentation using sphinx-apidoc
 api:
-	sphinx-apidoc -o $(SOURCEDIR)/api_reference -f -e ../
+	@command -v sphinx-apidoc >/dev/null 2>&1 && sphinx-apidoc -o $(SOURCEDIR)/api_reference -f -e ../ || python3 -m sphinx.ext.apidoc -o $(SOURCEDIR)/api_reference -f -e ../
 	@echo "API documentation generated in $(SOURCEDIR)/api_reference/"
 
 # Catch-all target: route all unknown targets to Sphinx using the new

@@ -40,14 +40,7 @@ Obsidian integration utilities
 
 The API documentation is automatically generated from Python docstrings using Sphinx autodoc.
 
-### Lumache Module
-
-```{eval-rst}
-.. automodule:: lumache
-   :members:
-   :undoc-members:
-   :show-inheritance:
-```
+See the {doc}`modules` page for detailed API documentation of all modules.
 
 ## Usage Examples
 
@@ -72,18 +65,6 @@ try:
     print(ingredients)
 except lumache.InvalidKindError as e:
     print(f"Error: {e}")
-```
-
-## Error Handling
-
-### InvalidKindError
-
-Raised when an invalid kind is specified:
-
-```{eval-rst}
-.. autoexception:: lumache.InvalidKindError
-   :members:
-   :show-inheritance:
 ```
 
 ## Type Hints
