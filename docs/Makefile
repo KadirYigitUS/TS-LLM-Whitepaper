@@ -4,7 +4,7 @@
 # You can set these variables from the command line, and also
 # from the environment for the first two.
 SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
+SPHINXBUILD   ?= python3 -m sphinx
 SOURCEDIR     = source
 BUILDDIR      = build
 
@@ -12,7 +12,21 @@ BUILDDIR      = build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile
+.PHONY: help Makefile clean html api
+
+# Clean build artifacts
+clean:
+	rm -rf $(BUILDDIR)/*
+	rm -rf $(SOURCEDIR)/api_reference/*.rst
+
+# Build HTML documentation
+html:
+	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+# Generate API documentation using sphinx-apidoc
+api:
+	@command -v sphinx-apidoc >/dev/null 2>&1 && sphinx-apidoc -o $(SOURCEDIR)/api_reference -f -e ../ || python3 -m sphinx.ext.apidoc -o $(SOURCEDIR)/api_reference -f -e ../
+	@echo "API documentation generated in $(SOURCEDIR)/api_reference/"
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
